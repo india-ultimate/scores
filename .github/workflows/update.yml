@@ -21,3 +21,4 @@ jobs:
         with:
           requirements: requirements.txt
       - run: scripts/update-data.sh push
+      - run: scripts/deploy-site.sh
