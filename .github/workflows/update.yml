@@ -3,6 +3,10 @@ name: Update data and Publish Site
 
 # Controls when the action will run.
 on:
+  # Triggers the workflow every 2 hours
+  schedule:
+    - cron: "* */2 * * *"
+
   # Add run this workflow button to GH
   workflow_dispatch:
 
