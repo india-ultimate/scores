@@ -12,7 +12,8 @@ def get_player_stats(sheet_id, sheet_name, tournament_name):
     url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
     response = requests.get(url)
     slug = tournament_name.replace(" ", "-").lower()
-    path = RAW_DATA_DIR.joinpath(f"{slug}.csv")
+    stage = sheet_name.replace(" ", "-").lower()
+    path = RAW_DATA_DIR.joinpath(f"{slug}-{stage}.csv")
 
     with open(path, "w") as f:
         f.write(response.text)
