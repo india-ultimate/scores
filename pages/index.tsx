@@ -2,10 +2,58 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import React, { useState, useEffect } from "react";
+import { Space, Table, Tag, Select } from "antd";
 
 export default function Home() {
+  const [tournaments, setTournaments] = useState([]);
+  const [scores, setScores] = useState([]);
+
+  useEffect(() => {
+    fetch("/data/tournaments.json")
+      .then(response => response.json())
+      .then(data => {
+        setTournaments(data.map(it => ({ value: it, label: it })));
+      });
+  }, []);
+
+  const selectTournament = name => {
+    setScores([]);
+    fetch(`/data/${name}.json`)
+      .then(response => response.json())
+      .then(data => {
+        setScores(data);
+      });
+  };
+
+  const columns: ColumnsType<DataType> = [
+    {
+      title: "Team",
+      dataIndex: "team_a",
+      key: "team_a"
+    },
+    {
+      title: "Score",
+      dataIndex: "score_a",
+      key: "score_a"
+    },
+    {
+      title: "Score",
+      dataIndex: "score_b",
+      key: "score_b"
+    },
+    {
+      title: "Team",
+      dataIndex: "team_b",
+      key: "team_b"
+    },
+    {
+      title: "Time",
+      dataIndex: "time",
+      key: "time"
+    }
+  ];
+
   return (
     <>
       <Head>
@@ -35,6 +83,14 @@ export default function Home() {
             </a>
           </div>
         </div>
+        <div>
+          <Select
+            placeholder="select tournament"
+            onChange={selectTournament}
+            options={tournaments}
+          />
+        </div>
+        <Table columns={columns} dataSource={scores} pagination={false} />
       </main>
     </>
   );
