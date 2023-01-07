@@ -25,18 +25,14 @@ def get_tournament_sheet(tournament, stage):
     return path
 
 
-def download_tournament(slug):
+def main():
     with open(PUBLIC_DATA_DIR.joinpath("tournaments.json")) as f:
-        tournaments = {t["slug"]: t for t in json.load(f)}
+        tournaments = json.load(f)
 
-    tournament = tournaments.get(slug, {})
-    if not tournament:
-        print(f"Invalid slug: {tournament_slug}")
-        return
-
-    for stage in tournament["sheets"]:
-        get_tournament_sheet(tournament, stage)
+    for tournament in tournaments:
+        for stage in tournament["sheets"]:
+            get_tournament_sheet(tournament, stage)
 
 
 if __name__ == "__main__":
-    download_tournament("ncs-22-23-mixed-regionals-south")
+    main()
