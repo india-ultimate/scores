@@ -288,6 +288,14 @@
     "time": ""
   },
   {
+    "team_a": "Spinergy",
+    "score_a": 11,
+    "team_b": "Stray Dogs",
+    "score_b": 9,
+    "stage": "brackets",
+    "time": ""
+  },
+  {
     "team_a": "Airbenders One",
     "score_a": 15,
     "team_b": "Callahans",
@@ -298,8 +306,16 @@
   {
     "team_a": "Air Traffic Control",
     "score_a": 15,
-    "team_b": "Airbenders Neo",
-    "score_b": 2,
+    "team_b": "Blitzkrieg",
+    "score_b": 9,
+    "stage": "brackets",
+    "time": ""
+  },
+  {
+    "team_a": "Airbenders Neo",
+    "score_a": 2,
+    "team_b": "TIKS Breakside",
+    "score_b": 6,
     "stage": "brackets",
     "time": ""
   },
@@ -388,6 +404,14 @@
     "score_a": 3,
     "team_b": "Alma Matter",
     "score_b": 12,
+    "stage": "brackets",
+    "time": ""
+  },
+  {
+    "team_a": "Doesn't Matter",
+    "score_a": 9,
+    "team_b": "Sapthavyuha",
+    "score_b": 4,
     "stage": "brackets",
     "time": ""
   }
