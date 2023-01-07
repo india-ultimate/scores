@@ -4,6 +4,14 @@ import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
 import React, { useState, useEffect } from "react";
 import { Space, Table, Tag, Select } from "antd";
+import type { ColumnsType } from 'antd/es/table';
+
+interface DataType {
+  team_a: string;
+  score_a: number;
+  team_b: string;
+  score_b: number;
+}
 
 export default function Home() {
   const [tournaments, setTournaments] = useState([]);
@@ -13,11 +21,11 @@ export default function Home() {
     fetch("/data/tournaments.json")
       .then(response => response.json())
       .then(data => {
-        setTournaments(data.map(it => ({ value: it, label: it })));
+        setTournaments(data.map((it: string) => ({ value: it, label: it })));
       });
   }, []);
 
-  const selectTournament = name => {
+  const selectTournament = (name: string) => {
     setScores([]);
     fetch(`/data/${name}.json`)
       .then(response => response.json())
