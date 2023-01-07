@@ -37,6 +37,10 @@
   text-align: center;
 }
 
+.tournamentSelector {
+  padding: 1rem 0em 2rem 0;
+}
+
 .code {
   font-weight: 700;
   font-family: var(--font-mono);

@@ -98,6 +98,7 @@ export default function Home() {
                 </div>
                 <div className={styles.content}>
                     <Select
+                        className={styles.tournamentSelector}
                         placeholder="select tournament"
                         onChange={selectTournament}
                         options={tournaments}
