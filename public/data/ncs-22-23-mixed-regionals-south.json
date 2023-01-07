@@ -240,10 +240,82 @@
     "time": "13:00 to 14:15"
   },
   {
+    "team_a": "Airborne",
+    "score_a": 15,
+    "team_b": "Blitzkrieg",
+    "score_b": 0,
+    "stage": "brackets",
+    "time": ""
+  },
+  {
+    "team_a": "Girgitle",
+    "score_a": 9,
+    "team_b": "Learning to Fly",
+    "score_b": 11,
+    "stage": "brackets",
+    "time": ""
+  },
+  {
+    "team_a": "Stall 7",
+    "score_a": 11,
+    "team_b": "Spinergy",
+    "score_b": 10,
+    "stage": "brackets",
+    "time": ""
+  },
+  {
+    "team_a": "Airbenders One",
+    "score_a": 9,
+    "team_b": "Flywild",
+    "score_b": 10,
+    "stage": "brackets",
+    "time": ""
+  },
+  {
     "team_a": "Air Traffic Control",
     "score_a": 15,
     "team_b": "Airbenders Neo",
     "score_b": 2,
+    "stage": "brackets",
+    "time": ""
+  },
+  {
+    "team_a": "TIKS Breakside",
+    "score_a": 10,
+    "team_b": "Phoenix",
+    "score_b": 3,
+    "stage": "brackets",
+    "time": ""
+  },
+  {
+    "team_a": "Stray Dogs",
+    "score_a": 14,
+    "team_b": "Alma Matter",
+    "score_b": 4,
+    "stage": "brackets",
+    "time": ""
+  },
+  {
+    "team_a": "SlipDisc",
+    "score_a": 11,
+    "team_b": "Sapthavyuha",
+    "score_b": 2,
+    "stage": "brackets",
+    "time": ""
+  },
+  {
+    "team_a": "Chakraa",
+    "score_a": 12,
+    "team_b": "Dosent Matter",
+    "score_b": 5,
+    "stage": "brackets",
+    "time": ""
+  },
+  {
+    "team_a": "TIKS Openside",
+    "score_a": 6,
+    "team_b": "Cleared for TakeOff",
+    "score_b": 11,
     "stage": "brackets",
     "time": ""
   }
