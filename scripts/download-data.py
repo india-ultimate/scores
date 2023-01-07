@@ -27,3 +27,8 @@ if __name__ == "__main__":
         "Pools",
         "NCS 22-23 Mixed Regionals South",
     )
+    get_player_stats(
+        "18eJUXRPuJQCVEsEukqDtB3PMy--CmzSZcIX9QJO4gfY",
+        "Brackets",
+        "NCS 22-23 Mixed Regionals South",
+    )
