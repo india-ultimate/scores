@@ -111,9 +111,13 @@ def convert_raw_data_to_json(tournament):
         json.dump(tournament, f, indent=2)
 
 
-if __name__ == "__main__":
+def main():
     with open(PUBLIC_DATA_DIR.joinpath("tournaments.json")) as f:
         tournaments = json.load(f)
 
     for tournament in tournaments:
         convert_raw_data_to_json(tournament)
+
+
+if __name__ == "__main__":
+    main()
