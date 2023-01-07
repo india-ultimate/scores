@@ -8,7 +8,8 @@
     "slug": "ncs-22-23-mixed-regionals-south",
     "date": "January 6th — January 8th, 2023",
     "venue": "Bangalore",
-    "sheet_id": "18eJUXRPuJQCVEsEukqDtB3PMy--CmzSZcIX9QJO4gfY"
+    "sheet_id": "18eJUXRPuJQCVEsEukqDtB3PMy--CmzSZcIX9QJO4gfY",
+    "expiry": "2023-01-10"
   },
   {
     "sheets": {
@@ -19,6 +20,7 @@
     "slug": "ncs-22-23-mixed-regionals-north",
     "date": "January 14th — January 15th, 2023",
     "venue": "Surat",
-    "sheet_id": "1W4rTuuNvr9i-kRywRrF8ckuPQ8Tjn9CdzhgYOm33S1k"
+    "sheet_id": "1W4rTuuNvr9i-kRywRrF8ckuPQ8Tjn9CdzhgYOm33S1k",
+    "expiry": "2023-01-17"
   }
 ]

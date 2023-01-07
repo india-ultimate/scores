@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+import datetime
 import json
 from pathlib import Path
 
@@ -30,6 +31,9 @@ def main():
         tournaments = json.load(f)
 
     for tournament in tournaments:
+        if str(datetime.date.today()) > tournament["expiry"]:
+            print(f"Skipping '{tournament['name']}' with expiry date in the past.")
+            continue
         for stage in tournament["sheets"]:
             get_tournament_sheet(tournament, stage)
 
