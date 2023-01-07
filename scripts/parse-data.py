@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 from collections import defaultdict, namedtuple
 import csv
+import datetime
 import json
 from pathlib import Path
 
@@ -116,6 +117,9 @@ def main():
         tournaments = json.load(f)
 
     for tournament in tournaments:
+        if str(datetime.date.today()) > tournament["expiry"]:
+            print(f"Skipping '{tournament['name']}' with expiry date in the past.")
+            continue
         convert_raw_data_to_json(tournament)
 
 
