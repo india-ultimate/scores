@@ -44,16 +44,16 @@ def parse_pools_data(path, stage="pool"):
         csv_data = csv.reader(f)
         for line in csv_data:
             for left, right in zip(score_columns[::2], score_columns[1::2]):
-                score_l = line[left]
-                score_r = line[right]
+                score_l = line[left].strip()
+                score_r = line[right].strip()
                 if not (score_l.isnumeric() and score_r.isnumeric()):
                     continue
                 score = Score(
-                    team_a=line[left - 1],
+                    team_a=line[left - 1].strip(),
                     score_a=int(score_l),
-                    team_b=line[right + 1],
+                    team_b=line[right + 1].strip(),
                     score_b=int(score_r),
-                    time=line[right + 3],
+                    time=line[right + 3].strip(),
                     stage=stage,
                 )
                 scores.append(score._asdict())

@@ -37,7 +37,7 @@
     "team_b": "Stray Dogs in Sweaters",
     "score_b": 4,
     "stage": "pool",
-    "time": "14:30 to 15:45 "
+    "time": "14:30 to 15:45"
   },
   {
     "team_a": "FlyWild",
@@ -50,7 +50,7 @@
   {
     "team_a": "Spinergy",
     "score_a": 7,
-    "team_b": "Girgitle ",
+    "team_b": "Girgitle",
     "score_b": 12,
     "stage": "pool",
     "time": "8:00 to 9:15"
@@ -64,7 +64,7 @@
     "time": "8:00 to 9:15"
   },
   {
-    "team_a": "Girgitle ",
+    "team_a": "Girgitle",
     "score_a": 15,
     "team_b": "SlipDiisc",
     "score_b": 5,
@@ -88,7 +88,7 @@
     "time": "14:00 to 15:15"
   },
   {
-    "team_a": "Girgitle ",
+    "team_a": "Girgitle",
     "score_a": 14,
     "team_b": "Callahans",
     "score_b": 9,
@@ -181,7 +181,7 @@
     "team_b": "Blitzkrieg",
     "score_b": 9,
     "stage": "pool",
-    "time": "14:30 to 15:45 "
+    "time": "14:30 to 15:45"
   },
   {
     "team_a": "Airbenders One",
