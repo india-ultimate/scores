@@ -12,6 +12,11 @@ interface DataType {
     score_b: number;
 }
 
+interface Tournament {
+    slug: string;
+    name: string;
+}
+
 export default function Home() {
     const [tournaments, setTournaments] = useState([]);
     const [scores, setScores] = useState([]);
@@ -20,7 +25,7 @@ export default function Home() {
         fetch("/data/tournaments.json")
             .then(response => response.json())
             .then(data => {
-                setTournaments(data.map((it: string) => ({ value: it, label: it })));
+                setTournaments(data.map((it: Tournament) => ({ value: it.slug, label: it.name })));
             });
     }, []);
 

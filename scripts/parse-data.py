@@ -110,8 +110,4 @@ def convert_raw_data_to_json(group_name):
 
 
 if __name__ == "__main__":
-    groups = get_data_files()
-    tournaments = sorted(groups.keys())
-    with open(PUBLIC_DATA_DIR.joinpath(f"tournaments.json"), "w") as f:
-        json.dump(tournaments, f, indent=2)
     convert_raw_data_to_json("ncs-22-23-mixed-regionals-south")

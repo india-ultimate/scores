@@ -1,3 +1,8 @@
 [
-  "ncs-22-23-mixed-regionals-south"
+  {
+    "sheet_id": "18eJUXRPuJQCVEsEukqDtB3PMy--CmzSZcIX9QJO4gfY",
+    "sheets": { "pools": "Pools", "brackets": "Brackets" },
+    "name": "NCS 22-23 Mixed Regionals South",
+    "slug": "ncs-22-23-mixed-regionals-south"
+  }
 ]
