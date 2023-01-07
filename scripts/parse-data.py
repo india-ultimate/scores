@@ -107,7 +107,8 @@ def convert_raw_data_to_json(tournament):
         data += parse_brackets_data(brackets[0])
 
     with open(PUBLIC_DATA_DIR.joinpath(f"{slug}.json"), "w") as f:
-        json.dump(data, f, indent=2)
+        tournament["data"] = data
+        json.dump(tournament, f, indent=2)
 
 
 if __name__ == "__main__":
