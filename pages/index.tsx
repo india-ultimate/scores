@@ -57,7 +57,8 @@ export default function Home() {
         {
             title: "Time",
             dataIndex: "time",
-            key: "time"
+            key: "time",
+            responsive: ['lg']
         }
     ];
 
@@ -90,14 +91,14 @@ export default function Home() {
                         </a>
                     </div>
                 </div>
-                <div>
+                <div className={styles.content}>
                     <Select
                         placeholder="select tournament"
                         onChange={selectTournament}
                         options={tournaments}
                     />
+                    <Table columns={columns} dataSource={scores} pagination={false} />
                 </div>
-                <Table columns={columns} dataSource={scores} pagination={false} />
             </main>
         </>
     );
