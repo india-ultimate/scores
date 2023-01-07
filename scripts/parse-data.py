@@ -61,7 +61,35 @@ def parse_pools_data(path, stage="pool"):
 
 
 def parse_brackets_data(path):
-    return []
+    with open(path) as f:
+        csv_data = csv.reader(f)
+        data = {}
+        header = next(csv_data)
+        columns = list(range(len(header) // 4))
+        for row, line in enumerate(csv_data):
+            for col in columns:
+                seed = line[col]
+                name = line[col + 1]
+                score = line[col + 2]
+                if seed.isnumeric() and name and score.isnumeric():
+                    data[(row, col)] = (seed, name, score)
+
+    matches = sorted(data.keys())
+    stage = "brackets"
+    scores = []
+    for left, right in zip(matches[::2], matches[1::2]):
+        _, team_a, score_a = data[left]
+        _, team_b, score_b = data[right]
+        score = Score(
+            team_a=team_a.strip(),
+            score_a=int(score_a.strip()),
+            team_b=team_b.strip(),
+            score_b=int(score_b.strip()),
+            time="",
+            stage=stage,
+        )
+        scores.append(score._asdict())
+    return scores
 
 
 def convert_raw_data_to_json(group_name):
@@ -75,7 +103,7 @@ def convert_raw_data_to_json(group_name):
 
     brackets = [f for f in files if f.name.endswith("brackets.csv")]
     if brackets:
-        data += parse_brackets_data(pools[0])
+        data += parse_brackets_data(brackets[0])
 
     with open(PUBLIC_DATA_DIR.joinpath(f"{group_name}.json"), "w") as f:
         json.dump(data, f, indent=2)
