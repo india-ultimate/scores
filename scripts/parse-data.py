@@ -92,9 +92,10 @@ def parse_brackets_data(path):
     return scores
 
 
-def convert_raw_data_to_json(group_name):
+def convert_raw_data_to_json(tournament):
     groups = get_data_files()
-    files = groups.get(group_name, [])
+    slug = tournament["slug"]
+    files = groups.get(slug, [])
 
     data = []
     pools = [f for f in files if f.name.endswith("pools.csv")]
@@ -105,9 +106,13 @@ def convert_raw_data_to_json(group_name):
     if brackets:
         data += parse_brackets_data(brackets[0])
 
-    with open(PUBLIC_DATA_DIR.joinpath(f"{group_name}.json"), "w") as f:
+    with open(PUBLIC_DATA_DIR.joinpath(f"{slug}.json"), "w") as f:
         json.dump(data, f, indent=2)
 
 
 if __name__ == "__main__":
-    convert_raw_data_to_json("ncs-22-23-mixed-regionals-south")
+    with open(PUBLIC_DATA_DIR.joinpath("tournaments.json")) as f:
+        tournaments = json.load(f)
+
+    for tournament in tournaments:
+        convert_raw_data_to_json(tournament)
