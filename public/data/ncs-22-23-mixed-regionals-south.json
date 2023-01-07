@@ -306,8 +306,16 @@
   {
     "team_a": "TIKS Breakside",
     "score_a": 10,
-    "team_b": "Phoenix",
-    "score_b": 3,
+    "team_b": "Girgitle",
+    "score_b": 9,
+    "stage": "brackets",
+    "time": ""
+  },
+  {
+    "team_a": "Phoenix",
+    "score_a": 3,
+    "team_b": "Air Traffic Control",
+    "score_b": 12,
     "stage": "brackets",
     "time": ""
   },
@@ -331,7 +339,7 @@
     "team_a": "SlipDisc",
     "score_a": 11,
     "team_b": "SlipDisc",
-    "score_b": 4,
+    "score_b": 10,
     "stage": "brackets",
     "time": ""
   },
@@ -339,7 +347,7 @@
     "team_a": "Sapthavyuha",
     "score_a": 2,
     "team_b": "Airbenders Neo",
-    "score_b": 10,
+    "score_b": 4,
     "stage": "brackets",
     "time": ""
   },
@@ -352,7 +360,7 @@
     "time": ""
   },
   {
-    "team_a": "Dosent Matter",
+    "team_a": "Doesn't Matter",
     "score_a": 5,
     "team_b": "Phoenix",
     "score_b": 2,
@@ -372,6 +380,14 @@
     "score_a": 11,
     "team_b": "Falaknuma Fekus",
     "score_b": 10,
+    "stage": "brackets",
+    "time": ""
+  },
+  {
+    "team_a": "TIKS Openside",
+    "score_a": 3,
+    "team_b": "Alma Matter",
+    "score_b": 12,
     "stage": "brackets",
     "time": ""
   }
