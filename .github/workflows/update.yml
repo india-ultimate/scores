@@ -6,7 +6,10 @@ on:
   # Triggers the workflow every 2 hours
   schedule:
     - cron: "0 */2 * * *"
-
+  # Triggers on pushes to main branch
+  push:
+    branches:
+      - main
   # Add run this workflow button to GH
   workflow_dispatch:
 
