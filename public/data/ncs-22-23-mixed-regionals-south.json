@@ -238,5 +238,13 @@
     "score_b": 1,
     "stage": "pool",
     "time": "13:00 to 14:15"
+  },
+  {
+    "team_a": "Air Traffic Control",
+    "score_a": 15,
+    "team_b": "Airbenders Neo",
+    "score_b": 2,
+    "stage": "brackets",
+    "time": ""
   }
 ]
