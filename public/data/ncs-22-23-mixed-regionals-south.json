@@ -227,7 +227,7 @@
       "time": "13:00 to 14:15"
     },
     {
-      "team_a": "Airbenders Neo",
+      "team_a": "Alma Mater",
       "score_a": 8,
       "team_b": "Falaknuma Fekus",
       "score_b": 9,
@@ -243,7 +243,7 @@
       "time": "10:00 to 11:15"
     },
     {
-      "team_a": "Airbenders Neo",
+      "team_a": "Alma Mater",
       "score_a": 15,
       "team_b": "Doesn't Matter",
       "score_b": 1,
@@ -259,10 +259,42 @@
       "time": ""
     },
     {
+      "team_a": "Airbenders Neo",
+      "score_a": 12,
+      "team_b": "Doesn't Matter",
+      "score_b": 7,
+      "stage": "pool",
+      "time": ""
+    },
+    {
+      "team_a": "Tiks Openside",
+      "score_a": 5,
+      "team_b": "Airbenders Neo",
+      "score_b": 8,
+      "stage": "pool",
+      "time": ""
+    },
+    {
       "team_a": "Cleared for Take off",
       "score_a": 12,
       "team_b": "Sapthavyuha",
       "score_b": 3,
+      "stage": "pool",
+      "time": ""
+    },
+    {
+      "team_a": "Phoenix",
+      "score_a": 15,
+      "team_b": "Sapthavyuha",
+      "score_b": 3,
+      "stage": "pool",
+      "time": ""
+    },
+    {
+      "team_a": "Cleared for Take off",
+      "score_a": 10,
+      "team_b": "Phoenix",
+      "score_b": 5,
       "stage": "pool",
       "time": ""
     },
