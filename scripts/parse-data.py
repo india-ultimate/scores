@@ -58,12 +58,28 @@ def parse_pools_data(path, stage="pool"):
     return scores
 
 
+def find_bracket_data_columns(path):
+    with open(path) as f:
+        csv_data = csv.reader(f)
+        score_columns = []
+        for i, line in enumerate(csv_data):
+            for col, content in enumerate(line):
+                if (
+                    content == "1"
+                    and line[col + 1]
+                    and line[col + 2].isnumeric()
+                    and not line[col + 3].encode("ascii", errors="ignore")
+                ):
+                    score_columns.append(col)
+        return score_columns
+
+
 def parse_brackets_data(path):
     with open(path) as f:
         csv_data = csv.reader(f)
         data = {}
         header = next(csv_data)
-        columns = list(range(len(header) // 4))
+        columns = sorted(find_bracket_data_columns(path))
         for row, line in enumerate(csv_data):
             for col in columns:
                 seed = line[col]
