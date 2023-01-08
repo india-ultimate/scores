@@ -47,7 +47,7 @@ export default function Home() {
     }
 
     const displayList = (metadata: Tournament) => {
-        const displayKeys = new Set(['sheet_id', 'date', 'venue'])
+        const displayKeys = new Set(['sheet_id', 'date', 'venue', 'division'])
         return Object.entries(metadata).filter((it) => displayKeys.has(it[0])).map((entry) => {
             const [_key, _value] = entry
             const value = _key === 'sheet_id' ? getLink(_value) : _value
