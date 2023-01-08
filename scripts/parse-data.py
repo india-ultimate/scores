@@ -126,7 +126,7 @@ def convert_raw_data_to_json(tournament):
 
     with open(PUBLIC_DATA_DIR.joinpath(f"{slug}.json"), "w") as f:
         tournament["data"] = data
-        json.dump(tournament, f, indent=2)
+        json.dump(tournament, f, indent=2, ensure_ascii=False)
 
 
 def main(slug=None):
