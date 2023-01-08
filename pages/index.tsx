@@ -42,8 +42,8 @@ export default function Home() {
     };
 
     const getLink = (sheetId: string) => {
-        return <a target="_blank" rel="noopener noreferrer"
-            href={`https://docs.google.com/spreadsheets/d/${sheetId}/`}>https://docs.google.com/spreadsheets/d/${sheetId}/</a>
+        const url = `https://docs.google.com/spreadsheets/d/${sheetId}/`
+        return <a target="_blank" rel="noopener noreferrer" href={url}>{url}/</a>
     }
 
     const displayList = (metadata: Tournament) => {
