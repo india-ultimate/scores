@@ -76,12 +76,6 @@ export default function Home() {
             title: "Team",
             dataIndex: "team_b",
             key: "team_b"
-        },
-        {
-            title: "Time",
-            dataIndex: "time",
-            key: "time",
-            responsive: ['lg']
         }
     ];
 
