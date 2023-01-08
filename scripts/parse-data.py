@@ -63,12 +63,18 @@ def find_bracket_data_columns(path):
         csv_data = csv.reader(f)
         score_columns = []
         for i, line in enumerate(csv_data):
+            n = len(line)
             for col, content in enumerate(line):
+                if col + 2 >= n:
+                    continue
                 if (
                     content == "1"
                     and line[col + 1]
                     and line[col + 2].isnumeric()
-                    and not line[col + 3].encode("ascii", errors="ignore")
+                    and (
+                        col + 3 < n
+                        and not line[col + 3].encode("ascii", errors="ignore")
+                    )
                 ):
                     score_columns.append(col)
         return score_columns
