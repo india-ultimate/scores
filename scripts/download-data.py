@@ -12,10 +12,12 @@ RAW_DATA_DIR = ROOT_DIR.joinpath("data", "raw")
 
 def get_tournament_sheet(tournament, stage):
     sheet_id = tournament["sheet_id"]
-    sheet_name = tournament["sheets"][stage]
+    gid = tournament["sheets"][stage]
     name = tournament["name"]
-    print(f"    Downloading '{sheet_name}'")
-    url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
+    print(f"    Downloading '{stage}#{gid}'")
+    url = (
+        f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=csv&gid={gid}"
+    )
     response = requests.get(url)
     slug = tournament["slug"]
     path = RAW_DATA_DIR.joinpath(f"{slug}-{stage}.csv")

@@ -1,46 +1,56 @@
-"ALL POOL GAMES ON FRIDAY **Field Number and Time is only for guidance, Please refere to the Official Format Tab for accurate information** A","Team","Score","","Score","Team","Field","Time","","","Seed","Final positions after re-seed","","EXTRA GAME FOR 
-POOLS E & F on Friday","","","","","","","","","Seed","Final positions after extra game","","",""
-"A1 v A2","Airborne","11"," v ","10","FlyWild","1","8:30 to 9:45","","1A","1","Airborne","","Seed","Team","","","","Team","","Time","","17","Alma Matter","","",""
-"A3 v A4","Stray Dogs in Sweaters","11"," v ","10","Chakraa","2","8:30 to 9:45","","2A","6","Flywild ","","17 v 20","Alma Matter","11","v","7","Airbenders Neo","1","16:00 to 17:15","","18","Falaknuma Fekus","","",""
-"A2 v A3","FlyWild","11"," v ","6","Stray Dogs in Sweaters","1","11:30 to 12:45","","3A","12","Stray Dogs","","18 v 19","Falaknuma Fekus","5","v","3","Phoenix","2","16:00 to 17:15","","19","Phoenix","","",""
-"A1 v A4","Airborne","14"," v ","6","Chakraa","2","11:30  to 12:45","","4A","14","Chakraa","","21 v 22","Sapthavyuha","3","v","12","Doesn't Matter","4","16:00 to 17:15","","20","Airbenders Neo","","",""
-"A1 v A3","Airborne","15"," v ","4","Stray Dogs in Sweaters","1","14:30 to 15:45 ","","","","","","","","","","","","","","","21","Doesn't Matter","","",""
-"A2 v A4","FlyWild","15"," v ","5","Chakraa","2","14:30 to 15:45","","","","","","","","","","","","","","","22","Sapthavyuha","","",""
-"B","Team","","","","Team","","Time","","","","Final positions after re-seed","","","","","","","","","","","","","","",""
-"B1 v B2","Spinergy","7"," v ","12","Girgitle ","5","8:00 to 9:15","","1B","2","Girgitle","","","","","","","","","","","","","","",""
-"B3 v B4","SlipDiisc","12"," v ","13","Callahans","6","8:00 to 9:15","","2B","5","Spinergy","","","","","","","","","","","","","","",""
-"B2 v B3","Girgitle ","15"," v ","5","SlipDiisc","5","11:00 to 12:15","","3B","11","Callahans","","","","","","","","","","","","","","",""
-"B1 v B4","Spinergy","12"," v ","6","Callahans","6","11:00 to 12:15","","4B","13","SlipDisc","","","","","","","","","","","","","","",""
-"B1 v B3","Spinergy","13"," v ","5","SlipDiisc","5","14:00 to 15:15","","","","","","","","","","","","","","","","","","",""
-"B2 v B4","Girgitle ","14"," v ","9","Callahans","6","14:00 to 15:15","","","","","","","","","","","","","","","","","","",""
-"C","Team","","","","Team","","Time","","","","Final positions after re-seed","","","","","","","","","","","","","","",""
-"C1 v C2","Learning to Fly","10"," v ","8","TIKS Breakside","5","9:30 to 10:45","","1C","3","Stall 7","","","","","","","","","","","","","","",""
-"C3 v C4","Stall 7","15"," v ","3","Cleared for TakeOff","6","9:30 to 10:45","","2C","8","Learning to Fly","","","","","","","","","","","","","","",""
-"C2 v C3","TIKS Breakside","3"," v ","15","Stall 7","5","12:30 to 13:45","","3C","10","TIKS Breakside","","","","","","","","","","","","","","",""
-"C1 v C4","Learning to Fly","12"," v ","7","Cleared for TakeOff","6","12:30 to 13:45","","4C","16","Cleared for TakeOff","","","","","","","","","","","","","","",""
-"C1 v C3","Learning to Fly","9"," v ","14","Stall 7","5","15:30 to 16:45","","","","","","","","","","","","","","","","","","",""
-"C2 v C4","TIKS Breakside","12"," v ","4","Cleared for TakeOff","6","15:30 to 16:45","","","","","","","","","","","","","","","","","","",""
-"D","Team","","","","Team","","Time","","","","Final positions after re-seed","","","","","","","","","","","","","","",""
-"D1 v D2","Air Traffic Control","5"," v ","15","Airbenders One","3","8:30 to 9:45","","1D","4","Airbenders One","","","","","","","","","","","","","","",""
-"D3 v D4","Blitzkrieg","15"," v ","2","TIKS Openside","4","8:30 to 9:45","","2D","7","Blitzkrieg","","","","","","","","","","","","","","",""
-"D2 v D3","Airbenders One","14"," v ","5","Blitzkrieg","3","11:30 to 12:45","","3D","9","Air Traffic Control ","","","","","","","","","","","","","","",""
-"D1 v D4","Air Traffic Control","14"," v ","4","TIKS Openside","4","11:30  to 12:45","","4D","15","TIKS Openside","","","","","","","","","","","","","","",""
-"D1 v D3","Air Traffic Control","5"," v ","9","Blitzkrieg","3","14:30 to 15:45 ","","","","","","","","","","","","","","","","","","",""
-"D2 v D4","Airbenders One","15"," v ","1","TIKS Openside","4","14:30 to 15:45","","","","","","","","","","","","","","","","","","",""
-"E","Team","","","","Team","","Time","","","","Final positions after re-seed","","","","","","","","","","","","","","",""
-"E1 v E2","Alma Mater","12"," v ","5","Phoenix","3","7:00 to 8:15","","1E","17","Alma Matter","","","","","","","","","","","","","","",""
-"E2 v E3","Phoenix","11"," v ","2","Sapthavyuha","4","10:00 to 11:15","","2E","19","Phoenix","","","","","","","","","","","","","","",""
-"E3 v E1","Sapthavyuha","1"," v ","13","Alma Mater","3","13:00 to 14:15","","3E","21","Sapthavyuha","","","","","","","","","","","","","","",""
-"F","Team","","","","Team","","Time","","","","Final positions after re-seed","","","","","","","","","","","","","","",""
-"F1 v F2","Alma Mater","8"," v ","9","Falaknuma Fekus","2","7:00 to 8:15","","1F","18","Falaknuma Fekus","","","","","","","","","","","","","","",""
-"F2 v F3","Falaknuma Fekus","10"," v ","4","Doesn't Matter","1","10:00 to 11:15","","2F","20","Airbenders Neo","","","","","","","","","","","","","","",""
-"F1 v F3","Alma Mater","15"," v ","1","Doesn't Matter","2","13:00 to 14:15","","3F","22","Doesn't Matter","","","","","","","","","","","","","","",""
-"ALL POOL GAMES ON SATURDAY AND SUNDAY","","","","","","","","","","","","","","","","","","","","","","","","","",""
-"J","Team","","","","Team","","Time","","","","Final positions after re-seed","","","","","","","","","","","","","","",""
-"J1 v J3","Tiks Openside","7"," v ","6","Doesn't Matter ","","","","1J","17","Airbenders Neo","","","","","","","","","","","","","","",""
-"J2 v J3","Airbenders Neo","12"," v ","7","Doesn't Matter ","","","","2J","20","TIKS Openside","","","","","","","","","","","","","","",""
-"J1 v J2","Tiks Openside","5"," v ","8","Airbenders Neo","","","","3J","21","Doesn't Matter","","","","","","","","","","","","","","",""
-"K","Team","","","","Team","","Time","","","","Final positions after re-seed","","","","","","","","","","","","","","",""
-"K1 v K3","Cleared for Take off ","12"," v ","3","Sapthavyuha ","","","","1K","18","Cleared for Take Off","","","","","","","","","","","","","","",""
-"K2 v K3","Phoenix ","15"," v ","3","Sapthavyuha ","","","","2K","19","Phoenix","","","","","","","","","","","","","","",""
-"K1 v K2","Cleared for Take off ","10"," v ","5","Phoenix ","","","","3K","22","Sapthavyuha","","","","","","","","","","","","","","",""
+ALL POOL GAMES ON FRIDAY,,,,,,,,,,,,,,,,,,,,,,,
+"**Field Number and Time is only for guidance, Please refere to the Official Format Tab for accurate information**",,,,,,,,,,,,,,,,,,,,,,,
+A,Team,Score,,Score,Team,Field,Time,,,Seed,Final positions after re-seed,,"EXTRA GAME FOR 
+POOLS E & F on Friday",,,,,,,,,Seed,Final positions after extra game
+A1 v A2,Airborne,11, v ,10,FlyWild,1,8:30 to 9:45,,1A,1,Airborne,,Seed,Team,Score,,Score,Team,Field,Time,,17,Alma Matter
+A3 v A4,Stray Dogs in Sweaters,11, v ,10,Chakraa,2,8:30 to 9:45,,2A,6,Flywild ,,17 v 20,Alma Matter,11,v,7,Airbenders Neo,1,16:00 to 17:15,,18,Falaknuma Fekus
+A2 v A3,FlyWild,11, v ,6,Stray Dogs in Sweaters,1,11:30 to 12:45,,3A,12,Stray Dogs,,18 v 19,Falaknuma Fekus,5,v,3,Phoenix,2,16:00 to 17:15,,19,Phoenix
+A1 v A4,Airborne,14, v ,6,Chakraa,2,11:30  to 12:45,,4A,14,Chakraa,,21 v 22,Sapthavyuha,3,v,12,Doesn't Matter,4,16:00 to 17:15,,20,Airbenders Neo
+A1 v A3,Airborne,15, v ,4,Stray Dogs in Sweaters,1,14:30 to 15:45 ,,,,,,,,,,,,,,,21,Doesn't Matter
+A2 v A4,FlyWild,15, v ,5,Chakraa,2,14:30 to 15:45,,,,,,,,,,,,,,,22,Sapthavyuha
+,,,,,,,,,,,,,,,,,,,,,,,
+B,Team,Score,,Score,Team,Field,Time,,,Seed,Final positions after re-seed,,,,,,,,,,,,
+B1 v B2,Spinergy,7, v ,12,Girgitle ,5,8:00 to 9:15,,1B,2,Girgitle,,,,,,,,,,,,
+B3 v B4,SlipDiisc,12, v ,13,Callahans,6,8:00 to 9:15,,2B,5,Spinergy,,,,,,,,,,,,
+B2 v B3,Girgitle ,15, v ,5,SlipDiisc,5,11:00 to 12:15,,3B,11,Callahans,,,,,,,,,,,,
+B1 v B4,Spinergy,12, v ,6,Callahans,6,11:00 to 12:15,,4B,13,SlipDisc,,,,,,,,,,,,
+B1 v B3,Spinergy,13, v ,5,SlipDiisc,5,14:00 to 15:15,,,,,,,,,,,,,,,,
+B2 v B4,Girgitle ,14, v ,9,Callahans,6,14:00 to 15:15,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+C,Team,Score,,Score,Team,Field,Time,,,Seed,Final positions after re-seed,,,,,,,,,,,,
+C1 v C2,Learning to Fly,10, v ,8,TIKS Breakside,5,9:30 to 10:45,,1C,3,Stall 7,,,,,,,,,,,,
+C3 v C4,Stall 7,15, v ,3,Cleared for TakeOff,6,9:30 to 10:45,,2C,8,Learning to Fly,,,,,,,,,,,,
+C2 v C3,TIKS Breakside,3, v ,15,Stall 7,5,12:30 to 13:45,,3C,10,TIKS Breakside,,,,,,,,,,,,
+C1 v C4,Learning to Fly,12, v ,7,Cleared for TakeOff,6,12:30 to 13:45,,4C,16,Cleared for TakeOff,,,,,,,,,,,,
+C1 v C3,Learning to Fly,9, v ,14,Stall 7,5,15:30 to 16:45,,,,,,,,,,,,,,,,
+C2 v C4,TIKS Breakside,12, v ,4,Cleared for TakeOff,6,15:30 to 16:45,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+D,Team,Score,,Score,Team,Field,Time,,,Seed,Final positions after re-seed,,,,,,,,,,,,
+D1 v D2,Air Traffic Control,5, v ,15,Airbenders One,3,8:30 to 9:45,,1D,4,Airbenders One,,,,,,,,,,,,
+D3 v D4,Blitzkrieg,15, v ,2,TIKS Openside,4,8:30 to 9:45,,2D,7,Blitzkrieg,,,,,,,,,,,,
+D2 v D3,Airbenders One,14, v ,5,Blitzkrieg,3,11:30 to 12:45,,3D,9,Air Traffic Control ,,,,,,,,,,,,
+D1 v D4,Air Traffic Control,14, v ,4,TIKS Openside,4,11:30  to 12:45,,4D,15,TIKS Openside,,,,,,,,,,,,
+D1 v D3,Air Traffic Control,5, v ,9,Blitzkrieg,3,14:30 to 15:45 ,,,,,,,,,,,,,,,,
+D2 v D4,Airbenders One,15, v ,1,TIKS Openside,4,14:30 to 15:45,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+E,Team,Score,,Score,Team,Field,Time,,,Seed,Final positions after re-seed,,,,,,,,,,,,
+E1 v E2,Alma Mater,12, v ,5,Phoenix,3,7:00 to 8:15,,1E,17,Alma Matter,,,,,,,,,,,,
+E2 v E3,Phoenix,11, v ,2,Sapthavyuha,4,10:00 to 11:15,,2E,19,Phoenix,,,,,,,,,,,,
+E3 v E1,Sapthavyuha,1, v ,13,Alma Mater,3,13:00 to 14:15,,3E,21,Sapthavyuha,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+F,Team,Score,,Score,Team,Field,Time,,,Seed,Final positions after re-seed,,,,,,,,,,,,
+F1 v F2,Alma Mater,8, v ,9,Falaknuma Fekus,2,7:00 to 8:15,,1F,18,Falaknuma Fekus,,,,,,,,,,,,
+F2 v F3,Falaknuma Fekus,10, v ,4,Doesn't Matter,1,10:00 to 11:15,,2F,20,Airbenders Neo,,,,,,,,,,,,
+F1 v F3,Alma Mater,15, v ,1,Doesn't Matter,2,13:00 to 14:15,,3F,22,Doesn't Matter,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+ALL POOL GAMES ON SATURDAY AND SUNDAY,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+J,Team,Score,,Score,Team,Field,Time,,,Seed,Final positions after re-seed,,,,,,,,,,,,
+J1 v J3,Tiks Openside,7, v ,6,Doesn't Matter ,,,,1J,17,Airbenders Neo,,,,,,,,,,,,
+J2 v J3,Airbenders Neo,12, v ,7,Doesn't Matter ,,,,2J,20,TIKS Openside,,,,,,,,,,,,
+J1 v J2,Tiks Openside,5, v ,8,Airbenders Neo,,,,3J,21,Doesn't Matter,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+K,Team,Score,,Score,Team,Field,Time,,,Seed,Final positions after re-seed,,,,,,,,,,,,
+K1 v K3,Cleared for Take off ,12, v ,3,Sapthavyuha ,,,,1K,18,Cleared for Take Off,,,,,,,,,,,,
+K2 v K3,Phoenix ,15, v ,3,Sapthavyuha ,,,,2K,19,Phoenix,,,,,,,,,,,,
+K1 v K2,Cleared for Take off ,10, v ,5,Phoenix ,,,,3K,22,Sapthavyuha,,,,,,,,,,,,
