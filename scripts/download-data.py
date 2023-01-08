@@ -26,12 +26,14 @@ def get_tournament_sheet(tournament, stage):
     return path
 
 
-def main():
+def main(slug=None):
     with open(PUBLIC_DATA_DIR.joinpath("tournaments.json")) as f:
         tournaments = json.load(f)
 
     for tournament in tournaments:
-        if str(datetime.date.today()) > tournament["expiry"]:
+        if slug and not tournament["slug"] == slug:
+            continue
+        if not slug and str(datetime.date.today()) > tournament["expiry"]:
             print(f"Skipping '{tournament['name']}' with expiry date in the past.")
             continue
         for stage in tournament["sheets"]:
@@ -39,4 +41,10 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    import argparse
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-s", "--slug", default=None)
+    args = parser.parse_args()
+
+    main(args.slug)
