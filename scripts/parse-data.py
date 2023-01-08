@@ -70,7 +70,7 @@ def parse_brackets_data(path):
                 name = line[col + 1]
                 score = line[col + 2]
                 if seed.isnumeric() and name and score.isnumeric():
-                    data[(row, col)] = (seed, name, score)
+                    data[(col, row)] = (seed, name, score)
 
     matches = sorted(data.keys())
     stage = "brackets"
