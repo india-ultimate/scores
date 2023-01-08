@@ -129,6 +129,11 @@ export default function Home() {
                     />}
                     {scores.length > 0 && <Table columns={columns} dataSource={scores} pagination={false} />}
                 </div>
+                <div className={styles.card}>
+                    <a href="https://github.com/india-ultimate/scores/" target="_blank"
+                        rel="noopener noreferrer"
+                    >Built</a> with 💙 in Bengaluru
+                </div>
             </main>
         </>
     );
