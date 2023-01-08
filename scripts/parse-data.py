@@ -16,15 +16,6 @@ PUBLIC_DATA_DIR = ROOT_DIR.joinpath("public", "data")
 Score = namedtuple("Score", ("team_a", "score_a", "team_b", "score_b", "stage", "time"))
 
 
-def get_data_files():
-    files = {path.stem: path for path in RAW_DATA_DIR.glob("*.csv")}
-    groups = defaultdict(list)
-    for name, path in files.items():
-        prefix = name.rsplit("-", 1)[0]
-        groups[prefix].append(path)
-    return groups
-
-
 def find_pool_data_columns(path):
     with open(path) as f:
         csv_data = csv.reader(f)
@@ -100,18 +91,16 @@ def parse_brackets_data(path):
 
 
 def convert_raw_data_to_json(tournament):
-    groups = get_data_files()
     slug = tournament["slug"]
-    files = groups.get(slug, [])
-
     data = []
-    pools = [f for f in files if f.name.endswith("pools.csv")]
-    if pools:
-        data += parse_pools_data(pools[0])
 
-    brackets = [f for f in files if f.name.endswith("brackets.csv")]
-    if brackets:
-        data += parse_brackets_data(brackets[0])
+    pools = RAW_DATA_DIR.joinpath(f"{slug}-pools.csv")
+    if pools.exists():
+        data += parse_pools_data(pools)
+
+    brackets = RAW_DATA_DIR.joinpath(f"{slug}-brackets.csv")
+    if brackets.exists():
+        data += parse_brackets_data(brackets)
 
     with open(PUBLIC_DATA_DIR.joinpath(f"{slug}.json"), "w") as f:
         tournament["data"] = data
