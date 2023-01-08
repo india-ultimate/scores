@@ -548,10 +548,90 @@
       "time": ""
     },
     {
+      "team_a": "Airbenders Neo",
+      "score_a": 12,
+      "team_b": "Doesn't Matter",
+      "score_b": 7,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "Tiks Openside",
+      "score_a": 5,
+      "team_b": "Airbenders Neo",
+      "score_b": 8,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
       "team_a": "Cleared for Take off",
       "score_a": 12,
       "team_b": "Sapthavyuha",
       "score_b": 3,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "Phoenix",
+      "score_a": 15,
+      "team_b": "Sapthavyuha",
+      "score_b": 3,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "Cleared for Take off",
+      "score_a": 10,
+      "team_b": "Phoenix",
+      "score_b": 5,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "Airborne",
+      "score_a": 14,
+      "team_b": "Spinergy",
+      "score_b": 10,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "Learning to Fly",
+      "score_a": 11,
+      "team_b": "Air Traffic Control",
+      "score_b": 10,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "Stall 7",
+      "score_a": 10,
+      "team_b": "Blitzkrieg",
+      "score_b": 9,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "TIKS Breakside",
+      "score_a": 7,
+      "team_b": "Chakraa",
+      "score_b": 12,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "SlipDisc",
+      "score_a": 8,
+      "team_b": "Alma Matter",
+      "score_b": 5,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "Callahans",
+      "score_a": 12,
+      "team_b": "Falaknuma Fekus",
+      "score_b": 5,
       "stage": "brackets",
       "time": ""
     }
