@@ -25,36 +25,42 @@ def get_data_files():
     return groups
 
 
-def find_score_columns(path):
+def find_columns(path):
     with open(path) as f:
         csv_data = csv.reader(f)
         score_columns = []
+        time_column = []
         for i, line in enumerate(csv_data):
             for col, header in enumerate(line):
                 if header == "Score":
                     score_columns.append(col)
+                elif header == "Time":
+                    time_column.append(col)
             if i > 2:
                 break
-        return score_columns
+        return score_columns, time_column
 
 
 def parse_pools_data(path, stage="pool"):
-    score_columns = find_score_columns(path)
+    score_columns, time_column = find_columns(path)
     scores = []
     with open(path) as f:
         csv_data = csv.reader(f)
         for line in csv_data:
-            for left, right in zip(score_columns[::2], score_columns[1::2]):
+            for i, (left, right) in enumerate(
+                zip(score_columns[::2], score_columns[1::2])
+            ):
                 score_l = line[left].strip()
                 score_r = line[right].strip()
                 if not (score_l.isnumeric() and score_r.isnumeric()):
                     continue
+                time = line[time_column[i]].strip() if i < len(time_column) else ""
                 score = Score(
                     team_a=line[left - 1].strip(),
                     score_a=int(score_l),
                     team_b=line[right + 1].strip(),
                     score_b=int(score_r),
-                    time=line[right + 3].strip(),
+                    time=time,
                     stage=stage,
                 )
                 scores.append(score._asdict())
