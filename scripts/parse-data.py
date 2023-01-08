@@ -139,6 +139,7 @@ def main(slug=None):
         if not slug and str(datetime.date.today()) > tournament["expiry"]:
             print(f"Skipping '{tournament['name']}' with expiry date in the past.")
             continue
+        print(f"Parsing data for '{tournament['name']}'")
         convert_raw_data_to_json(tournament)
 
 

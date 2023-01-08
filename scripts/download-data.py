@@ -14,7 +14,7 @@ def get_tournament_sheet(tournament, stage):
     sheet_id = tournament["sheet_id"]
     sheet_name = tournament["sheets"][stage]
     name = tournament["name"]
-    print(f"Downloading '{sheet_name}' data for '{name}'")
+    print(f"    Downloading '{sheet_name}'")
     url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
     response = requests.get(url)
     slug = tournament["slug"]
@@ -36,6 +36,7 @@ def main(slug=None):
         if not slug and str(datetime.date.today()) > tournament["expiry"]:
             print(f"Skipping '{tournament['name']}' with expiry date in the past.")
             continue
+        print(f"Downloading data for '{tournament['name']}'")
         for stage in tournament["sheets"]:
             get_tournament_sheet(tournament, stage)
 
