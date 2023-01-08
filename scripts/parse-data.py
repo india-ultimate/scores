@@ -45,11 +45,15 @@ def parse_pools_data(path, stage="pool"):
                 score_r = line[right].strip()
                 if not (score_l.isnumeric() and score_r.isnumeric()):
                     continue
+                team_l = line[left - 1].strip()
+                team_r = line[right + 1].strip()
+                if not team_l or team_l.isnumeric() or not team_r or team_r.isnumeric():
+                    continue
                 time = line[time_column[i]].strip() if i < len(time_column) else ""
                 score = Score(
-                    team_a=line[left - 1].strip(),
+                    team_a=team_l,
                     score_a=int(score_l),
-                    team_b=line[right + 1].strip(),
+                    team_b=team_r,
                     score_b=int(score_r),
                     time=time,
                     stage=stage,
