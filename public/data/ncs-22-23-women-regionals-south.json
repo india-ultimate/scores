@@ -1,0 +1,455 @@
+{
+  "sheets": {
+    "pools": "1740399864",
+    "brackets": "1740399864"
+  },
+  "name": "NCS 2022-2023 South Women's Regionals",
+  "slug": "ncs-22-23-women-regionals-south",
+  "date": "November 11th — November 13th, 2022",
+  "venue": "Coimbatore",
+  "division": "women",
+  "sheet_id": "1984356btDOlhxwYoZs5c7t6LbE6Vwk-BNLwar8RNoJU",
+  "expiry": "2022-11-15",
+  "data": [
+    {
+      "team_a": "Spinborne",
+      "score_a": 14,
+      "team_b": "ATC+CFT",
+      "score_b": 7,
+      "stage": "pool",
+      "time": ""
+    },
+    {
+      "team_a": "Stall 7",
+      "score_a": 13,
+      "team_b": "Alma Matter+ Dosen't Matter",
+      "score_b": 0,
+      "stage": "pool",
+      "time": ""
+    },
+    {
+      "team_a": "Spinborne",
+      "score_a": 15,
+      "team_b": "PUCCA",
+      "score_b": 2,
+      "stage": "pool",
+      "time": ""
+    },
+    {
+      "team_a": "Stall 7",
+      "score_a": 7,
+      "team_b": "ATC+CFT",
+      "score_b": 12,
+      "stage": "pool",
+      "time": ""
+    },
+    {
+      "team_a": "Stall 7",
+      "score_a": 5,
+      "team_b": "PUCCA",
+      "score_b": 6,
+      "stage": "pool",
+      "time": ""
+    },
+    {
+      "team_a": "Airbenders",
+      "score_a": 9,
+      "team_b": "TIKS",
+      "score_b": 10,
+      "stage": "pool",
+      "time": ""
+    },
+    {
+      "team_a": "L2f",
+      "score_a": 15,
+      "team_b": "SpyBits",
+      "score_b": 1,
+      "stage": "pool",
+      "time": ""
+    },
+    {
+      "team_a": "Airbenders",
+      "score_a": 11,
+      "team_b": "No Fly Zone",
+      "score_b": 7,
+      "stage": "pool",
+      "time": ""
+    },
+    {
+      "team_a": "L2f",
+      "score_a": 15,
+      "team_b": "TIKS",
+      "score_b": 1,
+      "stage": "pool",
+      "time": ""
+    },
+    {
+      "team_a": "Airbenders",
+      "score_a": 2,
+      "team_b": "L2f",
+      "score_b": 15,
+      "stage": "pool",
+      "time": ""
+    },
+    {
+      "team_a": "No Fly Zone",
+      "score_a": 10,
+      "team_b": "SpyBits",
+      "score_b": 2,
+      "stage": "pool",
+      "time": ""
+    },
+    {
+      "team_a": "Spinborne",
+      "score_a": 7,
+      "team_b": "L2f",
+      "score_b": 9,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "ATC+CFT",
+      "score_a": 15,
+      "team_b": "TIKS",
+      "score_b": 3,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "Airbenders",
+      "score_a": 0,
+      "team_b": "PUCCA",
+      "score_b": 15,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "No Fly Zone",
+      "score_a": 4,
+      "team_b": "Stall 7",
+      "score_b": 8,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "Alma Matter+ Dosen't Matter",
+      "score_a": 5,
+      "team_b": "SpyBits",
+      "score_b": 6,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "Spinergy",
+      "score_a": 11,
+      "team_b": "Airborne",
+      "score_b": 14,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "ATC",
+      "score_a": 10,
+      "team_b": "Stall 7",
+      "score_b": 9,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "L2f",
+      "score_a": 12,
+      "team_b": "No Fly Zone",
+      "score_b": 10,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "Spinergy",
+      "score_a": 11,
+      "team_b": "Airborne",
+      "score_b": 14,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "ATC",
+      "score_a": 10,
+      "team_b": "Stall 7",
+      "score_b": 9,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "L2f",
+      "score_a": 12,
+      "team_b": "No Fly Zone",
+      "score_b": 10,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "Spinergy",
+      "score_a": 11,
+      "team_b": "Airborne",
+      "score_b": 14,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "ATC",
+      "score_a": 10,
+      "team_b": "Stall 7",
+      "score_b": 9,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "L2f",
+      "score_a": 12,
+      "team_b": "No Fly Zone",
+      "score_b": 10,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "Spinergy",
+      "score_a": 11,
+      "team_b": "Airborne",
+      "score_b": 14,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "ATC",
+      "score_a": 10,
+      "team_b": "Stall 7",
+      "score_b": 9,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "L2f",
+      "score_a": 12,
+      "team_b": "No Fly Zone",
+      "score_b": 10,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "Spinergy",
+      "score_a": 11,
+      "team_b": "Airborne",
+      "score_b": 14,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "ATC",
+      "score_a": 10,
+      "team_b": "Stall 7",
+      "score_b": 9,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "L2f",
+      "score_a": 12,
+      "team_b": "No Fly Zone",
+      "score_b": 10,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "Spinergy",
+      "score_a": 11,
+      "team_b": "Airborne",
+      "score_b": 14,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "ATC",
+      "score_a": 10,
+      "team_b": "Stall 7",
+      "score_b": 9,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "L2f",
+      "score_a": 12,
+      "team_b": "No Fly Zone",
+      "score_b": 10,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "Spinergy",
+      "score_a": 11,
+      "team_b": "Airborne",
+      "score_b": 14,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "ATC",
+      "score_a": 10,
+      "team_b": "Stall 7",
+      "score_b": 9,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "L2f",
+      "score_a": 12,
+      "team_b": "No Fly Zone",
+      "score_b": 10,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "Spinergy",
+      "score_a": 11,
+      "team_b": "Airborne",
+      "score_b": 14,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "ATC",
+      "score_a": 10,
+      "team_b": "Stall 7",
+      "score_b": 9,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "L2f",
+      "score_a": 12,
+      "team_b": "No Fly Zone",
+      "score_b": 10,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "Spinergy",
+      "score_a": 11,
+      "team_b": "Airborne",
+      "score_b": 14,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "ATC",
+      "score_a": 10,
+      "team_b": "Stall 7",
+      "score_b": 9,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "L2f",
+      "score_a": 12,
+      "team_b": "No Fly Zone",
+      "score_b": 10,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "Spinergy",
+      "score_a": 11,
+      "team_b": "Airborne",
+      "score_b": 14,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "ATC",
+      "score_a": 10,
+      "team_b": "Stall 7",
+      "score_b": 9,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "L2f",
+      "score_a": 12,
+      "team_b": "No Fly Zone",
+      "score_b": 10,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "Spinergy",
+      "score_a": 11,
+      "team_b": "Airborne",
+      "score_b": 14,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "ATC",
+      "score_a": 10,
+      "team_b": "Stall 7",
+      "score_b": 9,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "L2f",
+      "score_a": 12,
+      "team_b": "No Fly Zone",
+      "score_b": 10,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "Spinergy",
+      "score_a": 11,
+      "team_b": "Airborne",
+      "score_b": 14,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "ATC",
+      "score_a": 10,
+      "team_b": "Stall 7",
+      "score_b": 9,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "L2f",
+      "score_a": 12,
+      "team_b": "No Fly Zone",
+      "score_b": 10,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "Spinergy",
+      "score_a": 11,
+      "team_b": "Airborne",
+      "score_b": 14,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "ATC",
+      "score_a": 10,
+      "team_b": "Stall 7",
+      "score_b": 9,
+      "stage": "brackets",
+      "time": ""
+    },
+    {
+      "team_a": "L2f",
+      "score_a": 12,
+      "team_b": "No Fly Zone",
+      "score_b": 10,
+      "stage": "brackets",
+      "time": ""
+    }
+  ]
+}
