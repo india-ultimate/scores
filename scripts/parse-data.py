@@ -25,7 +25,7 @@ def get_data_files():
     return groups
 
 
-def find_columns(path):
+def find_pool_data_columns(path):
     with open(path) as f:
         csv_data = csv.reader(f)
         score_columns = []
@@ -42,7 +42,7 @@ def find_columns(path):
 
 
 def parse_pools_data(path, stage="pool"):
-    score_columns, time_column = find_columns(path)
+    score_columns, time_column = find_pool_data_columns(path)
     scores = []
     with open(path) as f:
         csv_data = csv.reader(f)
