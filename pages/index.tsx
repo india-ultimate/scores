@@ -41,16 +41,20 @@ export default function Home() {
             });
     };
 
-    const getLink = (sheetId: string) => {
-        const url = `https://docs.google.com/spreadsheets/d/${sheetId}/`
+    const getLink = (url: string) => {
         return <a target="_blank" rel="noopener noreferrer" href={url}>{url}/</a>
     }
 
+    const getSheetLink = (sheetId: string) => {
+        const url = `https://docs.google.com/spreadsheets/d/${sheetId}/`
+        return getLink(url)
+    }
+
     const displayList = (metadata: Tournament) => {
-        const displayKeys = new Set(['sheet_id', 'date', 'venue', 'division'])
+        const displayKeys = new Set(['sheet_id', 'date', 'venue', 'division', 'photos'])
         return Object.entries(metadata).filter((it) => displayKeys.has(it[0])).map((entry) => {
             const [_key, _value] = entry
-            const value = _key === 'sheet_id' ? getLink(_value) : _value
+            const value = _key === 'sheet_id' ? getSheetLink(_value) : _key === 'photos' ? getLink(_value) : _value
             const key = _key === 'sheet_id' ? 'source' : _key
             return { value, key }
         })
