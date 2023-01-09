@@ -3,6 +3,13 @@
 HERE=$(dirname $0)
 
 pushd "${HERE}/.."
+
+if [ -f .no-update-site ];
+then
+    echo "Not building and deploying site";
+    exit 0
+fi
+
 yarn
 yarn next build
 yarn next export

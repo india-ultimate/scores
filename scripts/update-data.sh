@@ -11,6 +11,6 @@ if [ "${PUSH}" = "push" ]; then
     git config user.name "India Ultimate GitHub Bot"
     git add data/
     git add public/data/
-    git commit -m "Auto update data for the website" -m "[ci skip]" || echo "Nothing to commit"
+    git commit -m "Auto update data for the website" -m "[ci skip]" || touch .no-update-site
     git push origin main
 fi
