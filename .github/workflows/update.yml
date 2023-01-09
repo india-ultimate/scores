@@ -32,4 +32,6 @@ jobs:
           node-version: 16
           cache: 'yarn'
       - run: scripts/update-data.sh push
+      - run: rm -f .no-update-site
+        if: github.event.schedule != '0 */2 * * *'
       - run: scripts/deploy-site.sh
