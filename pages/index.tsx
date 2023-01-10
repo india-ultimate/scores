@@ -2,15 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import React, { useState, useEffect } from "react";
-import { Table, Select, Typography, List } from "antd";
-import type { ColumnsType } from 'antd/es/table';
-
-interface DataType {
-    team_a: string;
-    score_a: number;
-    team_b: string;
-    score_b: number;
-}
+import { Select, Typography, List } from "antd";
+import {TableScores} from '../components/TableScores';
 
 interface Tournament {
     slug: string;
@@ -60,29 +53,6 @@ export default function Home() {
         })
     }
 
-    const columns: ColumnsType<DataType> = [
-        {
-            title: "Team",
-            dataIndex: "team_a",
-            key: "team_a"
-        },
-        {
-            title: "Score",
-            dataIndex: "score_a",
-            key: "score_a"
-        },
-        {
-            title: "Score",
-            dataIndex: "score_b",
-            key: "score_b"
-        },
-        {
-            title: "Team",
-            dataIndex: "team_b",
-            key: "team_b"
-        }
-    ];
-
     return (
         <>
             <Head>
@@ -131,7 +101,7 @@ export default function Home() {
                         )}
 
                     />}
-                    {scores.length > 0 && <Table columns={columns} dataSource={scores} pagination={false} />}
+                    {scores.length > 0 && <TableScores data={scores} />}
                 </div>
                 <div className={styles.card}>
                     <a href="https://github.com/india-ultimate/scores/" target="_blank"
