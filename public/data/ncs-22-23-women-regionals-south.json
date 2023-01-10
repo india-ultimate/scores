@@ -18,6 +18,7 @@
       "team_b": "ATC+CFT",
       "score_b": 7,
       "stage": "pool",
+      "pool_name": "Pool E",
       "time": ""
     },
     {
@@ -26,6 +27,7 @@
       "team_b": "Alma Matter+ Dosen't Matter",
       "score_b": 0,
       "stage": "pool",
+      "pool_name": "Pool E",
       "time": ""
     },
     {
@@ -34,6 +36,7 @@
       "team_b": "PUCCA",
       "score_b": 2,
       "stage": "pool",
+      "pool_name": "Pool E",
       "time": ""
     },
     {
@@ -42,6 +45,7 @@
       "team_b": "ATC+CFT",
       "score_b": 12,
       "stage": "pool",
+      "pool_name": "Pool E",
       "time": ""
     },
     {
@@ -50,6 +54,7 @@
       "team_b": "PUCCA",
       "score_b": 6,
       "stage": "pool",
+      "pool_name": "Pool E",
       "time": ""
     },
     {
@@ -58,6 +63,7 @@
       "team_b": "TIKS",
       "score_b": 10,
       "stage": "pool",
+      "pool_name": "Pool F",
       "time": ""
     },
     {
@@ -66,6 +72,7 @@
       "team_b": "SpyBits",
       "score_b": 1,
       "stage": "pool",
+      "pool_name": "Pool F",
       "time": ""
     },
     {
@@ -74,6 +81,7 @@
       "team_b": "No Fly Zone",
       "score_b": 7,
       "stage": "pool",
+      "pool_name": "Pool F",
       "time": ""
     },
     {
@@ -82,6 +90,7 @@
       "team_b": "TIKS",
       "score_b": 1,
       "stage": "pool",
+      "pool_name": "Pool F",
       "time": ""
     },
     {
@@ -90,6 +99,7 @@
       "team_b": "L2f",
       "score_b": 15,
       "stage": "pool",
+      "pool_name": "Pool F",
       "time": ""
     },
     {
@@ -98,6 +108,7 @@
       "team_b": "SpyBits",
       "score_b": 2,
       "stage": "pool",
+      "pool_name": "Pool F",
       "time": ""
     },
     {
@@ -106,6 +117,7 @@
       "team_b": "L2f",
       "score_b": 9,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -114,6 +126,7 @@
       "team_b": "TIKS",
       "score_b": 3,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -122,6 +135,7 @@
       "team_b": "PUCCA",
       "score_b": 15,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -130,6 +144,7 @@
       "team_b": "Stall 7",
       "score_b": 8,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -138,6 +153,7 @@
       "team_b": "SpyBits",
       "score_b": 6,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -146,6 +162,7 @@
       "team_b": "Airborne",
       "score_b": 14,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -154,6 +171,7 @@
       "team_b": "Stall 7",
       "score_b": 9,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -162,6 +180,7 @@
       "team_b": "No Fly Zone",
       "score_b": 10,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -170,6 +189,7 @@
       "team_b": "Airborne",
       "score_b": 14,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -178,6 +198,7 @@
       "team_b": "Stall 7",
       "score_b": 9,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -186,6 +207,7 @@
       "team_b": "No Fly Zone",
       "score_b": 10,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -194,6 +216,7 @@
       "team_b": "Airborne",
       "score_b": 14,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -202,6 +225,7 @@
       "team_b": "Stall 7",
       "score_b": 9,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -210,6 +234,7 @@
       "team_b": "No Fly Zone",
       "score_b": 10,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -218,6 +243,7 @@
       "team_b": "Airborne",
       "score_b": 14,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -226,6 +252,7 @@
       "team_b": "Stall 7",
       "score_b": 9,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -234,6 +261,7 @@
       "team_b": "No Fly Zone",
       "score_b": 10,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -242,6 +270,7 @@
       "team_b": "Airborne",
       "score_b": 14,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -250,6 +279,7 @@
       "team_b": "Stall 7",
       "score_b": 9,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -258,6 +288,7 @@
       "team_b": "No Fly Zone",
       "score_b": 10,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -266,6 +297,7 @@
       "team_b": "Airborne",
       "score_b": 14,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -274,6 +306,7 @@
       "team_b": "Stall 7",
       "score_b": 9,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -282,6 +315,7 @@
       "team_b": "No Fly Zone",
       "score_b": 10,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -290,6 +324,7 @@
       "team_b": "Airborne",
       "score_b": 14,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -298,6 +333,7 @@
       "team_b": "Stall 7",
       "score_b": 9,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -306,6 +342,7 @@
       "team_b": "No Fly Zone",
       "score_b": 10,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -314,6 +351,7 @@
       "team_b": "Airborne",
       "score_b": 14,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -322,6 +360,7 @@
       "team_b": "Stall 7",
       "score_b": 9,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -330,6 +369,7 @@
       "team_b": "No Fly Zone",
       "score_b": 10,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -338,6 +378,7 @@
       "team_b": "Airborne",
       "score_b": 14,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -346,6 +387,7 @@
       "team_b": "Stall 7",
       "score_b": 9,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -354,6 +396,7 @@
       "team_b": "No Fly Zone",
       "score_b": 10,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -362,6 +405,7 @@
       "team_b": "Airborne",
       "score_b": 14,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -370,6 +414,7 @@
       "team_b": "Stall 7",
       "score_b": 9,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -378,6 +423,7 @@
       "team_b": "No Fly Zone",
       "score_b": 10,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -386,6 +432,7 @@
       "team_b": "Airborne",
       "score_b": 14,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -394,6 +441,7 @@
       "team_b": "Stall 7",
       "score_b": 9,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -402,6 +450,7 @@
       "team_b": "No Fly Zone",
       "score_b": 10,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -410,6 +459,7 @@
       "team_b": "Airborne",
       "score_b": 14,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -418,6 +468,7 @@
       "team_b": "Stall 7",
       "score_b": 9,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -426,6 +477,7 @@
       "team_b": "No Fly Zone",
       "score_b": 10,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -434,6 +486,7 @@
       "team_b": "Airborne",
       "score_b": 14,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -442,6 +495,7 @@
       "team_b": "Stall 7",
       "score_b": 9,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -450,6 +504,7 @@
       "team_b": "No Fly Zone",
       "score_b": 10,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     }
   ]

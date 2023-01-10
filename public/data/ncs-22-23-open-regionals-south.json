@@ -18,6 +18,7 @@
       "team_b": "Alma Matter",
       "score_b": 3,
       "stage": "pool",
+      "pool_name": "Pool A",
       "time": ""
     },
     {
@@ -26,6 +27,7 @@
       "team_b": "No Fly Zone",
       "score_b": 3,
       "stage": "pool",
+      "pool_name": "Pool A",
       "time": ""
     },
     {
@@ -34,6 +36,7 @@
       "team_b": "Callahans",
       "score_b": 9,
       "stage": "pool",
+      "pool_name": "Pool A",
       "time": ""
     },
     {
@@ -42,6 +45,7 @@
       "team_b": "Callahans",
       "score_b": 5,
       "stage": "pool",
+      "pool_name": "Pool A",
       "time": ""
     },
     {
@@ -50,6 +54,7 @@
       "team_b": "No Fly Zone",
       "score_b": 5,
       "stage": "pool",
+      "pool_name": "Pool A",
       "time": ""
     },
     {
@@ -58,6 +63,7 @@
       "team_b": "Sapthavyuha",
       "score_b": 3,
       "stage": "pool",
+      "pool_name": "Pool A",
       "time": ""
     },
     {
@@ -66,6 +72,7 @@
       "team_b": "Sapthavyuha",
       "score_b": 0,
       "stage": "pool",
+      "pool_name": "Pool A",
       "time": ""
     },
     {
@@ -74,6 +81,7 @@
       "team_b": "Alma Matter",
       "score_b": 10,
       "stage": "pool",
+      "pool_name": "Pool A",
       "time": ""
     },
     {
@@ -82,6 +90,7 @@
       "team_b": "Airbenders",
       "score_b": 10,
       "stage": "pool",
+      "pool_name": "Pool A",
       "time": ""
     },
     {
@@ -90,6 +99,7 @@
       "team_b": "ATC",
       "score_b": 10,
       "stage": "pool",
+      "pool_name": "Pool A",
       "time": ""
     },
     {
@@ -98,6 +108,7 @@
       "team_b": "ATC",
       "score_b": 9,
       "stage": "pool",
+      "pool_name": "Pool A",
       "time": ""
     },
     {
@@ -106,6 +117,7 @@
       "team_b": "Alma Matter",
       "score_b": 9,
       "stage": "pool",
+      "pool_name": "Pool A",
       "time": ""
     },
     {
@@ -114,6 +126,7 @@
       "team_b": "BPHC",
       "score_b": 2,
       "stage": "pool",
+      "pool_name": "Pool B",
       "time": ""
     },
     {
@@ -122,6 +135,7 @@
       "team_b": "CFT",
       "score_b": 6,
       "stage": "pool",
+      "pool_name": "Pool B",
       "time": ""
     },
     {
@@ -130,6 +144,7 @@
       "team_b": "TIKS",
       "score_b": 11,
       "stage": "pool",
+      "pool_name": "Pool B",
       "time": ""
     },
     {
@@ -138,6 +153,7 @@
       "team_b": "Puyal",
       "score_b": 12,
       "stage": "pool",
+      "pool_name": "Pool B",
       "time": ""
     },
     {
@@ -146,6 +162,7 @@
       "team_b": "TIKS",
       "score_b": 9,
       "stage": "pool",
+      "pool_name": "Pool B",
       "time": ""
     },
     {
@@ -154,6 +171,7 @@
       "team_b": "CFT",
       "score_b": 4,
       "stage": "pool",
+      "pool_name": "Pool B",
       "time": ""
     },
     {
@@ -162,6 +180,7 @@
       "team_b": "Puyal",
       "score_b": 11,
       "stage": "pool",
+      "pool_name": "Pool B",
       "time": ""
     },
     {
@@ -170,6 +189,7 @@
       "team_b": "BPHC",
       "score_b": 2,
       "stage": "pool",
+      "pool_name": "Pool B",
       "time": ""
     },
     {
@@ -178,6 +198,7 @@
       "team_b": "Stall 7",
       "score_b": 9,
       "stage": "pool",
+      "pool_name": "Pool B",
       "time": ""
     },
     {
@@ -186,6 +207,7 @@
       "team_b": "L2f",
       "score_b": 10,
       "stage": "pool",
+      "pool_name": "Pool B",
       "time": ""
     },
     {
@@ -194,6 +216,7 @@
       "team_b": "CFT",
       "score_b": 9,
       "stage": "pool",
+      "pool_name": "Pool B",
       "time": ""
     },
     {
@@ -202,6 +225,7 @@
       "team_b": "Airborne",
       "score_b": 14,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -210,6 +234,7 @@
       "team_b": "Stall 7",
       "score_b": 9,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -218,6 +243,7 @@
       "team_b": "No Fly Zone",
       "score_b": 10,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -226,6 +252,7 @@
       "team_b": "Puyal",
       "score_b": 5,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -234,6 +261,7 @@
       "team_b": "Sapthavyuha",
       "score_b": 0,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     }
   ]

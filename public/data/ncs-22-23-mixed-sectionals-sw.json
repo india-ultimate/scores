@@ -17,6 +17,7 @@
       "team_b": "DoD",
       "score_b": 6,
       "stage": "pool",
+      "pool_name": "Pool A",
       "time": ""
     },
     {
@@ -25,6 +26,7 @@
       "team_b": "Stall 7",
       "score_b": 14,
       "stage": "pool",
+      "pool_name": "Pool B",
       "time": ""
     },
     {
@@ -33,6 +35,7 @@
       "team_b": "NFZ",
       "score_b": 6,
       "stage": "pool",
+      "pool_name": "Pool A",
       "time": ""
     },
     {
@@ -41,6 +44,7 @@
       "team_b": "Airbenders Neo",
       "score_b": 3,
       "stage": "pool",
+      "pool_name": "Pool B",
       "time": ""
     },
     {
@@ -49,6 +53,7 @@
       "team_b": "Hammer that zone - 2",
       "score_b": 1,
       "stage": "pool",
+      "pool_name": "Pool A",
       "time": ""
     },
     {
@@ -57,6 +62,7 @@
       "team_b": "OpenSide (TIKS)",
       "score_b": 6,
       "stage": "pool",
+      "pool_name": "Pool B",
       "time": ""
     },
     {
@@ -65,6 +71,7 @@
       "team_b": "NFZ",
       "score_b": 11,
       "stage": "pool",
+      "pool_name": "Pool A",
       "time": ""
     },
     {
@@ -73,6 +80,7 @@
       "team_b": "Airbenders Neo",
       "score_b": 4,
       "stage": "pool",
+      "pool_name": "Pool B",
       "time": ""
     },
     {
@@ -81,6 +89,7 @@
       "team_b": "Hammer that zone - 2",
       "score_b": 6,
       "stage": "pool",
+      "pool_name": "Pool A",
       "time": ""
     },
     {
@@ -89,6 +98,7 @@
       "team_b": "OpenSide (TIKS)",
       "score_b": 3,
       "stage": "pool",
+      "pool_name": "Pool B",
       "time": ""
     },
     {
@@ -97,6 +107,7 @@
       "team_b": "Hammer that zone - 2",
       "score_b": 4,
       "stage": "pool",
+      "pool_name": "Pool A",
       "time": ""
     },
     {
@@ -105,6 +116,7 @@
       "team_b": "OpenSide (TIKS)",
       "score_b": 13,
       "stage": "pool",
+      "pool_name": "Pool B",
       "time": ""
     },
     {
@@ -113,6 +125,7 @@
       "team_b": "Breakside (TIKS)",
       "score_b": 7,
       "stage": "pool",
+      "pool_name": "Pool C",
       "time": ""
     },
     {
@@ -121,6 +134,7 @@
       "team_b": "L2F",
       "score_b": 11,
       "stage": "pool",
+      "pool_name": "Pool D",
       "time": ""
     },
     {
@@ -129,6 +143,7 @@
       "team_b": "Hammer that zone-1",
       "score_b": 3,
       "stage": "pool",
+      "pool_name": "Pool C",
       "time": ""
     },
     {
@@ -137,6 +152,7 @@
       "team_b": "CFT",
       "score_b": 6,
       "stage": "pool",
+      "pool_name": "Pool D",
       "time": ""
     },
     {
@@ -145,6 +161,7 @@
       "team_b": "Alma Matter",
       "score_b": 3,
       "stage": "pool",
+      "pool_name": "Pool C",
       "time": ""
     },
     {
@@ -153,6 +170,7 @@
       "team_b": "Phoenix",
       "score_b": 6,
       "stage": "pool",
+      "pool_name": "Pool D",
       "time": ""
     },
     {
@@ -161,6 +179,7 @@
       "team_b": "Hammer that zone-1",
       "score_b": 3,
       "stage": "pool",
+      "pool_name": "Pool C",
       "time": ""
     },
     {
@@ -169,6 +188,7 @@
       "team_b": "CFT",
       "score_b": 7,
       "stage": "pool",
+      "pool_name": "Pool D",
       "time": ""
     },
     {
@@ -177,6 +197,7 @@
       "team_b": "Alma Matter",
       "score_b": 4,
       "stage": "pool",
+      "pool_name": "Pool C",
       "time": ""
     },
     {
@@ -185,6 +206,7 @@
       "team_b": "Phoenix",
       "score_b": 3,
       "stage": "pool",
+      "pool_name": "Pool D",
       "time": ""
     },
     {
@@ -193,6 +215,7 @@
       "team_b": "Alma Matter",
       "score_b": 13,
       "stage": "pool",
+      "pool_name": "Pool C",
       "time": ""
     },
     {
@@ -201,6 +224,7 @@
       "team_b": "Phoenix",
       "score_b": 9,
       "stage": "pool",
+      "pool_name": "Pool D",
       "time": ""
     },
     {
@@ -209,6 +233,7 @@
       "team_b": "ATC",
       "score_b": 11,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -217,6 +242,7 @@
       "team_b": "L2F",
       "score_b": 14,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -225,6 +251,7 @@
       "team_b": "DoD",
       "score_b": 10,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -233,6 +260,7 @@
       "team_b": "OpenSide (TIKS)",
       "score_b": 5,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -241,6 +269,7 @@
       "team_b": "Alma Mater",
       "score_b": 5,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -249,6 +278,7 @@
       "team_b": "CFT",
       "score_b": 12,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -257,6 +287,7 @@
       "team_b": "#N/A",
       "score_b": 4,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -265,6 +296,7 @@
       "team_b": "#N/A",
       "score_b": 11,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -273,6 +305,7 @@
       "team_b": "Girgitle",
       "score_b": 15,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -281,6 +314,7 @@
       "team_b": "L2F",
       "score_b": 8,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -289,6 +323,7 @@
       "team_b": "Slipdiisc",
       "score_b": 5,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -297,6 +332,7 @@
       "team_b": "Stall 7",
       "score_b": 15,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -305,6 +341,7 @@
       "team_b": "Airbenders Neo",
       "score_b": 9,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -313,6 +350,7 @@
       "team_b": "CFT",
       "score_b": 13,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -321,6 +359,7 @@
       "team_b": "Phoenix",
       "score_b": 2,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -329,6 +368,7 @@
       "team_b": "OpenSide (TIKS)",
       "score_b": 14,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -337,6 +377,7 @@
       "team_b": "Breakside (TIKS)",
       "score_b": 8,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -345,6 +386,7 @@
       "team_b": "Stall 7",
       "score_b": 10,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -353,6 +395,7 @@
       "team_b": "L2F",
       "score_b": 13,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -361,6 +404,7 @@
       "team_b": "NFZ",
       "score_b": 10,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -369,6 +413,7 @@
       "team_b": "CFT",
       "score_b": 7,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -377,6 +422,7 @@
       "team_b": "OpenSide (TIKS)",
       "score_b": 9,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -385,6 +431,7 @@
       "team_b": "Hammer that zone-1",
       "score_b": 9,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -393,6 +440,7 @@
       "team_b": "Hammer that zone-2",
       "score_b": 12,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -401,6 +449,7 @@
       "team_b": "ATC",
       "score_b": 11,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -409,6 +458,7 @@
       "team_b": "Breakside (TIKS)",
       "score_b": 10,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -417,6 +467,7 @@
       "team_b": "NFZ",
       "score_b": 7,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -425,6 +476,7 @@
       "team_b": "Airbenders One",
       "score_b": 15,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -433,6 +485,7 @@
       "team_b": "OpenSide (TIKS)",
       "score_b": 3,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -441,6 +494,7 @@
       "team_b": "CFT",
       "score_b": 12,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -449,6 +503,7 @@
       "team_b": "Phoenix",
       "score_b": 10,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     },
     {
@@ -457,6 +512,7 @@
       "team_b": "Hammer that zone-1",
       "score_b": 4,
       "stage": "brackets",
+      "pool_name": "",
       "time": ""
     }
   ]
