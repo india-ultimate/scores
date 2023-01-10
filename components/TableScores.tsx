@@ -46,6 +46,7 @@ interface RowData {
   score_a: number;
   team_b: string;
   score_b: number;
+  stage: string;
 }
 
 interface TableScoresProps {
@@ -139,14 +140,19 @@ export function TableScores({ data }: TableScoresProps) {
     );
   };
 
-  const rows = sortedData.map((row, index) => (
-    <tr key={index}>
-      <td>{row.team_a}</td>
-      <td>{row.score_a}</td>
-      <td>{row.score_b}</td>
-      <td>{row.team_b}</td>
-    </tr>
-  ));
+  const rows = sortedData.map((row, index) => {
+    return (
+      <tr
+        key={index}
+        style={{ backgroundColor: row.stage === "brackets" ? "lightblue" : "" }}
+      >
+        <td>{row.team_a}</td>
+        <td>{row.score_a}</td>
+        <td>{row.score_b}</td>
+        <td>{row.team_b}</td>
+      </tr>
+    );
+  });
 
   return (
     <ScrollArea>
