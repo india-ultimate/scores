@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import React, { useState, useEffect } from "react";
-import { Select } from "antd";
+import { Select } from "@mantine/core";
 import { TableScores } from '../components/TableScores';
 
 interface Tournament {
@@ -86,10 +86,9 @@ export default function Home() {
                     <Select
                         className={styles.tournamentSelector}
                         placeholder="select tournament"
+                        data={tournaments}
                         onChange={selectTournament}
-                        options={tournaments}
                     />
-
                     {metadata.name.length > 0 && <h2>{metadata.name}</h2>}
                     <ul >
                         {displayList(metadata).map(item => <li key={item.key}><em>{item.key}: </em> {item.value}</li>)}
