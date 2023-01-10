@@ -34,7 +34,6 @@
 }
 
 .content {
-  text-align: center;
   min-height: 80vh;
   width: 100%;
 }
@@ -191,7 +190,6 @@
 
   .content {
     padding: 6rem 0rem 10rem 0rem;
-    text-align: center;
   }
 
   .grid {
