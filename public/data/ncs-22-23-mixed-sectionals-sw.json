@@ -629,22 +629,70 @@
       "time": ""
     }
   ],
-  "rankings": {
-    "1": "ATC",
-    "2": "Girgitle",
-    "3": "Stall 7",
-    "4": "Breakside (TIKS)",
-    "5": "L2F",
-    "6": "NFZ",
-    "7": "Airbenders One",
-    "8": "Slipdiisc",
-    "9": "DoD",
-    "10": "OpenSide (TIKS)",
-    "11": "CFT",
-    "12": "Alma Mater",
-    "13": "Airbenders Neo",
-    "14": "Phoenix",
-    "15": "Hammer that zone-2",
-    "16": "Hammer that zone-1"
-  }
+  "rankings": [
+    {
+      "rank": 1,
+      "team": "ATC"
+    },
+    {
+      "rank": 2,
+      "team": "Girgitle"
+    },
+    {
+      "rank": 3,
+      "team": "Stall 7"
+    },
+    {
+      "rank": 4,
+      "team": "Breakside (TIKS)"
+    },
+    {
+      "rank": 5,
+      "team": "L2F"
+    },
+    {
+      "rank": 6,
+      "team": "NFZ"
+    },
+    {
+      "rank": 7,
+      "team": "Airbenders One"
+    },
+    {
+      "rank": 8,
+      "team": "Slipdiisc"
+    },
+    {
+      "rank": 9,
+      "team": "DoD"
+    },
+    {
+      "rank": 10,
+      "team": "OpenSide (TIKS)"
+    },
+    {
+      "rank": 11,
+      "team": "CFT"
+    },
+    {
+      "rank": 12,
+      "team": "Alma Mater"
+    },
+    {
+      "rank": 13,
+      "team": "Airbenders Neo"
+    },
+    {
+      "rank": 14,
+      "team": "Phoenix"
+    },
+    {
+      "rank": 15,
+      "team": "Hammer that zone-2"
+    },
+    {
+      "rank": 16,
+      "team": "Hammer that zone-1"
+    }
+  ]
 }

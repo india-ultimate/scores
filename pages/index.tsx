@@ -1,4 +1,3 @@
-import Head from "next/head";
 import React, { useState, useEffect } from "react";
 import {
 	Select,
@@ -7,11 +6,9 @@ import {
 	Card,
 	Text,
 	AppShell,
-	Navbar,
 	Header,
 	Group,
 	Footer,
-	Center,
 	Anchor,
 } from "@mantine/core";
 import { TableScores } from "../components/TableScores";

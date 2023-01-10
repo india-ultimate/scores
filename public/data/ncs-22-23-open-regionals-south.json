@@ -322,20 +322,62 @@
       "time": ""
     }
   ],
-  "rankings": {
-    "1": "Airborne",
-    "2": "Spinergy",
-    "3": "ATC",
-    "4": "Stall 7",
-    "5": "Airbenders",
-    "6": "TIKS",
-    "7": "L2f",
-    "8": "No Fly Zone",
-    "9": "CFT",
-    "10": "Alma MAtter",
-    "11": "Callahans",
-    "12": "Puyal",
-    "13": "BPHC",
-    "14": "Sapthavyuha"
-  }
+  "rankings": [
+    {
+      "rank": 1,
+      "team": "Airborne"
+    },
+    {
+      "rank": 2,
+      "team": "Spinergy"
+    },
+    {
+      "rank": 3,
+      "team": "ATC"
+    },
+    {
+      "rank": 4,
+      "team": "Stall 7"
+    },
+    {
+      "rank": 5,
+      "team": "Airbenders"
+    },
+    {
+      "rank": 6,
+      "team": "TIKS"
+    },
+    {
+      "rank": 7,
+      "team": "L2f"
+    },
+    {
+      "rank": 8,
+      "team": "No Fly Zone"
+    },
+    {
+      "rank": 9,
+      "team": "CFT"
+    },
+    {
+      "rank": 10,
+      "team": "Alma MAtter"
+    },
+    {
+      "rank": 11,
+      "team": "Callahans"
+    },
+    {
+      "rank": 12,
+      "team": "Puyal"
+    },
+    {
+      "rank": 13,
+      "team": "BPHC"
+    },
+    {
+      "rank": 14,
+      "team": "Sapthavyuha"
+    }
+  ]
 }

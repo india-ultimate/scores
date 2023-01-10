@@ -981,28 +981,94 @@
       "time": ""
     }
   ],
-  "rankings": {
-    "1": "Airborne",
-    "2": "Airbenders One",
-    "3": "Flywild ",
-    "4": "Spinergy",
-    "5": "Stall 7",
-    "6": "Learning to Fly",
-    "7": "Air Traffic Control ",
-    "8": "Blitzkrieg",
-    "9": "Stray Dogs",
-    "10": "Chakraa",
-    "11": "Girgitle",
-    "12": "TIKS Breakside",
-    "13": "Callahans",
-    "14": "SlipDisc",
-    "15": "Alma Matter",
-    "16": "Falaknuma Fekus",
-    "17": "Cleared for Take Off",
-    "18": "Airbenders Neo",
-    "19": "TIKS Openside",
-    "20": "Phoenix",
-    "21": "Doesn't Matter",
-    "22": "Sapthavyuha"
-  }
+  "rankings": [
+    {
+      "rank": 1,
+      "team": "Airborne"
+    },
+    {
+      "rank": 2,
+      "team": "Airbenders One"
+    },
+    {
+      "rank": 3,
+      "team": "Flywild "
+    },
+    {
+      "rank": 4,
+      "team": "Spinergy"
+    },
+    {
+      "rank": 5,
+      "team": "Stall 7"
+    },
+    {
+      "rank": 6,
+      "team": "Learning to Fly"
+    },
+    {
+      "rank": 7,
+      "team": "Air Traffic Control "
+    },
+    {
+      "rank": 8,
+      "team": "Blitzkrieg"
+    },
+    {
+      "rank": 9,
+      "team": "Stray Dogs"
+    },
+    {
+      "rank": 10,
+      "team": "Chakraa"
+    },
+    {
+      "rank": 11,
+      "team": "Girgitle"
+    },
+    {
+      "rank": 12,
+      "team": "TIKS Breakside"
+    },
+    {
+      "rank": 13,
+      "team": "Callahans"
+    },
+    {
+      "rank": 14,
+      "team": "SlipDisc"
+    },
+    {
+      "rank": 15,
+      "team": "Alma Matter"
+    },
+    {
+      "rank": 16,
+      "team": "Falaknuma Fekus"
+    },
+    {
+      "rank": 17,
+      "team": "Cleared for Take Off"
+    },
+    {
+      "rank": 18,
+      "team": "Airbenders Neo"
+    },
+    {
+      "rank": 19,
+      "team": "TIKS Openside"
+    },
+    {
+      "rank": 20,
+      "team": "Phoenix"
+    },
+    {
+      "rank": 21,
+      "team": "Doesn't Matter"
+    },
+    {
+      "rank": 22,
+      "team": "Sapthavyuha"
+    }
+  ]
 }

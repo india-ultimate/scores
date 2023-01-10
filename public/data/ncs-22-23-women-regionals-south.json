@@ -619,16 +619,46 @@
       "time": ""
     }
   ],
-  "rankings": {
-    "1": "L2f",
-    "2": "Spinborne",
-    "3": "ATC+CFT",
-    "4": "TIKS",
-    "5": "PUCCA",
-    "6": "Airbenders",
-    "7": "Stall 7",
-    "8": "No Fly Zone",
-    "9": "SpyBits",
-    "10": "Alma Matter+ Dosen't Matter"
-  }
+  "rankings": [
+    {
+      "rank": 1,
+      "team": "L2f"
+    },
+    {
+      "rank": 2,
+      "team": "Spinborne"
+    },
+    {
+      "rank": 3,
+      "team": "ATC+CFT"
+    },
+    {
+      "rank": 4,
+      "team": "TIKS"
+    },
+    {
+      "rank": 5,
+      "team": "PUCCA"
+    },
+    {
+      "rank": 6,
+      "team": "Airbenders"
+    },
+    {
+      "rank": 7,
+      "team": "Stall 7"
+    },
+    {
+      "rank": 8,
+      "team": "No Fly Zone"
+    },
+    {
+      "rank": 9,
+      "team": "SpyBits"
+    },
+    {
+      "rank": 10,
+      "team": "Alma Matter+ Dosen't Matter"
+    }
+  ]
 }

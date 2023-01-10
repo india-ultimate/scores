@@ -187,11 +187,11 @@ def parse_rankings(path, num_teams):
                 ):
                     ranking_columns.append(col)
 
+    ranks = {}
     if not ranking_columns:
-        return []
+        return ranks
 
     ranking_column = sorted(ranking_columns)[0]
-    ranks = {}
     with open(path) as f:
         csv_data = csv.reader(f)
         for i, line in enumerate(csv_data):
@@ -227,7 +227,9 @@ def convert_raw_data_to_json(tournament):
 
     with open(PUBLIC_DATA_DIR.joinpath(f"{slug}.json"), "w") as f:
         tournament["scores"] = data
-        tournament["rankings"] = rankings
+        tournament["rankings"] = [
+            {"rank": rank, "team": team} for rank, team in sorted(rankings.items())
+        ]
         json.dump(tournament, f, indent=2, ensure_ascii=False)
 
 
