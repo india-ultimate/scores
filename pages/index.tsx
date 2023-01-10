@@ -35,7 +35,7 @@ export default function Home() {
     };
 
     const getLink = (url: string) => {
-        return <a target="_blank" rel="noopener noreferrer" href={url}>{url}/</a>
+        return <a target="_blank" rel="noopener noreferrer" href={url}>{url}</a>
     }
 
     const getSheetLink = (sheetId: string) => {
