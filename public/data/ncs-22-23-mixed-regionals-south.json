@@ -309,60 +309,6 @@
       "time": "13:00 to 14:15"
     },
     {
-      "team_a": "Tiks Openside",
-      "score_a": 7,
-      "team_b": "Doesn't Matter",
-      "score_b": 6,
-      "stage": "pool",
-      "pool_name": "Pool J",
-      "time": ""
-    },
-    {
-      "team_a": "Airbenders Neo",
-      "score_a": 12,
-      "team_b": "Doesn't Matter",
-      "score_b": 7,
-      "stage": "pool",
-      "pool_name": "Pool J",
-      "time": ""
-    },
-    {
-      "team_a": "Tiks Openside",
-      "score_a": 5,
-      "team_b": "Airbenders Neo",
-      "score_b": 8,
-      "stage": "pool",
-      "pool_name": "Pool J",
-      "time": ""
-    },
-    {
-      "team_a": "Cleared for Take off",
-      "score_a": 12,
-      "team_b": "Sapthavyuha",
-      "score_b": 3,
-      "stage": "pool",
-      "pool_name": "Pool K",
-      "time": ""
-    },
-    {
-      "team_a": "Phoenix",
-      "score_a": 15,
-      "team_b": "Sapthavyuha",
-      "score_b": 3,
-      "stage": "pool",
-      "pool_name": "Pool K",
-      "time": ""
-    },
-    {
-      "team_a": "Cleared for Take off",
-      "score_a": 10,
-      "team_b": "Phoenix",
-      "score_b": 5,
-      "stage": "pool",
-      "pool_name": "Pool K",
-      "time": ""
-    },
-    {
       "team_a": "Airborne",
       "score_a": 15,
       "team_b": "Blitzkrieg",
@@ -638,7 +584,7 @@
       "team_b": "Doesn't Matter",
       "score_b": 6,
       "stage": "brackets",
-      "pool_name": "",
+      "pool_name": "Pool J",
       "time": ""
     },
     {
@@ -647,7 +593,7 @@
       "team_b": "Doesn't Matter",
       "score_b": 7,
       "stage": "brackets",
-      "pool_name": "",
+      "pool_name": "Pool J",
       "time": ""
     },
     {
@@ -656,7 +602,7 @@
       "team_b": "Airbenders Neo",
       "score_b": 8,
       "stage": "brackets",
-      "pool_name": "",
+      "pool_name": "Pool J",
       "time": ""
     },
     {
@@ -665,7 +611,7 @@
       "team_b": "Sapthavyuha",
       "score_b": 3,
       "stage": "brackets",
-      "pool_name": "",
+      "pool_name": "Pool K",
       "time": ""
     },
     {
@@ -674,7 +620,7 @@
       "team_b": "Sapthavyuha",
       "score_b": 3,
       "stage": "brackets",
-      "pool_name": "",
+      "pool_name": "Pool K",
       "time": ""
     },
     {
@@ -683,7 +629,7 @@
       "team_b": "Phoenix",
       "score_b": 5,
       "stage": "brackets",
-      "pool_name": "",
+      "pool_name": "Pool K",
       "time": ""
     },
     {

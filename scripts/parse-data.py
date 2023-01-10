@@ -93,6 +93,8 @@ def parse_brackets_data(path):
         data = {}
         header = next(csv_data)
         columns = sorted(find_bracket_data_columns(path))
+        pools_rows = {}
+        brackets_pools = set()
         for row, line in enumerate(csv_data):
             for col in columns:
                 seed = line[col]
@@ -100,13 +102,20 @@ def parse_brackets_data(path):
                 score = line[col + 2]
                 if seed.isnumeric() and name and score.isnumeric():
                     data[(col, row)] = (seed, name, score)
+                elif seed.lower().startswith("pool "):
+                    brackets_pools.add(seed.lower())
+                    pools_col = pools_rows.setdefault(col, {})
+                    pools_col[row] = seed.title()
 
     matches = sorted(data.keys())
     stage = "brackets"
     scores = []
+
     for left, right in zip(matches[::2], matches[1::2]):
         _, team_a, score_a = data[left]
         _, team_b, score_b = data[right]
+        col, row = left
+        pool_name = find_bracket_pool_name(pools_rows, col, row)
         score = Score(
             team_a=team_a.strip(),
             score_a=int(score_a.strip()),
@@ -114,10 +123,22 @@ def parse_brackets_data(path):
             score_b=int(score_b.strip()),
             time="",
             stage=stage,
-            pool_name="",
+            pool_name=pool_name,
         )
         scores.append(score._asdict())
-    return scores
+    return scores, brackets_pools
+
+
+def find_bracket_pool_name(pools_rows, col, row):
+    if col in pools_rows:
+        rows = [v for v in pools_rows[col].keys() if v <= row]
+        if rows:
+            row_ = max(rows)
+            return pools_rows[col][row_]
+        else:
+            return ""
+    else:
+        return ""
 
 
 def convert_raw_data_to_json(tournament):
@@ -130,7 +151,9 @@ def convert_raw_data_to_json(tournament):
 
     brackets = RAW_DATA_DIR.joinpath(f"{slug}-brackets.csv")
     if brackets.exists():
-        data += parse_brackets_data(brackets)
+        brackets, exclude_pools = parse_brackets_data(brackets)
+        data = [game for game in data if game["pool_name"].lower() not in exclude_pools]
+        data += brackets
 
     with open(PUBLIC_DATA_DIR.joinpath(f"{slug}.json"), "w") as f:
         tournament["data"] = data
