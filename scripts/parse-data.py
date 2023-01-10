@@ -1,11 +1,9 @@
 #!/usr/bin/env python
-from collections import defaultdict, namedtuple
 import csv
 import datetime
 import json
+from collections import namedtuple
 from pathlib import Path
-
-import requests
 
 ROOT_DIR = Path(__file__).parent.parent.absolute()
 DATA_DIR = ROOT_DIR.joinpath("data")
@@ -13,7 +11,9 @@ RAW_DATA_DIR = DATA_DIR.joinpath("raw")
 PUBLIC_DATA_DIR = ROOT_DIR.joinpath("public", "data")
 
 
-Score = namedtuple("Score", ("team_a", "score_a", "team_b", "score_b", "stage", "time"))
+Score = namedtuple(
+    "Score", ("team_a", "score_a", "team_b", "score_b", "stage", "pool_name", "time")
+)
 
 
 def find_pool_data_columns(path):
@@ -50,6 +50,8 @@ def parse_pools_data(path, stage="pool"):
                 if not team_l or team_l.isnumeric() or not team_r or team_r.isnumeric():
                     continue
                 time = line[time_column[i]].strip() if i < len(time_column) else ""
+                pool = line[left - 2].strip()[0]
+                pool_name = f"Pool {pool}" if not pool.isnumeric() else "Pool Extra"
                 score = Score(
                     team_a=team_l,
                     score_a=int(score_l),
@@ -57,6 +59,7 @@ def parse_pools_data(path, stage="pool"):
                     score_b=int(score_r),
                     time=time,
                     stage=stage,
+                    pool_name=pool_name,
                 )
                 scores.append(score._asdict())
     return scores
@@ -111,6 +114,7 @@ def parse_brackets_data(path):
             score_b=int(score_b.strip()),
             time="",
             stage=stage,
+            pool_name="",
         )
         scores.append(score._asdict())
     return scores
