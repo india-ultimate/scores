@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import React, { useState, useEffect } from "react";
-import { Select, Title, Grid } from "@mantine/core";
+import { Select, Title, Grid, Card, Text } from "@mantine/core";
 import { TableScores } from '../components/TableScores';
 
 interface Tournament {
@@ -89,13 +89,15 @@ export default function Home() {
                         data={tournaments}
                         onChange={selectTournament}
                     />
-                    {metadata.name.length > 0 && <Title order={2}>{metadata.name}</Title>}
-                    {displayList(metadata).map(item =>
-                        <Grid key={item.key}>
-                            <Grid.Col span={2}>{item.key}</Grid.Col>
-                            <Grid.Col span={10}>{item.value}</Grid.Col>
-                        </Grid>
-                    )}
+                    {metadata.name.length > 0 && <Title ta="center" order={2}>{metadata.name}</Title>}
+                    {metadata.name.length > 0 && <Card>
+                        {displayList(metadata).map(item =>
+                            <Grid key={item.key}>
+                                <Grid.Col span={2}><Text fz="sm" c="dimmed">{item.key}</Text></Grid.Col>
+                                <Grid.Col span={10}><Text fz="sm">{item.value}</Text></Grid.Col>
+                            </Grid>
+                        )}
+                    </Card>}
                     {scores.length > 0 && <TableScores data={scores} />}
                 </div>
                 <div className={styles.card}>
