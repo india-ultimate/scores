@@ -19,6 +19,8 @@
       "score_b": 3,
       "stage": "pool",
       "pool_name": "Pool A",
+      "bracket_name": "",
+      "bracket_round": -1,
       "time": ""
     },
     {
@@ -28,6 +30,8 @@
       "score_b": 3,
       "stage": "pool",
       "pool_name": "Pool A",
+      "bracket_name": "",
+      "bracket_round": -1,
       "time": ""
     },
     {
@@ -37,6 +41,8 @@
       "score_b": 9,
       "stage": "pool",
       "pool_name": "Pool A",
+      "bracket_name": "",
+      "bracket_round": -1,
       "time": ""
     },
     {
@@ -46,6 +52,8 @@
       "score_b": 5,
       "stage": "pool",
       "pool_name": "Pool A",
+      "bracket_name": "",
+      "bracket_round": -1,
       "time": ""
     },
     {
@@ -55,6 +63,8 @@
       "score_b": 5,
       "stage": "pool",
       "pool_name": "Pool A",
+      "bracket_name": "",
+      "bracket_round": -1,
       "time": ""
     },
     {
@@ -64,6 +74,8 @@
       "score_b": 3,
       "stage": "pool",
       "pool_name": "Pool A",
+      "bracket_name": "",
+      "bracket_round": -1,
       "time": ""
     },
     {
@@ -73,6 +85,8 @@
       "score_b": 0,
       "stage": "pool",
       "pool_name": "Pool A",
+      "bracket_name": "",
+      "bracket_round": -1,
       "time": ""
     },
     {
@@ -82,6 +96,8 @@
       "score_b": 10,
       "stage": "pool",
       "pool_name": "Pool A",
+      "bracket_name": "",
+      "bracket_round": -1,
       "time": ""
     },
     {
@@ -91,6 +107,8 @@
       "score_b": 10,
       "stage": "pool",
       "pool_name": "Pool A",
+      "bracket_name": "",
+      "bracket_round": -1,
       "time": ""
     },
     {
@@ -100,6 +118,8 @@
       "score_b": 10,
       "stage": "pool",
       "pool_name": "Pool A",
+      "bracket_name": "",
+      "bracket_round": -1,
       "time": ""
     },
     {
@@ -109,6 +129,8 @@
       "score_b": 9,
       "stage": "pool",
       "pool_name": "Pool A",
+      "bracket_name": "",
+      "bracket_round": -1,
       "time": ""
     },
     {
@@ -118,6 +140,8 @@
       "score_b": 9,
       "stage": "pool",
       "pool_name": "Pool A",
+      "bracket_name": "",
+      "bracket_round": -1,
       "time": ""
     },
     {
@@ -127,6 +151,8 @@
       "score_b": 2,
       "stage": "pool",
       "pool_name": "Pool B",
+      "bracket_name": "",
+      "bracket_round": -1,
       "time": ""
     },
     {
@@ -136,6 +162,8 @@
       "score_b": 6,
       "stage": "pool",
       "pool_name": "Pool B",
+      "bracket_name": "",
+      "bracket_round": -1,
       "time": ""
     },
     {
@@ -145,6 +173,8 @@
       "score_b": 11,
       "stage": "pool",
       "pool_name": "Pool B",
+      "bracket_name": "",
+      "bracket_round": -1,
       "time": ""
     },
     {
@@ -154,6 +184,8 @@
       "score_b": 12,
       "stage": "pool",
       "pool_name": "Pool B",
+      "bracket_name": "",
+      "bracket_round": -1,
       "time": ""
     },
     {
@@ -163,6 +195,8 @@
       "score_b": 9,
       "stage": "pool",
       "pool_name": "Pool B",
+      "bracket_name": "",
+      "bracket_round": -1,
       "time": ""
     },
     {
@@ -172,6 +206,8 @@
       "score_b": 4,
       "stage": "pool",
       "pool_name": "Pool B",
+      "bracket_name": "",
+      "bracket_round": -1,
       "time": ""
     },
     {
@@ -181,6 +217,8 @@
       "score_b": 11,
       "stage": "pool",
       "pool_name": "Pool B",
+      "bracket_name": "",
+      "bracket_round": -1,
       "time": ""
     },
     {
@@ -190,6 +228,8 @@
       "score_b": 2,
       "stage": "pool",
       "pool_name": "Pool B",
+      "bracket_name": "",
+      "bracket_round": -1,
       "time": ""
     },
     {
@@ -199,6 +239,8 @@
       "score_b": 9,
       "stage": "pool",
       "pool_name": "Pool B",
+      "bracket_name": "",
+      "bracket_round": -1,
       "time": ""
     },
     {
@@ -208,6 +250,8 @@
       "score_b": 10,
       "stage": "pool",
       "pool_name": "Pool B",
+      "bracket_name": "",
+      "bracket_round": -1,
       "time": ""
     },
     {
@@ -217,6 +261,8 @@
       "score_b": 9,
       "stage": "pool",
       "pool_name": "Pool B",
+      "bracket_name": "",
+      "bracket_round": -1,
       "time": ""
     },
     {
@@ -226,6 +272,8 @@
       "score_b": 14,
       "stage": "brackets",
       "pool_name": "",
+      "bracket_name": "Finals",
+      "bracket_round": 0,
       "time": ""
     },
     {
@@ -235,6 +283,8 @@
       "score_b": 9,
       "stage": "brackets",
       "pool_name": "",
+      "bracket_name": "Finals",
+      "bracket_round": 0,
       "time": ""
     },
     {
@@ -244,6 +294,8 @@
       "score_b": 10,
       "stage": "brackets",
       "pool_name": "",
+      "bracket_name": "Finals",
+      "bracket_round": 0,
       "time": ""
     },
     {
@@ -253,6 +305,8 @@
       "score_b": 5,
       "stage": "brackets",
       "pool_name": "",
+      "bracket_name": "Finals",
+      "bracket_round": 0,
       "time": ""
     },
     {
@@ -262,6 +316,8 @@
       "score_b": 0,
       "stage": "brackets",
       "pool_name": "",
+      "bracket_name": "Finals",
+      "bracket_round": 0,
       "time": ""
     }
   ]

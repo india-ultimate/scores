@@ -12,7 +12,18 @@ PUBLIC_DATA_DIR = ROOT_DIR.joinpath("public", "data")
 
 
 Score = namedtuple(
-    "Score", ("team_a", "score_a", "team_b", "score_b", "stage", "pool_name", "time")
+    "Score",
+    (
+        "team_a",
+        "score_a",
+        "team_b",
+        "score_b",
+        "stage",
+        "pool_name",
+        "bracket_name",
+        "bracket_round",
+        "time",
+    ),
 )
 
 
@@ -60,6 +71,8 @@ def parse_pools_data(path, stage="pool"):
                     time=time,
                     stage=stage,
                     pool_name=pool_name,
+                    bracket_name="",
+                    bracket_round=-1,
                 )
                 scores.append(score._asdict())
     return scores
@@ -124,9 +137,25 @@ def parse_brackets_data(path):
             time="",
             stage=stage,
             pool_name=pool_name,
+            bracket_name=get_bracket_name(columns, col),
+            bracket_round=columns.index(col),
         )
         scores.append(score._asdict())
     return scores, brackets_pools
+
+
+def get_bracket_name(columns, col):
+    round_ = columns[::-1].index(col)
+    if round_ == 0:
+        return "Finals"
+    elif round_ == 1:
+        return "Semis"
+    elif round_ == 2:
+        return "Quarters"
+    else:
+        n = round_ - 2
+        prefix = " ".join(["Pre"] * n)
+        return f"{prefix} Quarters"
 
 
 def find_bracket_pool_name(pools_rows, col, row):
