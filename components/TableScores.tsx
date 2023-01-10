@@ -158,9 +158,9 @@ export function TableScores({ data }: TableScoresProps) {
         onChange={handleSearchChange}
       />
       <Table
-        horizontalSpacing="md"
+        horizontalSpacing="lg"
         verticalSpacing="xs"
-        sx={{ tableLayout: "fixed", minWidth: 700 }}
+        sx={{ tableLayout: "fixed" }}
       >
         <thead>
           <tr>
