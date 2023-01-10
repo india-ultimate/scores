@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css";
 import React, { useState, useEffect } from "react";
 import { Select, Title, Grid, Card, Text } from "@mantine/core";
 import { TableScores } from "../components/TableScores";
+import tournamentsData from "../public/data/tournaments.json";
 
 interface Tournament {
   slug: string;
@@ -11,19 +12,13 @@ interface Tournament {
 }
 
 export default function Home() {
-  const [tournaments, setTournaments] = useState([]);
   const [scores, setScores] = useState([]);
   const [metadata, setMetadata] = useState({ slug: "", name: "" });
-
-  useEffect(() => {
-    fetch("/data/tournaments.json")
-      .then(response => response.json())
-      .then(data => {
-        setTournaments(
-          data.map((it: Tournament) => ({ value: it.slug, label: it.name }))
-        );
-      });
-  }, []);
+  const tournaments = tournamentsData.map((it: Tournament) => ({
+    value: it.slug,
+    label: it.name
+  }));
+  const latestTournament = tournaments[tournaments.length - 1];
 
   const selectTournament = (name: string) => {
     setScores([]);
@@ -35,6 +30,10 @@ export default function Home() {
         setMetadata(metadata);
       });
   };
+
+  useEffect(() => {
+    selectTournament(latestTournament.value);
+  }, []);
 
   const getLink = (url: string) => {
     return (
@@ -103,6 +102,7 @@ export default function Home() {
           <Select
             className={styles.tournamentSelector}
             placeholder="select tournament"
+            defaultValue={latestTournament.value}
             data={tournaments}
             onChange={selectTournament}
           />
