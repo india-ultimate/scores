@@ -37,8 +37,8 @@ export default function Home() {
 		fetch(`/data/${name}.json`)
 			.then((response) => response.json())
 			.then((tournament) => {
-				const { data, ...metadata } = tournament;
-				setScores(data);
+				const { scores, ...metadata } = tournament;
+				setScores(scores);
 				setMetadata(metadata);
 			});
 	};
