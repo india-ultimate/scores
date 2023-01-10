@@ -2,8 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import React, { useState, useEffect } from "react";
-import { Select, Typography, List } from "antd";
-import {TableScores} from '../components/TableScores';
+import { Select } from "antd";
+import { TableScores } from '../components/TableScores';
 
 interface Tournament {
     slug: string;
@@ -90,17 +90,10 @@ export default function Home() {
                         options={tournaments}
                     />
 
-                    {metadata.name.length > 0 && <List
-                        header={<Typography.Title level={1}>{metadata.name}</Typography.Title>}
-                        bordered
-                        dataSource={displayList(metadata)}
-                        renderItem={(item) => (
-                            <List.Item>
-                                <Typography.Text italic>{item.key}</Typography.Text>: {item.value}
-                            </List.Item>
-                        )}
-
-                    />}
+                    {metadata.name.length > 0 && <h2>{metadata.name}</h2>}
+                    <ul >
+                        {displayList(metadata).map(item => <li key={item.key}><em>{item.key}: </em> {item.value}</li>)}
+                    </ul>
                     {scores.length > 0 && <TableScores data={scores} />}
                 </div>
                 <div className={styles.card}>
