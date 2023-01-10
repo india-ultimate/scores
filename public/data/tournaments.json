@@ -10,7 +10,8 @@
     "venue": "Mysore",
     "division": "mixed",
     "sheet_id": "1KdpqKYGOd8mN6AdtT9pctXpb8EflO3n5",
-    "expiry": "2022-10-03"
+    "expiry": "2022-10-03",
+    "num_teams": 16
   },
   {
     "sheets": {
@@ -24,7 +25,8 @@
     "division": "women",
     "photos": "https://photos.app.goo.gl/fgsBAiHPqzxwS5Ws7",
     "sheet_id": "1984356btDOlhxwYoZs5c7t6LbE6Vwk-BNLwar8RNoJU",
-    "expiry": "2022-11-15"
+    "expiry": "2022-11-15",
+    "num_teams": 10
   },
   {
     "sheets": {
@@ -38,7 +40,8 @@
     "division": "open",
     "photos": "https://photos.app.goo.gl/fgsBAiHPqzxwS5Ws7",
     "sheet_id": "1984356btDOlhxwYoZs5c7t6LbE6Vwk-BNLwar8RNoJU",
-    "expiry": "2022-11-15"
+    "expiry": "2022-11-15",
+    "num_teams": 14
   },
   {
     "sheets": {
@@ -51,7 +54,8 @@
     "venue": "Bangalore",
     "division": "mixed",
     "sheet_id": "18eJUXRPuJQCVEsEukqDtB3PMy--CmzSZcIX9QJO4gfY",
-    "expiry": "2023-01-10"
+    "expiry": "2023-01-10",
+    "num_teams": 22
   },
   {
     "sheets": {
@@ -64,6 +68,7 @@
     "venue": "Surat",
     "division": "mixed",
     "sheet_id": "1W4rTuuNvr9i-kRywRrF8ckuPQ8Tjn9CdzhgYOm33S1k",
-    "expiry": "2023-01-17"
+    "expiry": "2023-01-17",
+    "num_teams": 12
   }
 ]

@@ -169,9 +169,48 @@ def find_bracket_pool_name(pools_rows, col, row):
         return ""
 
 
+def parse_rankings(path, num_teams):
+    columns = find_bracket_data_columns(path)
+    last_column = columns[-1] + 1 if columns else 0
+    with open(path) as f:
+        csv_data = csv.reader(f)
+        ranking_columns = []
+        for i, line in enumerate(csv_data):
+            n = len(line)
+            for col, content in enumerate(line[last_column:], start=last_column):
+                if col + 1 >= n:
+                    continue
+                if (
+                    content == str(num_teams)
+                    and line[col + 1]
+                    and not line[col + 1].isnumeric()
+                ):
+                    ranking_columns.append(col)
+
+    if not ranking_columns:
+        return []
+
+    ranking_column = sorted(ranking_columns)[0]
+    ranks = {}
+    with open(path) as f:
+        csv_data = csv.reader(f)
+        for i, line in enumerate(csv_data):
+            rank, team = line[ranking_column], line[ranking_column + 1]
+            if rank.isnumeric() and team and not team.isnumeric():
+                rank = int(rank)
+                if rank not in ranks:
+                    ranks[rank] = team
+                else:
+                    break
+
+    assert len(ranks) == num_teams
+    return ranks
+
+
 def convert_raw_data_to_json(tournament):
     slug = tournament["slug"]
     data = []
+    rankings = []
 
     pools = RAW_DATA_DIR.joinpath(f"{slug}-pools.csv")
     if pools.exists():
@@ -179,12 +218,16 @@ def convert_raw_data_to_json(tournament):
 
     brackets = RAW_DATA_DIR.joinpath(f"{slug}-brackets.csv")
     if brackets.exists():
-        brackets, exclude_pools = parse_brackets_data(brackets)
+        brackets_data, exclude_pools = parse_brackets_data(brackets)
         data = [game for game in data if game["pool_name"].lower() not in exclude_pools]
-        data += brackets
+        data += brackets_data
+
+        num_teams = tournament["num_teams"]
+        rankings = parse_rankings(brackets, num_teams)
 
     with open(PUBLIC_DATA_DIR.joinpath(f"{slug}.json"), "w") as f:
         tournament["scores"] = data
+        tournament["rankings"] = rankings
         json.dump(tournament, f, indent=2, ensure_ascii=False)
 
 

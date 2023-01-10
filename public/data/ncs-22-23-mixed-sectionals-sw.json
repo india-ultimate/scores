@@ -10,6 +10,7 @@
   "division": "mixed",
   "sheet_id": "1KdpqKYGOd8mN6AdtT9pctXpb8EflO3n5",
   "expiry": "2022-10-03",
+  "num_teams": 16,
   "scores": [
     {
       "team_a": "Airbenders One",
@@ -627,5 +628,23 @@
       "bracket_round": 3,
       "time": ""
     }
-  ]
+  ],
+  "rankings": {
+    "1": "ATC",
+    "2": "Girgitle",
+    "3": "Stall 7",
+    "4": "Breakside (TIKS)",
+    "5": "L2F",
+    "6": "NFZ",
+    "7": "Airbenders One",
+    "8": "Slipdiisc",
+    "9": "DoD",
+    "10": "OpenSide (TIKS)",
+    "11": "CFT",
+    "12": "Alma Mater",
+    "13": "Airbenders Neo",
+    "14": "Phoenix",
+    "15": "Hammer that zone-2",
+    "16": "Hammer that zone-1"
+  }
 }

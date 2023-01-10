@@ -11,6 +11,7 @@
   "photos": "https://photos.app.goo.gl/fgsBAiHPqzxwS5Ws7",
   "sheet_id": "1984356btDOlhxwYoZs5c7t6LbE6Vwk-BNLwar8RNoJU",
   "expiry": "2022-11-15",
+  "num_teams": 10,
   "scores": [
     {
       "team_a": "Spinborne",
@@ -617,5 +618,17 @@
       "bracket_round": 0,
       "time": ""
     }
-  ]
+  ],
+  "rankings": {
+    "1": "L2f",
+    "2": "Spinborne",
+    "3": "ATC+CFT",
+    "4": "TIKS",
+    "5": "PUCCA",
+    "6": "Airbenders",
+    "7": "Stall 7",
+    "8": "No Fly Zone",
+    "9": "SpyBits",
+    "10": "Alma Matter+ Dosen't Matter"
+  }
 }

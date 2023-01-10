@@ -11,6 +11,7 @@
   "photos": "https://photos.app.goo.gl/fgsBAiHPqzxwS5Ws7",
   "sheet_id": "1984356btDOlhxwYoZs5c7t6LbE6Vwk-BNLwar8RNoJU",
   "expiry": "2022-11-15",
+  "num_teams": 14,
   "scores": [
     {
       "team_a": "Spinergy",
@@ -320,5 +321,21 @@
       "bracket_round": 0,
       "time": ""
     }
-  ]
+  ],
+  "rankings": {
+    "1": "Airborne",
+    "2": "Spinergy",
+    "3": "ATC",
+    "4": "Stall 7",
+    "5": "Airbenders",
+    "6": "TIKS",
+    "7": "L2f",
+    "8": "No Fly Zone",
+    "9": "CFT",
+    "10": "Alma MAtter",
+    "11": "Callahans",
+    "12": "Puyal",
+    "13": "BPHC",
+    "14": "Sapthavyuha"
+  }
 }

@@ -10,6 +10,7 @@
   "division": "mixed",
   "sheet_id": "18eJUXRPuJQCVEsEukqDtB3PMy--CmzSZcIX9QJO4gfY",
   "expiry": "2023-01-10",
+  "num_teams": 22,
   "scores": [
     {
       "team_a": "Airborne",
@@ -979,5 +980,29 @@
       "bracket_round": 4,
       "time": ""
     }
-  ]
+  ],
+  "rankings": {
+    "1": "Airborne",
+    "2": "Airbenders One",
+    "3": "Flywild ",
+    "4": "Spinergy",
+    "5": "Stall 7",
+    "6": "Learning to Fly",
+    "7": "Air Traffic Control ",
+    "8": "Blitzkrieg",
+    "9": "Stray Dogs",
+    "10": "Chakraa",
+    "11": "Girgitle",
+    "12": "TIKS Breakside",
+    "13": "Callahans",
+    "14": "SlipDisc",
+    "15": "Alma Matter",
+    "16": "Falaknuma Fekus",
+    "17": "Cleared for Take Off",
+    "18": "Airbenders Neo",
+    "19": "TIKS Openside",
+    "20": "Phoenix",
+    "21": "Doesn't Matter",
+    "22": "Sapthavyuha"
+  }
 }
