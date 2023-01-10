@@ -104,7 +104,6 @@ def parse_brackets_data(path):
     with open(path) as f:
         csv_data = csv.reader(f)
         data = {}
-        header = next(csv_data)
         columns = sorted(find_bracket_data_columns(path))
         pools_rows = {}
         brackets_pools = set()
