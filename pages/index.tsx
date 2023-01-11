@@ -12,6 +12,7 @@ import {
 	Anchor,
 } from "@mantine/core";
 import { TableScores } from "../components/TableScores";
+import { TableRankings, Rank } from "../components/TableRankings";
 import tournamentsData from "../public/data/tournaments.json";
 import Image from "next/image";
 
@@ -20,9 +21,19 @@ interface Tournament {
 	name: string;
 }
 
+interface Metadata {
+	slug: string;
+	name: string;
+	rankings: Rank[];
+}
+
 export default function Home() {
 	const [scores, setScores] = useState([]);
-	const [metadata, setMetadata] = useState({ slug: "", name: "" });
+	const [metadata, setMetadata] = useState({
+		slug: "",
+		name: "",
+		rankings: [],
+	});
 	const tournaments = tournamentsData.map((it: Tournament) => ({
 		value: it.slug,
 		label: it.name,
@@ -55,7 +66,7 @@ export default function Home() {
 		return getLink(url);
 	};
 
-	const displayList = (metadata: Tournament) => {
+	const displayList = (metadata: Metadata) => {
 		const displayKeys = new Set([
 			"sheet_id",
 			"date",
@@ -153,6 +164,9 @@ export default function Home() {
 								</Grid>
 							))}
 						</Card>
+					)}
+					{metadata.rankings.length > 0 && (
+						<TableRankings data={metadata.rankings} />
 					)}
 					{scores.length > 0 && <TableScores data={scores} />}
 				</div>
