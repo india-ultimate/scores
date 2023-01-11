@@ -44,13 +44,11 @@ export default function Home() {
 		selectTournament(latestTournament.value);
 	}, []);
 
-	const getLink = (url: string) => {
-		return (
-			<a target="_blank" rel="noopener noreferrer" href={url}>
-				{url}
-			</a>
-		);
-	};
+	const getLink = (url: string) => (
+		<a target="_blank" rel="noopener noreferrer" href={url}>
+			{url}
+		</a>
+	);
 
 	const getSheetLink = (sheetId: string) => {
 		const url = `https://docs.google.com/spreadsheets/d/${sheetId}/`;
@@ -72,9 +70,7 @@ export default function Home() {
 				const value =
 					_key === "sheet_id"
 						? getSheetLink(_value)
-						: _key === "photos"
-						? getLink(_value)
-						: _value;
+						: _key === "photos" ? getLink(_value) : _value;
 				const key = _key === "sheet_id" ? "source" : _key;
 				return { value, key };
 			});
