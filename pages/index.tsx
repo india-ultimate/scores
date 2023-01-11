@@ -109,7 +109,7 @@ export default function Home() {
 				header={
 					<Header height={60}>
 						<Group sx={{ height: "100%" }} px={20} position="apart">
-							<Title>Scores of India Ultimate Tournaments</Title>
+							<Title>Scores — India Ultimate</Title>
 
 							<a
 								href="https://indiaultimate.org"
