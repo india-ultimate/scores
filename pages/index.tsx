@@ -51,9 +51,12 @@ export default function Home() {
 			});
 	};
 
-	useEffect(() => {
-		selectTournament(latestTournament.value);
-	}, []);
+	useEffect(
+		() => {
+			selectTournament(latestTournament.value);
+		},
+		[latestTournament.value]
+	);
 
 	const getLink = (url: string) => (
 		<a target="_blank" rel="noopener noreferrer" href={url}>
