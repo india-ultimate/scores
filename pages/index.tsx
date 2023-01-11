@@ -76,6 +76,7 @@ export default function Home() {
 			"venue",
 			"division",
 			"photos",
+			"uc_url",
 		]);
 		return Object.entries(metadata)
 			.filter((it) => displayKeys.has(it[0]))
@@ -84,8 +85,13 @@ export default function Home() {
 				const value =
 					_key === "sheet_id"
 						? getSheetLink(_value)
-						: _key === "photos" ? getLink(_value) : _value;
-				const key = _key === "sheet_id" ? "source" : _key;
+						: _key === "photos" || _key === "uc_url"
+							? getLink(_value)
+							: _value;
+				const key =
+					_key === "sheet_id"
+						? "source"
+						: _key === "uc_url" ? "UC page" : _key;
 				return { value, key };
 			});
 	};
