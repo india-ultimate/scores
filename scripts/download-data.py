@@ -15,9 +15,9 @@ def get_tournament_sheet(tournament, stage):
     gid = tournament["sheets"][stage]
     name = tournament["name"]
     print(f"    Downloading '{stage}#{gid}'")
-    url = (
-        f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=csv&gid={gid}"
-    )
+    url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=csv"
+    if gid != "0":
+        url += f"&gid={gid}"
     response = requests.get(url)
     slug = tournament["slug"]
     path = RAW_DATA_DIR.joinpath(f"{slug}-{stage}.csv")
