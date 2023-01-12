@@ -207,10 +207,50 @@ def parse_rankings(path, num_teams):
     return ranks
 
 
+def find_seed_data_columns(path):
+    with open(path) as f:
+        csv_data = csv.reader(f)
+        seed_columns = []
+        s = {"seed", "seeding"}
+        t = {"team", "team name"}
+        for i, line in enumerate(csv_data):
+            for col, header in enumerate(line):
+                if header.strip().lower() in s:
+                    if line[col + 1].strip().lower() in t:
+                        seed_columns.append(col)
+            if i > 2:
+                break
+        return seed_columns
+
+
+def parse_seeds(path, num_teams):
+    seed_columns = find_seed_data_columns(path)
+    seeds = {}
+    with open(path) as f:
+        csv_data = csv.reader(f)
+        for i, line in enumerate(csv_data):
+            for seed_column in seed_columns:
+                seeds_ = seeds.setdefault(seed_column, {})
+                seed, team = line[seed_column], line[seed_column + 1]
+                if seed.isnumeric() and team and not team.isnumeric():
+                    seed = int(seed)
+                    if seed not in seeds_:
+                        seeds_[seed] = team
+                    else:
+                        break
+    for seedings in seeds.values():
+        if len(seedings) == num_teams:
+            return seedings
+
+    return {}
+
+
 def convert_raw_data_to_json(tournament):
     slug = tournament["slug"]
+    num_teams = tournament["num_teams"]
     data = []
-    rankings = []
+    rankings = {}
+    seedings = {}
 
     pools = RAW_DATA_DIR.joinpath(f"{slug}-pools.csv")
     if pools.exists():
@@ -222,13 +262,19 @@ def convert_raw_data_to_json(tournament):
         data = [game for game in data if game["pool_name"].lower() not in exclude_pools]
         data += brackets_data
 
-        num_teams = tournament["num_teams"]
         rankings = parse_rankings(brackets, num_teams)
+
+    seeds = RAW_DATA_DIR.joinpath(f"{slug}-seeds.csv")
+    if seeds.exists():
+        seedings = parse_seeds(seeds, num_teams)
 
     with open(PUBLIC_DATA_DIR.joinpath(f"{slug}.json"), "w") as f:
         tournament["scores"] = data
         tournament["rankings"] = [
             {"rank": rank, "team": team} for rank, team in sorted(rankings.items())
+        ]
+        tournament["seedings"] = [
+            {"rank": rank, "team": team} for rank, team in sorted(seedings.items())
         ]
         json.dump(tournament, f, indent=2, ensure_ascii=False)
 
