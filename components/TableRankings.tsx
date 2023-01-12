@@ -4,11 +4,12 @@ export interface Rank {
 	rank: number;
 	team: string;
 }
-interface UsersTableProps {
+interface RankingsTableProps {
 	data: Rank[];
+	isSeed: boolean;
 }
 
-export function TableRankings({ data }: UsersTableProps) {
+export function TableRankings({ data, isSeed }: RankingsTableProps) {
 	const rows = data.map((item) => (
 		<tr key={item.rank}>
 			<td>
@@ -23,12 +24,12 @@ export function TableRankings({ data }: UsersTableProps) {
 	return (
 		<ScrollArea>
 			<Title ta="center" order={2}>
-				Rankings
+				{isSeed ? "Seedings" : "Rankings"}
 			</Title>
 			<Table sx={{ maxWidth: 300, margin: "auto" }} verticalSpacing="sm">
 				<thead>
 					<tr>
-						<th>Rank</th>
+						<th>{isSeed ? "Seed" : "Rank"}</th>
 						<th>Team</th>
 					</tr>
 				</thead>

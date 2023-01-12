@@ -10,6 +10,7 @@ import {
 	Group,
 	Footer,
 	Anchor,
+	SimpleGrid,
 } from "@mantine/core";
 import { TableScores } from "../components/TableScores";
 import { TableRankings, Rank } from "../components/TableRankings";
@@ -25,6 +26,7 @@ interface Metadata {
 	slug: string;
 	name: string;
 	rankings: Rank[];
+	seedings: Rank[];
 }
 
 export default function Home() {
@@ -33,6 +35,7 @@ export default function Home() {
 		slug: "",
 		name: "",
 		rankings: [],
+		seedings: [],
 	});
 	const tournaments = tournamentsData.map((it: Tournament) => ({
 		value: it.slug,
@@ -174,9 +177,20 @@ export default function Home() {
 							))}
 						</Card>
 					)}
-					{metadata.rankings.length > 0 && (
-						<TableRankings data={metadata.rankings} />
-					)}
+					<SimpleGrid cols={2}>
+						{metadata.seedings.length > 0 && (
+							<TableRankings
+								data={metadata.seedings}
+								isSeed={true}
+							/>
+						)}
+						{metadata.rankings.length > 0 && (
+							<TableRankings
+								data={metadata.rankings}
+								isSeed={false}
+							/>
+						)}
+					</SimpleGrid>
 					{scores.length > 0 && <TableScores data={scores} />}
 				</div>
 			</AppShell>
