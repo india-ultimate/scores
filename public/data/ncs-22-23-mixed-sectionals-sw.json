@@ -1,7 +1,8 @@
 {
   "sheets": {
     "pools": "2064084554",
-    "brackets": "1853106806"
+    "brackets": "1853106806",
+    "seeds": "0"
   },
   "name": "NCS 2022-23 Mixed Sectionals South-West",
   "slug": "ncs-22-23-mixed-sectionals-sw",
@@ -694,6 +695,72 @@
     {
       "rank": 16,
       "team": "Hammer that zone-1"
+    }
+  ],
+  "seedings": [
+    {
+      "rank": 1,
+      "team": "Airbenders One"
+    },
+    {
+      "rank": 2,
+      "team": "Girgitle"
+    },
+    {
+      "rank": 3,
+      "team": "ATC"
+    },
+    {
+      "rank": 4,
+      "team": "SlipDiisc"
+    },
+    {
+      "rank": 5,
+      "team": "Breakside (TIKS)"
+    },
+    {
+      "rank": 6,
+      "team": "L2F"
+    },
+    {
+      "rank": 7,
+      "team": "DoD"
+    },
+    {
+      "rank": 8,
+      "team": "Stall 7"
+    },
+    {
+      "rank": 9,
+      "team": "NFZ"
+    },
+    {
+      "rank": 10,
+      "team": "Airbenders Neo"
+    },
+    {
+      "rank": 11,
+      "team": "Hammer that zone - 1"
+    },
+    {
+      "rank": 12,
+      "team": "CFT"
+    },
+    {
+      "rank": 13,
+      "team": "Alma Matter"
+    },
+    {
+      "rank": 14,
+      "team": "Phoenix"
+    },
+    {
+      "rank": 15,
+      "team": "Hammer that Zone - 2"
+    },
+    {
+      "rank": 16,
+      "team": "Openside (TIKS)"
     }
   ]
 }

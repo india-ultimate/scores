@@ -1,0 +1,18 @@
+Seeding,,,,Seeding Offset,,,,,,
+Seed,Team,Starting Points,,"As you may have noticed, some seeds are offset from the usual positions. This is there to reduce the possibility of (and in most cases prevent) rematches till the semi-final stage. Offset pools is the standard method used by WFDF to adjust for cross over games.",,,,,,
+1,Airbenders One,899,,,,,,,,
+2,Girgitle,566,,,,,,,,
+3,ATC,838,,,,,,,,
+4,SlipDiisc,791,,Pools,,,,,,
+5,Breakside (TIKS),755,,A,Seed,Team,,B,Seed,Team
+6,L2F,866,,A1,1,Airbenders One,,B1,2,Girgitle
+7,DoD,738,,A2,7,DoD,,B2,8,Stall 7
+8,Stall 7,-,,A3,9,NFZ,,B3,10,Airbenders Neo
+9,NFZ,399,,A4,15,Hammer that Zone - 2,,B4,16,Openside (TIKS)
+10,Airbenders Neo,-,,,,,,,,
+11,Hammer that zone - 1,297,,,,,,,,
+12,CFT,449,,C,Seed,Team,,D,Seed,Team
+13,Alma Matter,-,,C1,3,ATC,,D1,4,SlipDiisc
+14,Phoenix,-,,C2,5,Breakside (TIKS),,D2,6,L2F
+15,Hammer that Zone - 2,-,,C3,11,Hammer that zone - 1,,D3,12,CFT
+16,Openside (TIKS),-,,C4,13,Alma Matter,,D4,14,Phoenix

@@ -1,7 +1,8 @@
 {
   "sheets": {
     "pools": "1740399864",
-    "brackets": "1740399864"
+    "brackets": "1740399864",
+    "seeds": "0"
   },
   "name": "NCS 2022-23 Women Regionals South",
   "slug": "ncs-22-23-women-regionals-south",
@@ -660,6 +661,48 @@
     {
       "rank": 10,
       "team": "Alma Matter+ Dosen't Matter"
+    }
+  ],
+  "seedings": [
+    {
+      "rank": 1,
+      "team": "Spinborne (Airborne + Spinergy)"
+    },
+    {
+      "rank": 2,
+      "team": "Airbenders"
+    },
+    {
+      "rank": 3,
+      "team": "Stall 7"
+    },
+    {
+      "rank": 4,
+      "team": "L2F"
+    },
+    {
+      "rank": 5,
+      "team": "TIKS"
+    },
+    {
+      "rank": 6,
+      "team": "ATC + CFT"
+    },
+    {
+      "rank": 7,
+      "team": "No Fly Zone"
+    },
+    {
+      "rank": 8,
+      "team": "Pucca (Puyal + Callahans)"
+    },
+    {
+      "rank": 9,
+      "team": "Alma Matter + Doesn't Matter"
+    },
+    {
+      "rank": 10,
+      "team": "SpyBITS (BPHC + Sapthavyuha)"
     }
   ]
 }

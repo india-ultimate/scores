@@ -1,0 +1,23 @@
+Seeding,Team Name,Points,,,,,,,,,,,,
+1,Airborne,943,,,,,,,,,,,,
+2,Spinergy,941,,Pool A,,Seed,W,L,,Pool B,,Seed,W,L
+3,Learning to Fly,908,,A1,Airborne,1,,,,B1,Spinergy,2,,
+4,Air Traffic Control,893,,A2,FlyWild,6,,,,B2,Girgitle ,5,,
+5,Girgitle ,559,,A3,Stray Dogs in Sweaters,12,,,,B3,SlipDiisc,11,,
+6,FlyWild,777,,A4,Chakraa,14,,,,B4,Callahans,13,,
+7,Airbenders One,863,,,,,,,,,,,,
+8,TIKS Breakside,839,,Pool C,,Seed,W,L,,Pool D,,Seed,W,L
+9,Blitzkrieg,839,,C1,Learning to Fly,3,,,,D1,Air Traffic Control,4,1,2
+10,Stall 7,807,,C2,TIKS Breakside,8,,,,D2,Airbenders One,7,,
+11,SlipDiisc,789,,C3,Stall 7,10,,,,D3,Blitzkrieg,9,,
+12,Stray Dogs in Sweaters,740,,C4,Cleared for TakeOff,16,,,,D4,TIKS Openside,15,,
+13,Callahans,666,,,,,,,,,,,,
+14,Chakraa,604,,Pool E,,Seed,W,L,,Pool F,,Seed,W,L
+15,TIKS Openside,432,,E1,Alma Mater,17,2,0,,F1,Airbenders Neo,18,1,1
+16,Cleared for TakeOff,492,,E2,Phoenix,19,1,1,,F2,Falaknuma Fekus,20,2,0
+17,Alma Mater,370,,E3,Sapthavyuha,21,0,2,,F3,Doesn't Matter,22,0,2
+18,Airbenders Neo,365,,,,,,,,,,,,
+19,Phoenix,345,,Pool J,,Seed,W,L,,Pool K,,Seed,W,L
+20,Falaknuma Fekus,275,,J1,Tiks Openside,17,1,1,,K1,Cleared for Take off ,18,2,0
+21,Sapthavyuha,259,,J2,Airbenders Neo,20,2,0,,K2,Phoenix ,19,1,1
+22,Doesn't Matter,223,,J3,Doesn't Matter ,21,0,2,,K3,Sapthavyuha ,22,0,2

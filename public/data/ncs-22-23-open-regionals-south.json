@@ -1,7 +1,8 @@
 {
   "sheets": {
     "pools": "1708819119",
-    "brackets": "1708819119"
+    "brackets": "1708819119",
+    "seeds": "0"
   },
   "name": "NCS 2022-23 Open Regionals South",
   "slug": "ncs-22-23-open-regionals-south",
@@ -375,6 +376,64 @@
     {
       "rank": 13,
       "team": "BPHC"
+    },
+    {
+      "rank": 14,
+      "team": "Sapthavyuha"
+    }
+  ],
+  "seedings": [
+    {
+      "rank": 1,
+      "team": "Spinergy"
+    },
+    {
+      "rank": 2,
+      "team": "Airborne"
+    },
+    {
+      "rank": 3,
+      "team": "Airbenders"
+    },
+    {
+      "rank": 4,
+      "team": "Stall7"
+    },
+    {
+      "rank": 5,
+      "team": "L2F"
+    },
+    {
+      "rank": 6,
+      "team": "ATC"
+    },
+    {
+      "rank": 7,
+      "team": "TIKS"
+    },
+    {
+      "rank": 8,
+      "team": "Callahans"
+    },
+    {
+      "rank": 9,
+      "team": "No Fly Zone"
+    },
+    {
+      "rank": 10,
+      "team": "CFT"
+    },
+    {
+      "rank": 11,
+      "team": "Alma Matter"
+    },
+    {
+      "rank": 12,
+      "team": "BPHC"
+    },
+    {
+      "rank": 13,
+      "team": "Puyal"
     },
     {
       "rank": 14,
