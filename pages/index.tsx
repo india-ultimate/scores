@@ -12,7 +12,7 @@ import {
 	Anchor,
 	SimpleGrid,
 } from "@mantine/core";
-import { TableScores } from "../components/TableScores";
+import { Scores } from "../components/Scores";
 import { TableRankings, Rank } from "../components/TableRankings";
 import tournamentsData from "../public/data/tournaments.json";
 import Image from "next/image";
@@ -191,7 +191,7 @@ export default function Home() {
 							/>
 						)}
 					</SimpleGrid>
-					{scores.length > 0 && <TableScores data={scores} />}
+					{scores.length > 0 && <Scores data={scores} />}
 				</div>
 			</AppShell>
 		</>

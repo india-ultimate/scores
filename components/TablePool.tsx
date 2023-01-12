@@ -7,15 +7,10 @@ import {
 	Group,
 	Text,
 	Center,
-	TextInput,
 	Badge,
+	Title,
 } from "@mantine/core";
-import {
-	IconSelector,
-	IconChevronDown,
-	IconChevronUp,
-	IconSearch,
-} from "@tabler/icons";
+import { IconSelector, IconChevronDown, IconChevronUp } from "@tabler/icons";
 
 const useStyles = createStyles((theme) => ({
 	th: {
@@ -41,16 +36,18 @@ const useStyles = createStyles((theme) => ({
 	},
 }));
 
-interface RowData {
+export interface RowData {
 	team_a: string;
 	score_a: number;
 	team_b: string;
 	score_b: number;
 	stage: string;
+	pool_name: string;
 }
 
-interface TableScoresProps {
+interface TablePoolProps {
 	data: RowData[];
+	name: string;
 }
 
 interface ThProps {
@@ -64,9 +61,7 @@ interface ThProps {
 function Th({ children, reversed, sorted, onSort, sortable = true }: ThProps) {
 	const { classes } = useStyles();
 	const Icon = sorted
-		? reversed
-			? IconChevronUp
-			: IconChevronDown
+		? reversed ? IconChevronUp : IconChevronDown
 		: IconSelector;
 	return (
 		<th className={classes.th}>
@@ -89,40 +84,26 @@ function Th({ children, reversed, sorted, onSort, sortable = true }: ThProps) {
 	);
 }
 
-function filterData(data: RowData[], search: string) {
-	const query = search.toLowerCase().trim();
-	const searchFields: Array<keyof RowData> = ["team_a", "team_b"];
-	return data.filter((item) =>
-		searchFields.some((key) =>
-			(item[key] as string).toLowerCase().includes(query)
-		)
-	);
-}
-
 function sortData(
 	data: RowData[],
-	payload: { sortBy: keyof RowData | null; reversed: boolean; search: string }
+	payload: { sortBy: keyof RowData | null; reversed: boolean }
 ) {
 	const { sortBy } = payload;
 
 	if (!sortBy) {
-		return filterData(data, payload.search);
+		return data;
 	}
 
-	return filterData(
-		[...data].sort((a, b) => {
-			if (payload.reversed) {
-				return (b[sortBy] as string).localeCompare(a[sortBy] as string);
-			}
+	return [...data].sort((a, b) => {
+		if (payload.reversed) {
+			return (b[sortBy] as string).localeCompare(a[sortBy] as string);
+		}
 
-			return (a[sortBy] as string).localeCompare(b[sortBy] as string);
-		}),
-		payload.search
-	);
+		return (a[sortBy] as string).localeCompare(b[sortBy] as string);
+	});
 }
 
-export function TableScores({ data }: TableScoresProps) {
-	const [search, setSearch] = useState("");
+export function TablePool({ data, name }: TablePoolProps) {
 	const [sortedData, setSortedData] = useState(data);
 	const [sortBy, setSortBy] = useState<keyof RowData | null>(null);
 	const [reverseSortDirection, setReverseSortDirection] = useState(false);
@@ -131,19 +112,7 @@ export function TableScores({ data }: TableScoresProps) {
 		const reversed = field === sortBy ? !reverseSortDirection : false;
 		setReverseSortDirection(reversed);
 		setSortBy(field);
-		setSortedData(sortData(data, { sortBy: field, reversed, search }));
-	};
-
-	const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-		const { value } = event.currentTarget;
-		setSearch(value);
-		setSortedData(
-			sortData(data, {
-				sortBy,
-				reversed: reverseSortDirection,
-				search: value,
-			})
-		);
+		setSortedData(sortData(data, { sortBy: field, reversed }));
 	};
 
 	const rows = sortedData.map((row, index) => {
@@ -190,13 +159,6 @@ export function TableScores({ data }: TableScoresProps) {
 
 	return (
 		<ScrollArea>
-			<TextInput
-				placeholder="Search by Team name"
-				mb="md"
-				icon={<IconSearch size={14} stroke={1.5} />}
-				value={search}
-				onChange={handleSearchChange}
-			/>
 			<Table
 				horizontalSpacing="lg"
 				verticalSpacing="xs"
