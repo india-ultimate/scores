@@ -34,9 +34,9 @@ def find_pool_data_columns(path):
         time_column = []
         for i, line in enumerate(csv_data):
             for col, header in enumerate(line):
-                if header == "Score":
+                if header.strip() == "Score":
                     score_columns.append(col)
-                elif header == "Time":
+                elif header.strip() == "Time":
                     time_column.append(col)
             if i > 2:
                 break
@@ -88,9 +88,9 @@ def find_bracket_data_columns(path):
                 if col + 2 >= n:
                     continue
                 if (
-                    content == "1"
-                    and line[col + 1]
-                    and line[col + 2].isnumeric()
+                    content.strip() == "1"
+                    and line[col + 1].strip()
+                    and line[col + 2].strip().isnumeric()
                     and (
                         col + 3 < n
                         and not line[col + 3].encode("ascii", errors="ignore")
@@ -109,9 +109,9 @@ def parse_brackets_data(path):
         brackets_pools = set()
         for row, line in enumerate(csv_data):
             for col in columns:
-                seed = line[col]
-                name = line[col + 1]
-                score = line[col + 2]
+                seed = line[col].strip()
+                name = line[col + 1].strip()
+                score = line[col + 2].strip()
                 if seed.isnumeric() and name and score.isnumeric():
                     data[(col, row)] = (seed, name, score)
                 elif seed.lower().startswith("pool "):
@@ -181,9 +181,9 @@ def parse_rankings(path, num_teams):
                 if col + 1 >= n:
                     continue
                 if (
-                    content == str(num_teams)
-                    and line[col + 1]
-                    and not line[col + 1].isnumeric()
+                    content.strip() == str(num_teams)
+                    and line[col + 1].strip()
+                    and not line[col + 1].strip().isnumeric()
                 ):
                     ranking_columns.append(col)
 
@@ -195,7 +195,7 @@ def parse_rankings(path, num_teams):
     with open(path) as f:
         csv_data = csv.reader(f)
         for i, line in enumerate(csv_data):
-            rank, team = line[ranking_column], line[ranking_column + 1]
+            rank, team = line[ranking_column].strip(), line[ranking_column + 1].strip()
             if rank.isnumeric() and team and not team.isnumeric():
                 rank = int(rank)
                 if rank not in ranks:
@@ -231,7 +231,7 @@ def parse_seeds(path, num_teams):
         for i, line in enumerate(csv_data):
             for seed_column in seed_columns:
                 seeds_ = seeds.setdefault(seed_column, {})
-                seed, team = line[seed_column], line[seed_column + 1]
+                seed, team = line[seed_column].strip(), line[seed_column + 1].strip()
                 if seed.isnumeric() and team and not team.isnumeric():
                     seed = int(seed)
                     if seed not in seeds_:
