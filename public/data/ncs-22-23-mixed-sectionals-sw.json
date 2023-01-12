@@ -61,7 +61,7 @@
     {
       "team_a": "Airbenders One",
       "score_a": 15,
-      "team_b": "Hammer that zone - 2",
+      "team_b": "Hammer that Zone - 2",
       "score_b": 1,
       "stage": "pool",
       "pool_name": "Pool A",
@@ -72,7 +72,7 @@
     {
       "team_a": "Girgitle",
       "score_a": 15,
-      "team_b": "OpenSide (TIKS)",
+      "team_b": "Openside (TIKS)",
       "score_b": 6,
       "stage": "pool",
       "pool_name": "Pool B",
@@ -103,9 +103,9 @@
       "time": ""
     },
     {
-      "team_a": "Dod",
+      "team_a": "DoD",
       "score_a": 15,
-      "team_b": "Hammer that zone - 2",
+      "team_b": "Hammer that Zone - 2",
       "score_b": 6,
       "stage": "pool",
       "pool_name": "Pool A",
@@ -116,7 +116,7 @@
     {
       "team_a": "Stall 7",
       "score_a": 15,
-      "team_b": "OpenSide (TIKS)",
+      "team_b": "Openside (TIKS)",
       "score_b": 3,
       "stage": "pool",
       "pool_name": "Pool B",
@@ -127,7 +127,7 @@
     {
       "team_a": "NFZ",
       "score_a": 11,
-      "team_b": "Hammer that zone - 2",
+      "team_b": "Hammer that Zone - 2",
       "score_b": 4,
       "stage": "pool",
       "pool_name": "Pool A",
@@ -138,7 +138,7 @@
     {
       "team_a": "Airbenders Neo",
       "score_a": 8,
-      "team_b": "OpenSide (TIKS)",
+      "team_b": "Openside (TIKS)",
       "score_b": 13,
       "stage": "pool",
       "pool_name": "Pool B",
@@ -158,7 +158,7 @@
       "time": ""
     },
     {
-      "team_a": "Slipdiisc",
+      "team_a": "SlipDiisc",
       "score_a": 8,
       "team_b": "L2F",
       "score_b": 11,
@@ -171,7 +171,7 @@
     {
       "team_a": "ATC",
       "score_a": 15,
-      "team_b": "Hammer that zone-1",
+      "team_b": "Hammer that zone - 1",
       "score_b": 3,
       "stage": "pool",
       "pool_name": "Pool C",
@@ -180,7 +180,7 @@
       "time": ""
     },
     {
-      "team_a": "Slipdiisc",
+      "team_a": "SlipDiisc",
       "score_a": 11,
       "team_b": "CFT",
       "score_b": 6,
@@ -202,7 +202,7 @@
       "time": ""
     },
     {
-      "team_a": "Slipdiisc",
+      "team_a": "SlipDiisc",
       "score_a": 14,
       "team_b": "Phoenix",
       "score_b": 6,
@@ -215,7 +215,7 @@
     {
       "team_a": "Breakside (TIKS)",
       "score_a": 15,
-      "team_b": "Hammer that zone-1",
+      "team_b": "Hammer that zone - 1",
       "score_b": 3,
       "stage": "pool",
       "pool_name": "Pool C",
@@ -257,7 +257,7 @@
       "time": ""
     },
     {
-      "team_a": "Hammer That zone -1",
+      "team_a": "Hammer that zone - 1",
       "score_a": 6,
       "team_b": "Alma Matter",
       "score_b": 13,
@@ -314,7 +314,7 @@
     {
       "team_a": "NFZ",
       "score_a": 15,
-      "team_b": "OpenSide (TIKS)",
+      "team_b": "Openside (TIKS)",
       "score_b": 5,
       "stage": "brackets",
       "pool_name": "",
@@ -323,9 +323,9 @@
       "time": ""
     },
     {
-      "team_a": "Slipdiisc",
+      "team_a": "SlipDiisc",
       "score_a": 11,
-      "team_b": "Alma Mater",
+      "team_b": "Alma Matter",
       "score_b": 5,
       "stage": "brackets",
       "pool_name": "",
@@ -391,7 +391,7 @@
     {
       "team_a": "ATC",
       "score_a": 13,
-      "team_b": "Slipdiisc",
+      "team_b": "SlipDiisc",
       "score_b": 5,
       "stage": "brackets",
       "pool_name": "",
@@ -422,7 +422,7 @@
       "time": ""
     },
     {
-      "team_a": "Hammer that zone-1",
+      "team_a": "Hammer that zone - 1",
       "score_a": 7,
       "team_b": "CFT",
       "score_b": 13,
@@ -433,7 +433,7 @@
       "time": ""
     },
     {
-      "team_a": "Alma Mater",
+      "team_a": "Alma Matter",
       "score_a": 15,
       "team_b": "Phoenix",
       "score_b": 2,
@@ -444,9 +444,9 @@
       "time": ""
     },
     {
-      "team_a": "Hammer that zone-2",
+      "team_a": "Hammer that Zone - 2",
       "score_a": 3,
-      "team_b": "OpenSide (TIKS)",
+      "team_b": "Openside (TIKS)",
       "score_b": 14,
       "stage": "brackets",
       "pool_name": "",
@@ -488,7 +488,7 @@
       "time": ""
     },
     {
-      "team_a": "Slipdiisc",
+      "team_a": "SlipDiisc",
       "score_a": 8,
       "team_b": "NFZ",
       "score_b": 10,
@@ -510,9 +510,9 @@
       "time": ""
     },
     {
-      "team_a": "Alma Mater",
+      "team_a": "Alma Matter",
       "score_a": 8,
-      "team_b": "OpenSide (TIKS)",
+      "team_b": "Openside (TIKS)",
       "score_b": 9,
       "stage": "brackets",
       "pool_name": "",
@@ -523,7 +523,7 @@
     {
       "team_a": "Airbenders Neo",
       "score_a": 12,
-      "team_b": "Hammer that zone-1",
+      "team_b": "Hammer that zone - 1",
       "score_b": 9,
       "stage": "brackets",
       "pool_name": "",
@@ -534,7 +534,7 @@
     {
       "team_a": "Phoenix",
       "score_a": 13,
-      "team_b": "Hammer that zone-2",
+      "team_b": "Hammer that Zone - 2",
       "score_b": 12,
       "stage": "brackets",
       "pool_name": "",
@@ -576,7 +576,7 @@
       "time": ""
     },
     {
-      "team_a": "Slipdiisc",
+      "team_a": "SlipDiisc",
       "score_a": 1,
       "team_b": "Airbenders One",
       "score_b": 15,
@@ -589,7 +589,7 @@
     {
       "team_a": "DoD",
       "score_a": 15,
-      "team_b": "OpenSide (TIKS)",
+      "team_b": "Openside (TIKS)",
       "score_b": 3,
       "stage": "brackets",
       "pool_name": "",
@@ -598,7 +598,7 @@
       "time": ""
     },
     {
-      "team_a": "Alma Mater",
+      "team_a": "Alma Matter",
       "score_a": 10,
       "team_b": "CFT",
       "score_b": 12,
@@ -620,9 +620,9 @@
       "time": ""
     },
     {
-      "team_a": "Hammer that zone-2",
+      "team_a": "Hammer that Zone - 2",
       "score_a": 11,
-      "team_b": "Hammer that zone-1",
+      "team_b": "Hammer that zone - 1",
       "score_b": 4,
       "stage": "brackets",
       "pool_name": "",

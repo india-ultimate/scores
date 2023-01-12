@@ -159,7 +159,7 @@
       "time": ""
     },
     {
-      "team_a": "Stall 7",
+      "team_a": "Stall7",
       "score_a": 15,
       "team_b": "CFT",
       "score_b": 6,
@@ -170,7 +170,7 @@
       "time": ""
     },
     {
-      "team_a": "L2f",
+      "team_a": "L2F",
       "score_a": 9,
       "team_b": "TIKS",
       "score_b": 11,
@@ -192,7 +192,7 @@
       "time": ""
     },
     {
-      "team_a": "Stall 7",
+      "team_a": "Stall7",
       "score_a": 13,
       "team_b": "TIKS",
       "score_b": 9,
@@ -214,7 +214,7 @@
       "time": ""
     },
     {
-      "team_a": "L2f",
+      "team_a": "L2F",
       "score_a": 15,
       "team_b": "Puyal",
       "score_b": 11,
@@ -238,7 +238,7 @@
     {
       "team_a": "Airborne",
       "score_a": 15,
-      "team_b": "Stall 7",
+      "team_b": "Stall7",
       "score_b": 9,
       "stage": "pool",
       "pool_name": "Pool B",
@@ -247,9 +247,9 @@
       "time": ""
     },
     {
-      "team_a": "Stall 7",
+      "team_a": "Stall7",
       "score_a": 15,
-      "team_b": "L2f",
+      "team_b": "L2F",
       "score_b": 10,
       "stage": "pool",
       "pool_name": "Pool B",
@@ -258,7 +258,7 @@
       "time": ""
     },
     {
-      "team_a": "L2f",
+      "team_a": "L2F",
       "score_a": 10,
       "team_b": "CFT",
       "score_b": 9,
@@ -282,7 +282,7 @@
     {
       "team_a": "ATC",
       "score_a": 10,
-      "team_b": "Stall 7",
+      "team_b": "Stall7",
       "score_b": 9,
       "stage": "brackets",
       "pool_name": "",
@@ -291,7 +291,7 @@
       "time": ""
     },
     {
-      "team_a": "L2f",
+      "team_a": "L2F",
       "score_a": 12,
       "team_b": "No Fly Zone",
       "score_b": 10,

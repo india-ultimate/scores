@@ -303,6 +303,13 @@ def convert_raw_data_to_json(tournament):
             if name_ != name:
                 rankings[rank] = name_
 
+        for score in data:
+            for key in ["team_a", "team_b"]:
+                name = score[key]
+                name_ = fix_team_name(name, canonical_names)
+                if name_ != name:
+                    score[key] = name_
+
     with open(PUBLIC_DATA_DIR.joinpath(f"{slug}.json"), "w") as f:
         tournament["scores"] = data
         tournament["rankings"] = [

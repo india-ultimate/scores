@@ -37,7 +37,7 @@
       "time": "8:30 to 9:45"
     },
     {
-      "team_a": "Alma Matter",
+      "team_a": "Alma Mater",
       "score_a": 11,
       "team_b": "Airbenders Neo",
       "score_b": 7,
@@ -413,7 +413,7 @@
     {
       "team_a": "Airbenders One",
       "score_a": 9,
-      "team_b": "Flywild",
+      "team_b": "FlyWild",
       "score_b": 10,
       "stage": "brackets",
       "pool_name": "",
@@ -457,7 +457,7 @@
     {
       "team_a": "Stray Dogs",
       "score_a": 14,
-      "team_b": "Alma Matter",
+      "team_b": "Alma Mater",
       "score_b": 4,
       "stage": "brackets",
       "pool_name": "",
@@ -466,7 +466,7 @@
       "time": ""
     },
     {
-      "team_a": "SlipDisc",
+      "team_a": "SlipDiisc",
       "score_a": 11,
       "team_b": "Sapthavyuha",
       "score_b": 2,
@@ -512,7 +512,7 @@
     {
       "team_a": "Learning to Fly",
       "score_a": 6,
-      "team_b": "Flywild",
+      "team_b": "FlyWild",
       "score_b": 13,
       "stage": "brackets",
       "pool_name": "",
@@ -565,7 +565,7 @@
       "time": ""
     },
     {
-      "team_a": "SlipDisc",
+      "team_a": "SlipDiisc",
       "score_a": 10,
       "team_b": "Airbenders Neo",
       "score_b": 4,
@@ -600,7 +600,7 @@
     {
       "team_a": "TIKS Openside",
       "score_a": 3,
-      "team_b": "Alma Matter",
+      "team_b": "Alma Mater",
       "score_b": 12,
       "stage": "brackets",
       "pool_name": "",
@@ -642,7 +642,7 @@
       "time": ""
     },
     {
-      "team_a": "Flywild",
+      "team_a": "FlyWild",
       "score_a": 14,
       "team_b": "Blitzkrieg",
       "score_b": 9,
@@ -666,7 +666,7 @@
     {
       "team_a": "Girgitle",
       "score_a": 11,
-      "team_b": "Alma Matter",
+      "team_b": "Alma Mater",
       "score_b": 7,
       "stage": "brackets",
       "pool_name": "",
@@ -677,7 +677,7 @@
     {
       "team_a": "Stray Dogs",
       "score_a": 9,
-      "team_b": "SlipDisc",
+      "team_b": "SlipDiisc",
       "score_b": 6,
       "stage": "brackets",
       "pool_name": "",
@@ -708,7 +708,7 @@
       "time": ""
     },
     {
-      "team_a": "Tiks Openside",
+      "team_a": "TIKS Openside",
       "score_a": 7,
       "team_b": "Doesn't Matter",
       "score_b": 6,
@@ -730,7 +730,7 @@
       "time": ""
     },
     {
-      "team_a": "Tiks Openside",
+      "team_a": "TIKS Openside",
       "score_a": 5,
       "team_b": "Airbenders Neo",
       "score_b": 8,
@@ -741,7 +741,7 @@
       "time": ""
     },
     {
-      "team_a": "Cleared for Take off",
+      "team_a": "Cleared for TakeOff",
       "score_a": 12,
       "team_b": "Sapthavyuha",
       "score_b": 3,
@@ -763,7 +763,7 @@
       "time": ""
     },
     {
-      "team_a": "Cleared for Take off",
+      "team_a": "Cleared for TakeOff",
       "score_a": 10,
       "team_b": "Phoenix",
       "score_b": 5,
@@ -785,7 +785,7 @@
       "time": ""
     },
     {
-      "team_a": "Flywild",
+      "team_a": "FlyWild",
       "score_a": 10,
       "team_b": "Airbenders One",
       "score_b": 11,
@@ -840,9 +840,9 @@
       "time": ""
     },
     {
-      "team_a": "SlipDisc",
+      "team_a": "SlipDiisc",
       "score_a": 8,
-      "team_b": "Alma Matter",
+      "team_b": "Alma Mater",
       "score_b": 5,
       "stage": "brackets",
       "pool_name": "",
@@ -873,7 +873,7 @@
       "time": ""
     },
     {
-      "team_a": "Flywild",
+      "team_a": "FlyWild",
       "score_a": 13,
       "team_b": "Spinergy",
       "score_b": 11,
@@ -928,7 +928,7 @@
       "time": ""
     },
     {
-      "team_a": "SlipDisc",
+      "team_a": "SlipDiisc",
       "score_a": 10,
       "team_b": "Callahans",
       "score_b": 13,
@@ -941,7 +941,7 @@
     {
       "team_a": "Falaknuma Fekus",
       "score_a": 6,
-      "team_b": "Alma Matter",
+      "team_b": "Alma Mater",
       "score_b": 8,
       "stage": "brackets",
       "pool_name": "",
@@ -952,7 +952,7 @@
     {
       "team_a": "Airbenders Neo",
       "score_a": 7,
-      "team_b": "Cleared for Take Off",
+      "team_b": "Cleared for TakeOff",
       "score_b": 11,
       "stage": "brackets",
       "pool_name": "",
