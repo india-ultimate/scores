@@ -143,7 +143,7 @@ export function TablePool({ data, name }: TablePoolProps) {
 	return (
 		<ScrollArea>
 			<Table
-				horizontalSpacing="lg"
+				horizontalSpacing="xs"
 				verticalSpacing="xs"
 				sx={{ tableLayout: "fixed" }}
 			>
