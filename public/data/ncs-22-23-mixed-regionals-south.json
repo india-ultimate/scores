@@ -42,7 +42,7 @@
       "team_b": "Airbenders Neo",
       "score_b": 7,
       "stage": "pool",
-      "pool_name": "Pool Extra",
+      "pool_name": "Pool [Extra]",
       "bracket_name": "",
       "bracket_round": -1,
       "time": "16:00 to 17:15"
@@ -64,7 +64,7 @@
       "team_b": "Phoenix",
       "score_b": 3,
       "stage": "pool",
-      "pool_name": "Pool Extra",
+      "pool_name": "Pool [Extra]",
       "bracket_name": "",
       "bracket_round": -1,
       "time": "16:00 to 17:15"
@@ -86,7 +86,7 @@
       "team_b": "Doesn't Matter",
       "score_b": 12,
       "stage": "pool",
-      "pool_name": "Pool Extra",
+      "pool_name": "Pool [Extra]",
       "bracket_name": "",
       "bracket_round": -1,
       "time": "16:00 to 17:15"

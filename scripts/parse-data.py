@@ -62,7 +62,7 @@ def parse_pools_data(path, stage="pool"):
                     continue
                 time = line[time_column[i]].strip() if i < len(time_column) else ""
                 pool = line[left - 2].strip()[0]
-                pool_name = f"Pool {pool}" if not pool.isnumeric() else "Pool Extra"
+                pool_name = f"Pool {pool}" if not pool.isnumeric() else "Pool [Extra]"
                 score = Score(
                     team_a=team_l,
                     score_a=int(score_l),
