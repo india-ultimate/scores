@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 import csv
 import datetime
+import difflib
 import json
+import re
 from collections import namedtuple
 from pathlib import Path
 
@@ -245,6 +247,31 @@ def parse_seeds(path, num_teams):
     return {}
 
 
+def fix_team_name(name, names):
+    l_name = name.lower()
+    if l_name in names:
+        return names[l_name]
+    c_name = clean_team_name(name)
+    close_names = difflib.get_close_matches(c_name, names, n=1)
+    return names[close_names[0]] if close_names else name
+
+
+def clean_team_name(name):
+    """Clean up test names so that difflib.get_close_matches works better
+
+    >>> clean_team_name('Hammer that zone - 1')
+    'Hammer that zone-1'
+    >>> clean_team_name('SpyBITS (BPHC+Sapthavyuha)')
+    'SpyBITS'
+    >>> clean_team_name('(TIKS) Openside')
+    '(TIKS) Openside'
+    >>> clean_team_name('Openside (TIKS)')
+    'Openside'
+    """
+    name = re.sub(r"\s([+-])\s", r"\1", name.strip())
+    return re.sub(r"\(.*\)$", "", name).strip()
+
+
 def convert_raw_data_to_json(tournament):
     slug = tournament["slug"]
     num_teams = tournament["num_teams"]
@@ -267,6 +294,14 @@ def convert_raw_data_to_json(tournament):
     seeds = RAW_DATA_DIR.joinpath(f"{slug}-seeds.csv")
     if seeds.exists():
         seedings = parse_seeds(seeds, num_teams)
+
+        canonical_names = {
+            clean_team_name(name).lower(): name for name in seedings.values()
+        }
+        for rank, name in rankings.items():
+            name_ = fix_team_name(name, canonical_names)
+            if name_ != name:
+                rankings[rank] = name_
 
     with open(PUBLIC_DATA_DIR.joinpath(f"{slug}.json"), "w") as f:
         tournament["scores"] = data

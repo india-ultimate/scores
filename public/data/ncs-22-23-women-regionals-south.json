@@ -624,15 +624,15 @@
   "rankings": [
     {
       "rank": 1,
-      "team": "L2f"
+      "team": "L2F"
     },
     {
       "rank": 2,
-      "team": "Spinborne"
+      "team": "Spinborne (Airborne + Spinergy)"
     },
     {
       "rank": 3,
-      "team": "ATC+CFT"
+      "team": "ATC + CFT"
     },
     {
       "rank": 4,
@@ -640,7 +640,7 @@
     },
     {
       "rank": 5,
-      "team": "PUCCA"
+      "team": "Pucca (Puyal + Callahans)"
     },
     {
       "rank": 6,
@@ -656,11 +656,11 @@
     },
     {
       "rank": 9,
-      "team": "SpyBits"
+      "team": "SpyBITS (BPHC + Sapthavyuha)"
     },
     {
       "rank": 10,
-      "team": "Alma Matter+ Dosen't Matter"
+      "team": "Alma Matter + Doesn't Matter"
     }
   ],
   "seedings": [
