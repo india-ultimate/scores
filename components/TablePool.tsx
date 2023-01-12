@@ -136,23 +136,6 @@ export function TablePool({ data, name }: TablePoolProps) {
 				>
 					{row.team_b}
 				</td>
-				<td>
-					{row.stage === "brackets" ? (
-						<Badge
-							variant="gradient"
-							gradient={{ from: "indigo", to: "cyan" }}
-						>
-							Brackets
-						</Badge>
-					) : (
-						<Badge
-							variant="gradient"
-							gradient={{ from: "#ed6ea0", to: "#ec8c69" }}
-						>
-							Pool
-						</Badge>
-					)}
-				</td>
 			</tr>
 		);
 	});
@@ -195,14 +178,6 @@ export function TablePool({ data, name }: TablePoolProps) {
 							onSort={() => setSorting("team_b")}
 						>
 							Team
-						</Th>
-						<Th
-							sorted={sortBy === "stage"}
-							reversed={reverseSortDirection}
-							onSort={() => setSorting("stage")}
-							sortable={false}
-						>
-							Stage
 						</Th>
 					</tr>
 				</thead>
