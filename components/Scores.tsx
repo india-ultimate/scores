@@ -36,7 +36,7 @@ export function Scores({ data }: Scores) {
 	const b = "brackets";
 	return (
 		<ScrollArea>
-			<Accordion multiple defaultValue={poolNames.concat(b)}>
+			<Accordion multiple defaultValue={[b]}>
 				{pools}
 				<Accordion.Item value={b} key={b}>
 					<Accordion.Control>
