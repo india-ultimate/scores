@@ -272,6 +272,10 @@ def clean_team_name(name):
     return re.sub(r"\(.*\)$", "", name).strip()
 
 
+def make_ordered_rank_list(rankings):
+    return [{"rank": rank, "team": team} for (rank, team) in sorted(rankings.items())]
+
+
 def convert_raw_data_to_json(tournament):
     slug = tournament["slug"]
     num_teams = tournament["num_teams"]
@@ -305,14 +309,10 @@ def convert_raw_data_to_json(tournament):
             if name_ != name:
                 score[key] = name_
 
+    tournament["scores"] = data
+    tournament["rankings"] = make_ordered_rank_list(rankings)
+    tournament["seedings"] = make_ordered_rank_list(seedings)
     with open(PUBLIC_DATA_DIR.joinpath(f"{slug}.json"), "w") as f:
-        tournament["scores"] = data
-        tournament["rankings"] = [
-            {"rank": rank, "team": team} for rank, team in sorted(rankings.items())
-        ]
-        tournament["seedings"] = [
-            {"rank": rank, "team": team} for rank, team in sorted(seedings.items())
-        ]
         json.dump(tournament, f, indent=2, ensure_ascii=False)
 
 
