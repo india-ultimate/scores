@@ -272,6 +272,23 @@ def clean_team_name(name):
     return re.sub(r"\(.*\)$", "", name).strip()
 
 
+def clean_all_team_names(seedings, rankings, data):
+    canonical_names = {
+        clean_team_name(name).lower(): name for name in seedings.values()
+    }
+    for rank, name in rankings.items():
+        name_ = fix_team_name(name, canonical_names)
+        if name_ != name:
+            rankings[rank] = name_
+
+    for score in data:
+        for key in ["team_a", "team_b"]:
+            name = score[key]
+            name_ = fix_team_name(name, canonical_names)
+            if name_ != name:
+                score[key] = name_
+
+
 def make_ordered_rank_list(rankings):
     return [{"rank": rank, "team": team} for (rank, team) in sorted(rankings.items())]
 
@@ -293,21 +310,7 @@ def convert_raw_data_to_json(tournament):
     data += brackets_data
 
     rankings = parse_rankings(brackets, num_teams)
-
-    canonical_names = {
-        clean_team_name(name).lower(): name for name in seedings.values()
-    }
-    for rank, name in rankings.items():
-        name_ = fix_team_name(name, canonical_names)
-        if name_ != name:
-            rankings[rank] = name_
-
-    for score in data:
-        for key in ["team_a", "team_b"]:
-            name = score[key]
-            name_ = fix_team_name(name, canonical_names)
-            if name_ != name:
-                score[key] = name_
+    clean_all_team_names(seedings, rankings, data)
 
     tournament["scores"] = data
     tournament["rankings"] = make_ordered_rank_list(rankings)
