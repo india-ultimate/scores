@@ -276,39 +276,34 @@ def convert_raw_data_to_json(tournament):
     slug = tournament["slug"]
     num_teams = tournament["num_teams"]
     data = []
-    rankings = {}
-    seedings = {}
-
-    pools = RAW_DATA_DIR.joinpath(f"{slug}-pools.csv")
-    if pools.exists():
-        data += parse_pools_data(pools)
-
-    brackets = RAW_DATA_DIR.joinpath(f"{slug}-brackets.csv")
-    if brackets.exists():
-        brackets_data, exclude_pools = parse_brackets_data(brackets)
-        data = [game for game in data if game["pool_name"].lower() not in exclude_pools]
-        data += brackets_data
-
-        rankings = parse_rankings(brackets, num_teams)
 
     seeds = RAW_DATA_DIR.joinpath(f"{slug}-seeds.csv")
-    if seeds.exists():
-        seedings = parse_seeds(seeds, num_teams)
+    seedings = parse_seeds(seeds, num_teams)
 
-        canonical_names = {
-            clean_team_name(name).lower(): name for name in seedings.values()
-        }
-        for rank, name in rankings.items():
+    pools = RAW_DATA_DIR.joinpath(f"{slug}-pools.csv")
+    data += parse_pools_data(pools)
+
+    brackets = RAW_DATA_DIR.joinpath(f"{slug}-brackets.csv")
+    brackets_data, exclude_pools = parse_brackets_data(brackets)
+    data = [game for game in data if game["pool_name"].lower() not in exclude_pools]
+    data += brackets_data
+
+    rankings = parse_rankings(brackets, num_teams)
+
+    canonical_names = {
+        clean_team_name(name).lower(): name for name in seedings.values()
+    }
+    for rank, name in rankings.items():
+        name_ = fix_team_name(name, canonical_names)
+        if name_ != name:
+            rankings[rank] = name_
+
+    for score in data:
+        for key in ["team_a", "team_b"]:
+            name = score[key]
             name_ = fix_team_name(name, canonical_names)
             if name_ != name:
-                rankings[rank] = name_
-
-        for score in data:
-            for key in ["team_a", "team_b"]:
-                name = score[key]
-                name_ = fix_team_name(name, canonical_names)
-                if name_ != name:
-                    score[key] = name_
+                score[key] = name_
 
     with open(PUBLIC_DATA_DIR.joinpath(f"{slug}.json"), "w") as f:
         tournament["scores"] = data
