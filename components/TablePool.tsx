@@ -43,6 +43,8 @@ export interface RowData {
 	score_b: number;
 	stage: string;
 	pool_name: string;
+	bracket_round: number;
+	bracket_name: string;
 }
 
 interface TablePoolProps {
