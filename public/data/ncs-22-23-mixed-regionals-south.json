@@ -13,6 +13,96 @@
   "sheet_id": "18eJUXRPuJQCVEsEukqDtB3PMy--CmzSZcIX9QJO4gfY",
   "expiry": "2023-01-10",
   "num_teams": 22,
+  "seedings": [
+    {
+      "rank": 1,
+      "team": "Airborne"
+    },
+    {
+      "rank": 2,
+      "team": "Spinergy"
+    },
+    {
+      "rank": 3,
+      "team": "Learning to Fly"
+    },
+    {
+      "rank": 4,
+      "team": "Air Traffic Control"
+    },
+    {
+      "rank": 5,
+      "team": "Girgitle"
+    },
+    {
+      "rank": 6,
+      "team": "FlyWild"
+    },
+    {
+      "rank": 7,
+      "team": "Airbenders One"
+    },
+    {
+      "rank": 8,
+      "team": "TIKS Breakside"
+    },
+    {
+      "rank": 9,
+      "team": "Blitzkrieg"
+    },
+    {
+      "rank": 10,
+      "team": "Stall 7"
+    },
+    {
+      "rank": 11,
+      "team": "SlipDiisc"
+    },
+    {
+      "rank": 12,
+      "team": "Stray Dogs in Sweaters"
+    },
+    {
+      "rank": 13,
+      "team": "Callahans"
+    },
+    {
+      "rank": 14,
+      "team": "Chakraa"
+    },
+    {
+      "rank": 15,
+      "team": "TIKS Openside"
+    },
+    {
+      "rank": 16,
+      "team": "Cleared for TakeOff"
+    },
+    {
+      "rank": 17,
+      "team": "Alma Mater"
+    },
+    {
+      "rank": 18,
+      "team": "Airbenders Neo"
+    },
+    {
+      "rank": 19,
+      "team": "Phoenix"
+    },
+    {
+      "rank": 20,
+      "team": "Falaknuma Fekus"
+    },
+    {
+      "rank": 21,
+      "team": "Sapthavyuha"
+    },
+    {
+      "rank": 22,
+      "team": "Doesn't Matter"
+    }
+  ],
   "scores": [
     {
       "team_a": "Airborne",
@@ -1071,96 +1161,6 @@
     {
       "rank": 22,
       "team": "Sapthavyuha"
-    }
-  ],
-  "seedings": [
-    {
-      "rank": 1,
-      "team": "Airborne"
-    },
-    {
-      "rank": 2,
-      "team": "Spinergy"
-    },
-    {
-      "rank": 3,
-      "team": "Learning to Fly"
-    },
-    {
-      "rank": 4,
-      "team": "Air Traffic Control"
-    },
-    {
-      "rank": 5,
-      "team": "Girgitle"
-    },
-    {
-      "rank": 6,
-      "team": "FlyWild"
-    },
-    {
-      "rank": 7,
-      "team": "Airbenders One"
-    },
-    {
-      "rank": 8,
-      "team": "TIKS Breakside"
-    },
-    {
-      "rank": 9,
-      "team": "Blitzkrieg"
-    },
-    {
-      "rank": 10,
-      "team": "Stall 7"
-    },
-    {
-      "rank": 11,
-      "team": "SlipDiisc"
-    },
-    {
-      "rank": 12,
-      "team": "Stray Dogs in Sweaters"
-    },
-    {
-      "rank": 13,
-      "team": "Callahans"
-    },
-    {
-      "rank": 14,
-      "team": "Chakraa"
-    },
-    {
-      "rank": 15,
-      "team": "TIKS Openside"
-    },
-    {
-      "rank": 16,
-      "team": "Cleared for TakeOff"
-    },
-    {
-      "rank": 17,
-      "team": "Alma Mater"
-    },
-    {
-      "rank": 18,
-      "team": "Airbenders Neo"
-    },
-    {
-      "rank": 19,
-      "team": "Phoenix"
-    },
-    {
-      "rank": 20,
-      "team": "Falaknuma Fekus"
-    },
-    {
-      "rank": 21,
-      "team": "Sapthavyuha"
-    },
-    {
-      "rank": 22,
-      "team": "Doesn't Matter"
     }
   ]
 }

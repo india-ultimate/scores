@@ -13,6 +13,72 @@
   "sheet_id": "1KdpqKYGOd8mN6AdtT9pctXpb8EflO3n5",
   "expiry": "2022-10-03",
   "num_teams": 16,
+  "seedings": [
+    {
+      "rank": 1,
+      "team": "Airbenders One"
+    },
+    {
+      "rank": 2,
+      "team": "Girgitle"
+    },
+    {
+      "rank": 3,
+      "team": "ATC"
+    },
+    {
+      "rank": 4,
+      "team": "SlipDiisc"
+    },
+    {
+      "rank": 5,
+      "team": "Breakside (TIKS)"
+    },
+    {
+      "rank": 6,
+      "team": "L2F"
+    },
+    {
+      "rank": 7,
+      "team": "DoD"
+    },
+    {
+      "rank": 8,
+      "team": "Stall 7"
+    },
+    {
+      "rank": 9,
+      "team": "NFZ"
+    },
+    {
+      "rank": 10,
+      "team": "Airbenders Neo"
+    },
+    {
+      "rank": 11,
+      "team": "Hammer that zone - 1"
+    },
+    {
+      "rank": 12,
+      "team": "CFT"
+    },
+    {
+      "rank": 13,
+      "team": "Alma Matter"
+    },
+    {
+      "rank": 14,
+      "team": "Phoenix"
+    },
+    {
+      "rank": 15,
+      "team": "Hammer that Zone - 2"
+    },
+    {
+      "rank": 16,
+      "team": "Openside (TIKS)"
+    }
+  ],
   "scores": [
     {
       "team_a": "Airbenders One",
@@ -695,72 +761,6 @@
     {
       "rank": 16,
       "team": "Hammer that zone - 1"
-    }
-  ],
-  "seedings": [
-    {
-      "rank": 1,
-      "team": "Airbenders One"
-    },
-    {
-      "rank": 2,
-      "team": "Girgitle"
-    },
-    {
-      "rank": 3,
-      "team": "ATC"
-    },
-    {
-      "rank": 4,
-      "team": "SlipDiisc"
-    },
-    {
-      "rank": 5,
-      "team": "Breakside (TIKS)"
-    },
-    {
-      "rank": 6,
-      "team": "L2F"
-    },
-    {
-      "rank": 7,
-      "team": "DoD"
-    },
-    {
-      "rank": 8,
-      "team": "Stall 7"
-    },
-    {
-      "rank": 9,
-      "team": "NFZ"
-    },
-    {
-      "rank": 10,
-      "team": "Airbenders Neo"
-    },
-    {
-      "rank": 11,
-      "team": "Hammer that zone - 1"
-    },
-    {
-      "rank": 12,
-      "team": "CFT"
-    },
-    {
-      "rank": 13,
-      "team": "Alma Matter"
-    },
-    {
-      "rank": 14,
-      "team": "Phoenix"
-    },
-    {
-      "rank": 15,
-      "team": "Hammer that Zone - 2"
-    },
-    {
-      "rank": 16,
-      "team": "Openside (TIKS)"
     }
   ]
 }

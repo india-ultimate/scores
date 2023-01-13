@@ -312,9 +312,9 @@ def convert_raw_data_to_json(tournament):
     rankings = parse_rankings(brackets, num_teams)
     clean_all_team_names(seedings, rankings, data)
 
+    tournament["seedings"] = make_ordered_rank_list(seedings)
     tournament["scores"] = data
     tournament["rankings"] = make_ordered_rank_list(rankings)
-    tournament["seedings"] = make_ordered_rank_list(seedings)
     with open(PUBLIC_DATA_DIR.joinpath(f"{slug}.json"), "w") as f:
         json.dump(tournament, f, indent=2, ensure_ascii=False)
 

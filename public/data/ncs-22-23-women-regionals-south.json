@@ -14,6 +14,48 @@
   "sheet_id": "1984356btDOlhxwYoZs5c7t6LbE6Vwk-BNLwar8RNoJU",
   "expiry": "2022-11-15",
   "num_teams": 10,
+  "seedings": [
+    {
+      "rank": 1,
+      "team": "Spinborne (Airborne + Spinergy)"
+    },
+    {
+      "rank": 2,
+      "team": "Airbenders"
+    },
+    {
+      "rank": 3,
+      "team": "Stall 7"
+    },
+    {
+      "rank": 4,
+      "team": "L2F"
+    },
+    {
+      "rank": 5,
+      "team": "TIKS"
+    },
+    {
+      "rank": 6,
+      "team": "ATC + CFT"
+    },
+    {
+      "rank": 7,
+      "team": "No Fly Zone"
+    },
+    {
+      "rank": 8,
+      "team": "Pucca (Puyal + Callahans)"
+    },
+    {
+      "rank": 9,
+      "team": "Alma Matter + Doesn't Matter"
+    },
+    {
+      "rank": 10,
+      "team": "SpyBITS (BPHC + Sapthavyuha)"
+    }
+  ],
   "scores": [
     {
       "team_a": "Spinborne (Airborne + Spinergy)",
@@ -661,48 +703,6 @@
     {
       "rank": 10,
       "team": "Alma Matter + Doesn't Matter"
-    }
-  ],
-  "seedings": [
-    {
-      "rank": 1,
-      "team": "Spinborne (Airborne + Spinergy)"
-    },
-    {
-      "rank": 2,
-      "team": "Airbenders"
-    },
-    {
-      "rank": 3,
-      "team": "Stall 7"
-    },
-    {
-      "rank": 4,
-      "team": "L2F"
-    },
-    {
-      "rank": 5,
-      "team": "TIKS"
-    },
-    {
-      "rank": 6,
-      "team": "ATC + CFT"
-    },
-    {
-      "rank": 7,
-      "team": "No Fly Zone"
-    },
-    {
-      "rank": 8,
-      "team": "Pucca (Puyal + Callahans)"
-    },
-    {
-      "rank": 9,
-      "team": "Alma Matter + Doesn't Matter"
-    },
-    {
-      "rank": 10,
-      "team": "SpyBITS (BPHC + Sapthavyuha)"
     }
   ]
 }
