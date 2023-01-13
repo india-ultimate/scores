@@ -326,7 +326,8 @@
       "pool_name": "Pool C",
       "bracket_name": "",
       "bracket_round": -1,
-      "time": "9:30 to 10:45"
+      "time": "9:30 to 10:45",
+      "videos": "https://www.youtube.com/watch?v=AStzFfvdpVc"
     },
     {
       "id": "C3-v-C4",
@@ -382,7 +383,8 @@
       "pool_name": "Pool C",
       "bracket_name": "",
       "bracket_round": -1,
-      "time": "15:30 to 16:45"
+      "time": "15:30 to 16:45",
+      "videos": "https://www.youtube.com/watch?v=NX1V4Eto2oU"
     },
     {
       "id": "C2-v-C4",
@@ -592,7 +594,8 @@
       "pool_name": "",
       "bracket_name": "Pre Pre Quarters",
       "bracket_round": 0,
-      "time": ""
+      "time": "",
+      "videos": "https://www.youtube.com/watch?v=oWdjJ-Op6y4"
     },
     {
       "id": "3-v-5",
@@ -1110,7 +1113,8 @@
       "pool_name": "",
       "bracket_name": "Semis",
       "bracket_round": 3,
-      "time": ""
+      "time": "",
+      "videos": "https://www.youtube.com/watch?v=-7WJ7PtYSMM"
     },
     {
       "id": "6-v-7",
