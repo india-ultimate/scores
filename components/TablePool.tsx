@@ -10,7 +10,12 @@ import {
 	Badge,
 	Title,
 } from "@mantine/core";
-import { IconSelector, IconChevronDown, IconChevronUp } from "@tabler/icons";
+import {
+	IconSelector,
+	IconChevronDown,
+	IconChevronUp,
+	IconBrandYoutube,
+} from "@tabler/icons";
 
 const useStyles = createStyles((theme) => ({
 	th: {
@@ -45,6 +50,7 @@ export interface RowData {
 	pool_name: string;
 	bracket_round: number;
 	bracket_name: string;
+	videos: string | null;
 }
 
 interface TablePoolProps {
@@ -120,6 +126,19 @@ export function TablePool({ data, name }: TablePoolProps) {
 	const rows = sortedData.map((row, index) => {
 		return (
 			<tr key={index}>
+				<td>
+					{row.videos ? (
+						<a
+							target="_blank"
+							rel="noopener noreferrer"
+							href={row.videos}
+						>
+							<IconBrandYoutube size={25} stroke={2} />
+						</a>
+					) : (
+						undefined
+					)}
+				</td>
 				<td
 					style={{
 						color:
@@ -151,6 +170,7 @@ export function TablePool({ data, name }: TablePoolProps) {
 			>
 				<thead>
 					<tr>
+						<th style={{ width: "2rem" }} />
 						<Th
 							sorted={sortBy === "team_a"}
 							reversed={reverseSortDirection}

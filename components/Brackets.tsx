@@ -5,6 +5,7 @@ import {
 	SeedTeam,
 	IRenderSeedProps,
 } from "react-brackets";
+import { IconBrandYoutube } from "@tabler/icons";
 import { SimpleGrid, MediaQuery } from "@mantine/core";
 import { useState } from "react";
 import { RowData } from "./TablePool";
@@ -12,7 +13,13 @@ import { RowData } from "./TablePool";
 const CustomSeed = ({ seed, breakpoint }: IRenderSeedProps) => {
 	const homeTeam = seed.teams[0];
 	const awayTeam = seed.teams[1];
-
+	const video = seed.videos ? (
+		<a target="_blank" rel="noopener noreferrer" href={seed.videos}>
+			<IconBrandYoutube size={25} stroke={1} />
+		</a>
+	) : (
+		""
+	);
 	return (
 		<Seed mobileBreakpoint={breakpoint} style={{ fontSize: 12 }}>
 			<SeedItem>
@@ -37,6 +44,7 @@ const CustomSeed = ({ seed, breakpoint }: IRenderSeedProps) => {
 					</SeedTeam>
 				</div>
 			</SeedItem>
+			<div>{video}</div>
 		</Seed>
 	);
 };
@@ -64,7 +72,7 @@ export function Brackets({ brackets }: BracketData) {
 		const title = roundGames[0].bracket_name;
 		const seeds = roundGames.map((g, idx) => ({
 			id: `${r}-${idx}`,
-			date: new Date().toDateString(),
+			videos: g.videos,
 			teams: [
 				{ id: g.team_a, name: g.team_a, score: g.score_a },
 				{ id: g.team_b, name: g.team_b, score: g.score_b },
