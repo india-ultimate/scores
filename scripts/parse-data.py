@@ -304,7 +304,17 @@ def make_ordered_rank_list(rankings):
     return [{"rank": rank, "team": team} for (rank, team) in sorted(rankings.items())]
 
 
-def convert_raw_data_to_json(tournament):
+def include_video_metadata(data, videos):
+    if not videos:
+        pass
+    for game in data:
+        gid = game["id"]
+        if gid not in videos:
+            continue
+        game["videos"] = videos[gid]
+
+
+def convert_raw_data_to_json(tournament, videos):
     slug = tournament["slug"]
     num_teams = tournament["num_teams"]
     data = []
@@ -326,6 +336,7 @@ def convert_raw_data_to_json(tournament):
     tournament["seedings"] = make_ordered_rank_list(seedings)
     tournament["scores"] = data
     tournament["rankings"] = make_ordered_rank_list(rankings)
+    include_video_metadata(data, videos)
     with open(PUBLIC_DATA_DIR.joinpath(f"{slug}.json"), "w") as f:
         json.dump(tournament, f, indent=2, ensure_ascii=False)
 
@@ -334,14 +345,19 @@ def main(slug=None, all_=False):
     with open(PUBLIC_DATA_DIR.joinpath("tournaments.json")) as f:
         tournaments = json.load(f)
 
+    with open(PUBLIC_DATA_DIR.joinpath("videos.json")) as f:
+        videos = json.load(f)
+
     for tournament in tournaments:
+        t_slug = tournament["slug"]
+        t_videos = videos.get(t_slug, {})
         if slug and not tournament["slug"] == slug:
             continue
         if not (all_ or slug) and str(datetime.date.today()) > tournament["expiry"]:
             print(f"Skipping '{tournament['name']}' with expiry date in the past.")
             continue
         print(f"Parsing data for '{tournament['name']}'")
-        convert_raw_data_to_json(tournament)
+        convert_raw_data_to_json(tournament, t_videos)
 
 
 if __name__ == "__main__":
