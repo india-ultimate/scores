@@ -58,10 +58,13 @@
   ],
   "scores": [
     {
+      "id": "E1-v-E3",
       "team_a": "Spinborne (Airborne + Spinergy)",
       "score_a": 14,
+      "position_a": "E1",
       "team_b": "ATC + CFT",
       "score_b": 7,
+      "position_b": "E3",
       "stage": "pool",
       "pool_name": "Pool E",
       "bracket_name": "",
@@ -69,10 +72,13 @@
       "time": ""
     },
     {
+      "id": "E2-v-E5",
       "team_a": "Stall 7",
       "score_a": 13,
+      "position_a": "E2",
       "team_b": "Alma Matter + Doesn't Matter",
       "score_b": 0,
+      "position_b": "E5",
       "stage": "pool",
       "pool_name": "Pool E",
       "bracket_name": "",
@@ -80,10 +86,13 @@
       "time": ""
     },
     {
+      "id": "E1-v-E4",
       "team_a": "Spinborne (Airborne + Spinergy)",
       "score_a": 15,
+      "position_a": "E1",
       "team_b": "Pucca (Puyal + Callahans)",
       "score_b": 2,
+      "position_b": "E4",
       "stage": "pool",
       "pool_name": "Pool E",
       "bracket_name": "",
@@ -91,10 +100,13 @@
       "time": ""
     },
     {
+      "id": "E2-v-E3",
       "team_a": "Stall 7",
       "score_a": 7,
+      "position_a": "E2",
       "team_b": "ATC + CFT",
       "score_b": 12,
+      "position_b": "E3",
       "stage": "pool",
       "pool_name": "Pool E",
       "bracket_name": "",
@@ -102,10 +114,13 @@
       "time": ""
     },
     {
+      "id": "E2-v-E4",
       "team_a": "Stall 7",
       "score_a": 5,
+      "position_a": "E2",
       "team_b": "Pucca (Puyal + Callahans)",
       "score_b": 6,
+      "position_b": "E4",
       "stage": "pool",
       "pool_name": "Pool E",
       "bracket_name": "",
@@ -113,10 +128,13 @@
       "time": ""
     },
     {
+      "id": "F1-v-F3",
       "team_a": "Airbenders",
       "score_a": 9,
+      "position_a": "F1",
       "team_b": "TIKS",
       "score_b": 10,
+      "position_b": "F3",
       "stage": "pool",
       "pool_name": "Pool F",
       "bracket_name": "",
@@ -124,10 +142,13 @@
       "time": ""
     },
     {
+      "id": "F2-v-F5",
       "team_a": "L2F",
       "score_a": 15,
+      "position_a": "F2",
       "team_b": "SpyBITS (BPHC + Sapthavyuha)",
       "score_b": 1,
+      "position_b": "F5",
       "stage": "pool",
       "pool_name": "Pool F",
       "bracket_name": "",
@@ -135,10 +156,13 @@
       "time": ""
     },
     {
+      "id": "F1-v-F4",
       "team_a": "Airbenders",
       "score_a": 11,
+      "position_a": "F1",
       "team_b": "No Fly Zone",
       "score_b": 7,
+      "position_b": "F4",
       "stage": "pool",
       "pool_name": "Pool F",
       "bracket_name": "",
@@ -146,10 +170,13 @@
       "time": ""
     },
     {
+      "id": "F2-v-F3",
       "team_a": "L2F",
       "score_a": 15,
+      "position_a": "F2",
       "team_b": "TIKS",
       "score_b": 1,
+      "position_b": "F3",
       "stage": "pool",
       "pool_name": "Pool F",
       "bracket_name": "",
@@ -157,10 +184,13 @@
       "time": ""
     },
     {
+      "id": "F1-v-F2",
       "team_a": "Airbenders",
       "score_a": 2,
+      "position_a": "F1",
       "team_b": "L2F",
       "score_b": 15,
+      "position_b": "F2",
       "stage": "pool",
       "pool_name": "Pool F",
       "bracket_name": "",
@@ -168,10 +198,13 @@
       "time": ""
     },
     {
+      "id": "F4-v-F5",
       "team_a": "No Fly Zone",
       "score_a": 10,
+      "position_a": "F4",
       "team_b": "SpyBITS (BPHC + Sapthavyuha)",
       "score_b": 2,
+      "position_b": "F5",
       "stage": "pool",
       "pool_name": "Pool F",
       "bracket_name": "",
@@ -179,10 +212,13 @@
       "time": ""
     },
     {
+      "id": "1-v-2",
       "team_a": "Spinborne (Airborne + Spinergy)",
       "score_a": 7,
+      "position_a": "1",
       "team_b": "L2F",
       "score_b": 9,
+      "position_b": "2",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -190,10 +226,13 @@
       "time": ""
     },
     {
+      "id": "3-v-4",
       "team_a": "ATC + CFT",
       "score_a": 15,
+      "position_a": "3",
       "team_b": "TIKS",
       "score_b": 3,
+      "position_b": "4",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -201,10 +240,13 @@
       "time": ""
     },
     {
+      "id": "5-v-6",
       "team_a": "Airbenders",
       "score_a": 0,
+      "position_a": "5",
       "team_b": "Pucca (Puyal + Callahans)",
       "score_b": 15,
+      "position_b": "6",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -212,10 +254,13 @@
       "time": ""
     },
     {
+      "id": "7-v-8",
       "team_a": "No Fly Zone",
       "score_a": 4,
+      "position_a": "7",
       "team_b": "Stall 7",
       "score_b": 8,
+      "position_b": "8",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -223,10 +268,13 @@
       "time": ""
     },
     {
+      "id": "9-v-10",
       "team_a": "Alma Matter + Doesn't Matter",
       "score_a": 5,
+      "position_a": "9",
       "team_b": "SpyBITS (BPHC + Sapthavyuha)",
       "score_b": 6,
+      "position_b": "10",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -234,10 +282,13 @@
       "time": ""
     },
     {
+      "id": "1-v-2",
       "team_a": "Spinergy",
       "score_a": 11,
+      "position_a": "1",
       "team_b": "Spinborne (Airborne + Spinergy)",
       "score_b": 14,
+      "position_b": "2",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -245,10 +296,13 @@
       "time": ""
     },
     {
+      "id": "3-v-4",
       "team_a": "ATC",
       "score_a": 10,
+      "position_a": "3",
       "team_b": "Stall 7",
       "score_b": 9,
+      "position_b": "4",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -256,10 +310,13 @@
       "time": ""
     },
     {
+      "id": "7-v-8",
       "team_a": "L2F",
       "score_a": 12,
+      "position_a": "7",
       "team_b": "No Fly Zone",
       "score_b": 10,
+      "position_b": "8",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -267,10 +324,13 @@
       "time": ""
     },
     {
+      "id": "1-v-2",
       "team_a": "Spinergy",
       "score_a": 11,
+      "position_a": "1",
       "team_b": "Spinborne (Airborne + Spinergy)",
       "score_b": 14,
+      "position_b": "2",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -278,10 +338,13 @@
       "time": ""
     },
     {
+      "id": "3-v-4",
       "team_a": "ATC",
       "score_a": 10,
+      "position_a": "3",
       "team_b": "Stall 7",
       "score_b": 9,
+      "position_b": "4",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -289,10 +352,13 @@
       "time": ""
     },
     {
+      "id": "7-v-8",
       "team_a": "L2F",
       "score_a": 12,
+      "position_a": "7",
       "team_b": "No Fly Zone",
       "score_b": 10,
+      "position_b": "8",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -300,10 +366,13 @@
       "time": ""
     },
     {
+      "id": "1-v-2",
       "team_a": "Spinergy",
       "score_a": 11,
+      "position_a": "1",
       "team_b": "Spinborne (Airborne + Spinergy)",
       "score_b": 14,
+      "position_b": "2",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -311,10 +380,13 @@
       "time": ""
     },
     {
+      "id": "3-v-4",
       "team_a": "ATC",
       "score_a": 10,
+      "position_a": "3",
       "team_b": "Stall 7",
       "score_b": 9,
+      "position_b": "4",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -322,10 +394,13 @@
       "time": ""
     },
     {
+      "id": "7-v-8",
       "team_a": "L2F",
       "score_a": 12,
+      "position_a": "7",
       "team_b": "No Fly Zone",
       "score_b": 10,
+      "position_b": "8",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -333,10 +408,13 @@
       "time": ""
     },
     {
+      "id": "1-v-2",
       "team_a": "Spinergy",
       "score_a": 11,
+      "position_a": "1",
       "team_b": "Spinborne (Airborne + Spinergy)",
       "score_b": 14,
+      "position_b": "2",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -344,10 +422,13 @@
       "time": ""
     },
     {
+      "id": "3-v-4",
       "team_a": "ATC",
       "score_a": 10,
+      "position_a": "3",
       "team_b": "Stall 7",
       "score_b": 9,
+      "position_b": "4",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -355,10 +436,13 @@
       "time": ""
     },
     {
+      "id": "7-v-8",
       "team_a": "L2F",
       "score_a": 12,
+      "position_a": "7",
       "team_b": "No Fly Zone",
       "score_b": 10,
+      "position_b": "8",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -366,10 +450,13 @@
       "time": ""
     },
     {
+      "id": "1-v-2",
       "team_a": "Spinergy",
       "score_a": 11,
+      "position_a": "1",
       "team_b": "Spinborne (Airborne + Spinergy)",
       "score_b": 14,
+      "position_b": "2",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -377,10 +464,13 @@
       "time": ""
     },
     {
+      "id": "3-v-4",
       "team_a": "ATC",
       "score_a": 10,
+      "position_a": "3",
       "team_b": "Stall 7",
       "score_b": 9,
+      "position_b": "4",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -388,10 +478,13 @@
       "time": ""
     },
     {
+      "id": "7-v-8",
       "team_a": "L2F",
       "score_a": 12,
+      "position_a": "7",
       "team_b": "No Fly Zone",
       "score_b": 10,
+      "position_b": "8",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -399,10 +492,13 @@
       "time": ""
     },
     {
+      "id": "1-v-2",
       "team_a": "Spinergy",
       "score_a": 11,
+      "position_a": "1",
       "team_b": "Spinborne (Airborne + Spinergy)",
       "score_b": 14,
+      "position_b": "2",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -410,10 +506,13 @@
       "time": ""
     },
     {
+      "id": "3-v-4",
       "team_a": "ATC",
       "score_a": 10,
+      "position_a": "3",
       "team_b": "Stall 7",
       "score_b": 9,
+      "position_b": "4",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -421,10 +520,13 @@
       "time": ""
     },
     {
+      "id": "7-v-8",
       "team_a": "L2F",
       "score_a": 12,
+      "position_a": "7",
       "team_b": "No Fly Zone",
       "score_b": 10,
+      "position_b": "8",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -432,10 +534,13 @@
       "time": ""
     },
     {
+      "id": "1-v-2",
       "team_a": "Spinergy",
       "score_a": 11,
+      "position_a": "1",
       "team_b": "Spinborne (Airborne + Spinergy)",
       "score_b": 14,
+      "position_b": "2",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -443,10 +548,13 @@
       "time": ""
     },
     {
+      "id": "3-v-4",
       "team_a": "ATC",
       "score_a": 10,
+      "position_a": "3",
       "team_b": "Stall 7",
       "score_b": 9,
+      "position_b": "4",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -454,10 +562,13 @@
       "time": ""
     },
     {
+      "id": "7-v-8",
       "team_a": "L2F",
       "score_a": 12,
+      "position_a": "7",
       "team_b": "No Fly Zone",
       "score_b": 10,
+      "position_b": "8",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -465,10 +576,13 @@
       "time": ""
     },
     {
+      "id": "1-v-2",
       "team_a": "Spinergy",
       "score_a": 11,
+      "position_a": "1",
       "team_b": "Spinborne (Airborne + Spinergy)",
       "score_b": 14,
+      "position_b": "2",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -476,10 +590,13 @@
       "time": ""
     },
     {
+      "id": "3-v-4",
       "team_a": "ATC",
       "score_a": 10,
+      "position_a": "3",
       "team_b": "Stall 7",
       "score_b": 9,
+      "position_b": "4",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -487,10 +604,13 @@
       "time": ""
     },
     {
+      "id": "7-v-8",
       "team_a": "L2F",
       "score_a": 12,
+      "position_a": "7",
       "team_b": "No Fly Zone",
       "score_b": 10,
+      "position_b": "8",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -498,10 +618,13 @@
       "time": ""
     },
     {
+      "id": "1-v-2",
       "team_a": "Spinergy",
       "score_a": 11,
+      "position_a": "1",
       "team_b": "Spinborne (Airborne + Spinergy)",
       "score_b": 14,
+      "position_b": "2",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -509,10 +632,13 @@
       "time": ""
     },
     {
+      "id": "3-v-4",
       "team_a": "ATC",
       "score_a": 10,
+      "position_a": "3",
       "team_b": "Stall 7",
       "score_b": 9,
+      "position_b": "4",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -520,10 +646,13 @@
       "time": ""
     },
     {
+      "id": "7-v-8",
       "team_a": "L2F",
       "score_a": 12,
+      "position_a": "7",
       "team_b": "No Fly Zone",
       "score_b": 10,
+      "position_b": "8",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -531,10 +660,13 @@
       "time": ""
     },
     {
+      "id": "1-v-2",
       "team_a": "Spinergy",
       "score_a": 11,
+      "position_a": "1",
       "team_b": "Spinborne (Airborne + Spinergy)",
       "score_b": 14,
+      "position_b": "2",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -542,10 +674,13 @@
       "time": ""
     },
     {
+      "id": "3-v-4",
       "team_a": "ATC",
       "score_a": 10,
+      "position_a": "3",
       "team_b": "Stall 7",
       "score_b": 9,
+      "position_b": "4",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -553,10 +688,13 @@
       "time": ""
     },
     {
+      "id": "7-v-8",
       "team_a": "L2F",
       "score_a": 12,
+      "position_a": "7",
       "team_b": "No Fly Zone",
       "score_b": 10,
+      "position_b": "8",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -564,10 +702,13 @@
       "time": ""
     },
     {
+      "id": "1-v-2",
       "team_a": "Spinergy",
       "score_a": 11,
+      "position_a": "1",
       "team_b": "Spinborne (Airborne + Spinergy)",
       "score_b": 14,
+      "position_b": "2",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -575,10 +716,13 @@
       "time": ""
     },
     {
+      "id": "3-v-4",
       "team_a": "ATC",
       "score_a": 10,
+      "position_a": "3",
       "team_b": "Stall 7",
       "score_b": 9,
+      "position_b": "4",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -586,10 +730,13 @@
       "time": ""
     },
     {
+      "id": "7-v-8",
       "team_a": "L2F",
       "score_a": 12,
+      "position_a": "7",
       "team_b": "No Fly Zone",
       "score_b": 10,
+      "position_b": "8",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -597,10 +744,13 @@
       "time": ""
     },
     {
+      "id": "1-v-2",
       "team_a": "Spinergy",
       "score_a": 11,
+      "position_a": "1",
       "team_b": "Spinborne (Airborne + Spinergy)",
       "score_b": 14,
+      "position_b": "2",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -608,10 +758,13 @@
       "time": ""
     },
     {
+      "id": "3-v-4",
       "team_a": "ATC",
       "score_a": 10,
+      "position_a": "3",
       "team_b": "Stall 7",
       "score_b": 9,
+      "position_b": "4",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -619,10 +772,13 @@
       "time": ""
     },
     {
+      "id": "7-v-8",
       "team_a": "L2F",
       "score_a": 12,
+      "position_a": "7",
       "team_b": "No Fly Zone",
       "score_b": 10,
+      "position_b": "8",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -630,10 +786,13 @@
       "time": ""
     },
     {
+      "id": "1-v-2",
       "team_a": "Spinergy",
       "score_a": 11,
+      "position_a": "1",
       "team_b": "Spinborne (Airborne + Spinergy)",
       "score_b": 14,
+      "position_b": "2",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -641,10 +800,13 @@
       "time": ""
     },
     {
+      "id": "3-v-4",
       "team_a": "ATC",
       "score_a": 10,
+      "position_a": "3",
       "team_b": "Stall 7",
       "score_b": 9,
+      "position_b": "4",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -652,10 +814,13 @@
       "time": ""
     },
     {
+      "id": "7-v-8",
       "team_a": "L2F",
       "score_a": 12,
+      "position_a": "7",
       "team_b": "No Fly Zone",
       "score_b": 10,
+      "position_b": "8",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",

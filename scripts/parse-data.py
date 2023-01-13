@@ -16,10 +16,13 @@ PUBLIC_DATA_DIR = ROOT_DIR.joinpath("public", "data")
 Score = namedtuple(
     "Score",
     (
+        "id",
         "team_a",
         "score_a",
+        "position_a",
         "team_b",
         "score_b",
+        "position_b",
         "stage",
         "pool_name",
         "bracket_name",
@@ -62,14 +65,19 @@ def parse_pools_data(path, stage="pool"):
                 team_r = line[right + 1].strip()
                 if not team_l or team_l.isnumeric() or not team_r or team_r.isnumeric():
                     continue
+                positions = line[left - 2].strip()
+                position_a, _, position_b = positions.strip().split()
                 time = line[time_column[i]].strip() if i < len(time_column) else ""
                 pool = line[left - 2].strip()[0]
                 pool_name = f"Pool {pool}" if not pool.isnumeric() else "Pool [Extra]"
                 score = Score(
+                    id=f"{position_a}-v-{position_b}",
                     team_a=team_l,
                     score_a=int(score_l),
+                    position_a=position_a,
                     team_b=team_r,
                     score_b=int(score_r),
+                    position_b=position_b,
                     time=time,
                     stage=stage,
                     pool_name=pool_name,
@@ -126,15 +134,18 @@ def parse_brackets_data(path):
     scores = []
 
     for left, right in zip(matches[::2], matches[1::2]):
-        _, team_a, score_a = data[left]
-        _, team_b, score_b = data[right]
+        position_a, team_a, score_a = data[left]
+        position_b, team_b, score_b = data[right]
         col, row = left
         pool_name = find_bracket_pool_name(pools_rows, col, row)
         score = Score(
-            team_a=team_a.strip(),
-            score_a=int(score_a.strip()),
+            id=f"{position_a}-v-{position_b}",
+            team_a=team_a,
+            score_a=int(score_a),
+            position_a=position_a,
             team_b=team_b.strip(),
-            score_b=int(score_b.strip()),
+            score_b=int(score_b),
+            position_b=position_b,
             time="",
             stage=stage,
             pool_name=pool_name,
@@ -311,7 +322,7 @@ def convert_raw_data_to_json(tournament):
 
     rankings = parse_rankings(brackets, num_teams)
     clean_all_team_names(seedings, rankings, data)
-
+    # FIXME: Validate pool positions assigned to teams?
     tournament["seedings"] = make_ordered_rank_list(seedings)
     tournament["scores"] = data
     tournament["rankings"] = make_ordered_rank_list(rankings)

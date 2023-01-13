@@ -105,10 +105,13 @@
   ],
   "scores": [
     {
+      "id": "A1-v-A2",
       "team_a": "Airborne",
       "score_a": 11,
+      "position_a": "A1",
       "team_b": "FlyWild",
       "score_b": 10,
+      "position_b": "A2",
       "stage": "pool",
       "pool_name": "Pool A",
       "bracket_name": "",
@@ -116,10 +119,13 @@
       "time": "8:30 to 9:45"
     },
     {
+      "id": "A3-v-A4",
       "team_a": "Stray Dogs in Sweaters",
       "score_a": 11,
+      "position_a": "A3",
       "team_b": "Chakraa",
       "score_b": 10,
+      "position_b": "A4",
       "stage": "pool",
       "pool_name": "Pool A",
       "bracket_name": "",
@@ -127,10 +133,13 @@
       "time": "8:30 to 9:45"
     },
     {
+      "id": "17-v-20",
       "team_a": "Alma Mater",
       "score_a": 11,
+      "position_a": "17",
       "team_b": "Airbenders Neo",
       "score_b": 7,
+      "position_b": "20",
       "stage": "pool",
       "pool_name": "Pool [Extra]",
       "bracket_name": "",
@@ -138,10 +147,13 @@
       "time": "16:00 to 17:15"
     },
     {
+      "id": "A2-v-A3",
       "team_a": "FlyWild",
       "score_a": 11,
+      "position_a": "A2",
       "team_b": "Stray Dogs in Sweaters",
       "score_b": 6,
+      "position_b": "A3",
       "stage": "pool",
       "pool_name": "Pool A",
       "bracket_name": "",
@@ -149,10 +161,13 @@
       "time": "11:30 to 12:45"
     },
     {
+      "id": "18-v-19",
       "team_a": "Falaknuma Fekus",
       "score_a": 5,
+      "position_a": "18",
       "team_b": "Phoenix",
       "score_b": 3,
+      "position_b": "19",
       "stage": "pool",
       "pool_name": "Pool [Extra]",
       "bracket_name": "",
@@ -160,10 +175,13 @@
       "time": "16:00 to 17:15"
     },
     {
+      "id": "A1-v-A4",
       "team_a": "Airborne",
       "score_a": 14,
+      "position_a": "A1",
       "team_b": "Chakraa",
       "score_b": 6,
+      "position_b": "A4",
       "stage": "pool",
       "pool_name": "Pool A",
       "bracket_name": "",
@@ -171,10 +189,13 @@
       "time": "11:30  to 12:45"
     },
     {
+      "id": "21-v-22",
       "team_a": "Sapthavyuha",
       "score_a": 3,
+      "position_a": "21",
       "team_b": "Doesn't Matter",
       "score_b": 12,
+      "position_b": "22",
       "stage": "pool",
       "pool_name": "Pool [Extra]",
       "bracket_name": "",
@@ -182,10 +203,13 @@
       "time": "16:00 to 17:15"
     },
     {
+      "id": "A1-v-A3",
       "team_a": "Airborne",
       "score_a": 15,
+      "position_a": "A1",
       "team_b": "Stray Dogs in Sweaters",
       "score_b": 4,
+      "position_b": "A3",
       "stage": "pool",
       "pool_name": "Pool A",
       "bracket_name": "",
@@ -193,10 +217,13 @@
       "time": "14:30 to 15:45"
     },
     {
+      "id": "A2-v-A4",
       "team_a": "FlyWild",
       "score_a": 15,
+      "position_a": "A2",
       "team_b": "Chakraa",
       "score_b": 5,
+      "position_b": "A4",
       "stage": "pool",
       "pool_name": "Pool A",
       "bracket_name": "",
@@ -204,10 +231,13 @@
       "time": "14:30 to 15:45"
     },
     {
+      "id": "B1-v-B2",
       "team_a": "Spinergy",
       "score_a": 7,
+      "position_a": "B1",
       "team_b": "Girgitle",
       "score_b": 12,
+      "position_b": "B2",
       "stage": "pool",
       "pool_name": "Pool B",
       "bracket_name": "",
@@ -215,10 +245,13 @@
       "time": "8:00 to 9:15"
     },
     {
+      "id": "B3-v-B4",
       "team_a": "SlipDiisc",
       "score_a": 12,
+      "position_a": "B3",
       "team_b": "Callahans",
       "score_b": 13,
+      "position_b": "B4",
       "stage": "pool",
       "pool_name": "Pool B",
       "bracket_name": "",
@@ -226,10 +259,13 @@
       "time": "8:00 to 9:15"
     },
     {
+      "id": "B2-v-B3",
       "team_a": "Girgitle",
       "score_a": 15,
+      "position_a": "B2",
       "team_b": "SlipDiisc",
       "score_b": 5,
+      "position_b": "B3",
       "stage": "pool",
       "pool_name": "Pool B",
       "bracket_name": "",
@@ -237,10 +273,13 @@
       "time": "11:00 to 12:15"
     },
     {
+      "id": "B1-v-B4",
       "team_a": "Spinergy",
       "score_a": 12,
+      "position_a": "B1",
       "team_b": "Callahans",
       "score_b": 6,
+      "position_b": "B4",
       "stage": "pool",
       "pool_name": "Pool B",
       "bracket_name": "",
@@ -248,10 +287,13 @@
       "time": "11:00 to 12:15"
     },
     {
+      "id": "B1-v-B3",
       "team_a": "Spinergy",
       "score_a": 13,
+      "position_a": "B1",
       "team_b": "SlipDiisc",
       "score_b": 5,
+      "position_b": "B3",
       "stage": "pool",
       "pool_name": "Pool B",
       "bracket_name": "",
@@ -259,10 +301,13 @@
       "time": "14:00 to 15:15"
     },
     {
+      "id": "B2-v-B4",
       "team_a": "Girgitle",
       "score_a": 14,
+      "position_a": "B2",
       "team_b": "Callahans",
       "score_b": 9,
+      "position_b": "B4",
       "stage": "pool",
       "pool_name": "Pool B",
       "bracket_name": "",
@@ -270,10 +315,13 @@
       "time": "14:00 to 15:15"
     },
     {
+      "id": "C1-v-C2",
       "team_a": "Learning to Fly",
       "score_a": 10,
+      "position_a": "C1",
       "team_b": "TIKS Breakside",
       "score_b": 8,
+      "position_b": "C2",
       "stage": "pool",
       "pool_name": "Pool C",
       "bracket_name": "",
@@ -281,10 +329,13 @@
       "time": "9:30 to 10:45"
     },
     {
+      "id": "C3-v-C4",
       "team_a": "Stall 7",
       "score_a": 15,
+      "position_a": "C3",
       "team_b": "Cleared for TakeOff",
       "score_b": 3,
+      "position_b": "C4",
       "stage": "pool",
       "pool_name": "Pool C",
       "bracket_name": "",
@@ -292,10 +343,13 @@
       "time": "9:30 to 10:45"
     },
     {
+      "id": "C2-v-C3",
       "team_a": "TIKS Breakside",
       "score_a": 3,
+      "position_a": "C2",
       "team_b": "Stall 7",
       "score_b": 15,
+      "position_b": "C3",
       "stage": "pool",
       "pool_name": "Pool C",
       "bracket_name": "",
@@ -303,10 +357,13 @@
       "time": "12:30 to 13:45"
     },
     {
+      "id": "C1-v-C4",
       "team_a": "Learning to Fly",
       "score_a": 12,
+      "position_a": "C1",
       "team_b": "Cleared for TakeOff",
       "score_b": 7,
+      "position_b": "C4",
       "stage": "pool",
       "pool_name": "Pool C",
       "bracket_name": "",
@@ -314,10 +371,13 @@
       "time": "12:30 to 13:45"
     },
     {
+      "id": "C1-v-C3",
       "team_a": "Learning to Fly",
       "score_a": 9,
+      "position_a": "C1",
       "team_b": "Stall 7",
       "score_b": 14,
+      "position_b": "C3",
       "stage": "pool",
       "pool_name": "Pool C",
       "bracket_name": "",
@@ -325,10 +385,13 @@
       "time": "15:30 to 16:45"
     },
     {
+      "id": "C2-v-C4",
       "team_a": "TIKS Breakside",
       "score_a": 12,
+      "position_a": "C2",
       "team_b": "Cleared for TakeOff",
       "score_b": 4,
+      "position_b": "C4",
       "stage": "pool",
       "pool_name": "Pool C",
       "bracket_name": "",
@@ -336,10 +399,13 @@
       "time": "15:30 to 16:45"
     },
     {
+      "id": "D1-v-D2",
       "team_a": "Air Traffic Control",
       "score_a": 5,
+      "position_a": "D1",
       "team_b": "Airbenders One",
       "score_b": 15,
+      "position_b": "D2",
       "stage": "pool",
       "pool_name": "Pool D",
       "bracket_name": "",
@@ -347,10 +413,13 @@
       "time": "8:30 to 9:45"
     },
     {
+      "id": "D3-v-D4",
       "team_a": "Blitzkrieg",
       "score_a": 15,
+      "position_a": "D3",
       "team_b": "TIKS Openside",
       "score_b": 2,
+      "position_b": "D4",
       "stage": "pool",
       "pool_name": "Pool D",
       "bracket_name": "",
@@ -358,10 +427,13 @@
       "time": "8:30 to 9:45"
     },
     {
+      "id": "D2-v-D3",
       "team_a": "Airbenders One",
       "score_a": 14,
+      "position_a": "D2",
       "team_b": "Blitzkrieg",
       "score_b": 5,
+      "position_b": "D3",
       "stage": "pool",
       "pool_name": "Pool D",
       "bracket_name": "",
@@ -369,10 +441,13 @@
       "time": "11:30 to 12:45"
     },
     {
+      "id": "D1-v-D4",
       "team_a": "Air Traffic Control",
       "score_a": 14,
+      "position_a": "D1",
       "team_b": "TIKS Openside",
       "score_b": 4,
+      "position_b": "D4",
       "stage": "pool",
       "pool_name": "Pool D",
       "bracket_name": "",
@@ -380,10 +455,13 @@
       "time": "11:30  to 12:45"
     },
     {
+      "id": "D1-v-D3",
       "team_a": "Air Traffic Control",
       "score_a": 5,
+      "position_a": "D1",
       "team_b": "Blitzkrieg",
       "score_b": 9,
+      "position_b": "D3",
       "stage": "pool",
       "pool_name": "Pool D",
       "bracket_name": "",
@@ -391,10 +469,13 @@
       "time": "14:30 to 15:45"
     },
     {
+      "id": "D2-v-D4",
       "team_a": "Airbenders One",
       "score_a": 15,
+      "position_a": "D2",
       "team_b": "TIKS Openside",
       "score_b": 1,
+      "position_b": "D4",
       "stage": "pool",
       "pool_name": "Pool D",
       "bracket_name": "",
@@ -402,10 +483,13 @@
       "time": "14:30 to 15:45"
     },
     {
+      "id": "E1-v-E2",
       "team_a": "Alma Mater",
       "score_a": 12,
+      "position_a": "E1",
       "team_b": "Phoenix",
       "score_b": 5,
+      "position_b": "E2",
       "stage": "pool",
       "pool_name": "Pool E",
       "bracket_name": "",
@@ -413,10 +497,13 @@
       "time": "7:00 to 8:15"
     },
     {
+      "id": "E2-v-E3",
       "team_a": "Phoenix",
       "score_a": 11,
+      "position_a": "E2",
       "team_b": "Sapthavyuha",
       "score_b": 2,
+      "position_b": "E3",
       "stage": "pool",
       "pool_name": "Pool E",
       "bracket_name": "",
@@ -424,10 +511,13 @@
       "time": "10:00 to 11:15"
     },
     {
+      "id": "E3-v-E1",
       "team_a": "Sapthavyuha",
       "score_a": 1,
+      "position_a": "E3",
       "team_b": "Alma Mater",
       "score_b": 13,
+      "position_b": "E1",
       "stage": "pool",
       "pool_name": "Pool E",
       "bracket_name": "",
@@ -435,10 +525,13 @@
       "time": "13:00 to 14:15"
     },
     {
+      "id": "F1-v-F2",
       "team_a": "Airbenders Neo",
       "score_a": 8,
+      "position_a": "F1",
       "team_b": "Falaknuma Fekus",
       "score_b": 9,
+      "position_b": "F2",
       "stage": "pool",
       "pool_name": "Pool F",
       "bracket_name": "",
@@ -446,10 +539,13 @@
       "time": "7:00 to 8:15"
     },
     {
+      "id": "F2-v-F3",
       "team_a": "Falaknuma Fekus",
       "score_a": 10,
+      "position_a": "F2",
       "team_b": "Doesn't Matter",
       "score_b": 4,
+      "position_b": "F3",
       "stage": "pool",
       "pool_name": "Pool F",
       "bracket_name": "",
@@ -457,10 +553,13 @@
       "time": "10:00 to 11:15"
     },
     {
+      "id": "F1-v-F3",
       "team_a": "Airbenders Neo",
       "score_a": 15,
+      "position_a": "F1",
       "team_b": "Doesn't Matter",
       "score_b": 1,
+      "position_b": "F3",
       "stage": "pool",
       "pool_name": "Pool F",
       "bracket_name": "",
@@ -468,10 +567,13 @@
       "time": "13:00 to 14:15"
     },
     {
+      "id": "1-v-7",
       "team_a": "Airborne",
       "score_a": 15,
+      "position_a": "1",
       "team_b": "Blitzkrieg",
       "score_b": 0,
+      "position_b": "7",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Pre Pre Quarters",
@@ -479,10 +581,13 @@
       "time": ""
     },
     {
+      "id": "2-v-8",
       "team_a": "Girgitle",
       "score_a": 9,
+      "position_a": "2",
       "team_b": "Learning to Fly",
       "score_b": 11,
+      "position_b": "8",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Pre Pre Quarters",
@@ -490,10 +595,13 @@
       "time": ""
     },
     {
+      "id": "3-v-5",
       "team_a": "Stall 7",
       "score_a": 11,
+      "position_a": "3",
       "team_b": "Spinergy",
       "score_b": 10,
+      "position_b": "5",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Pre Pre Quarters",
@@ -501,10 +609,13 @@
       "time": ""
     },
     {
+      "id": "4-v-6",
       "team_a": "Airbenders One",
       "score_a": 9,
+      "position_a": "4",
       "team_b": "FlyWild",
       "score_b": 10,
+      "position_b": "6",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Pre Pre Quarters",
@@ -512,10 +623,13 @@
       "time": ""
     },
     {
+      "id": "9-v-20",
       "team_a": "Air Traffic Control",
       "score_a": 15,
+      "position_a": "9",
       "team_b": "Airbenders Neo",
       "score_b": 2,
+      "position_b": "20",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Pre Pre Quarters",
@@ -523,10 +637,13 @@
       "time": ""
     },
     {
+      "id": "10-v-19",
       "team_a": "TIKS Breakside",
       "score_a": 10,
+      "position_a": "10",
       "team_b": "Phoenix",
       "score_b": 3,
+      "position_b": "19",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Pre Pre Quarters",
@@ -534,10 +651,13 @@
       "time": ""
     },
     {
+      "id": "11-v-18",
       "team_a": "Callahans",
       "score_a": 10,
+      "position_a": "11",
       "team_b": "Falaknuma Fekus",
       "score_b": 8,
+      "position_b": "18",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Pre Pre Quarters",
@@ -545,10 +665,13 @@
       "time": ""
     },
     {
+      "id": "12-v-17",
       "team_a": "Stray Dogs",
       "score_a": 14,
+      "position_a": "12",
       "team_b": "Alma Mater",
       "score_b": 4,
+      "position_b": "17",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Pre Pre Quarters",
@@ -556,10 +679,13 @@
       "time": ""
     },
     {
+      "id": "13-v-22",
       "team_a": "SlipDiisc",
       "score_a": 11,
+      "position_a": "13",
       "team_b": "Sapthavyuha",
       "score_b": 2,
+      "position_b": "22",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Pre Pre Quarters",
@@ -567,10 +693,13 @@
       "time": ""
     },
     {
+      "id": "14-v-21",
       "team_a": "Chakraa",
       "score_a": 12,
+      "position_a": "14",
       "team_b": "Doesn't Matter",
       "score_b": 5,
+      "position_b": "21",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Pre Pre Quarters",
@@ -578,10 +707,13 @@
       "time": ""
     },
     {
+      "id": "15-v-16",
       "team_a": "TIKS Openside",
       "score_a": 6,
+      "position_a": "15",
       "team_b": "Cleared for TakeOff",
       "score_b": 11,
+      "position_b": "16",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Pre Pre Quarters",
@@ -589,10 +721,13 @@
       "time": ""
     },
     {
+      "id": "1-v-3",
       "team_a": "Airborne",
       "score_a": 14,
+      "position_a": "1",
       "team_b": "Stall 7",
       "score_b": 8,
+      "position_b": "3",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Pre Quarters",
@@ -600,10 +735,13 @@
       "time": ""
     },
     {
+      "id": "2-v-4",
       "team_a": "Learning to Fly",
       "score_a": 6,
+      "position_a": "2",
       "team_b": "FlyWild",
       "score_b": 13,
+      "position_b": "4",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Pre Quarters",
@@ -611,10 +749,13 @@
       "time": ""
     },
     {
+      "id": "5-v-12",
       "team_a": "Spinergy",
       "score_a": 11,
+      "position_a": "5",
       "team_b": "Stray Dogs",
       "score_b": 9,
+      "position_b": "12",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Pre Quarters",
@@ -622,10 +763,13 @@
       "time": ""
     },
     {
+      "id": "6-v-11",
       "team_a": "Airbenders One",
       "score_a": 15,
+      "position_a": "6",
       "team_b": "Callahans",
       "score_b": 1,
+      "position_b": "11",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Pre Quarters",
@@ -633,10 +777,13 @@
       "time": ""
     },
     {
+      "id": "7-v-10",
       "team_a": "Blitzkrieg",
       "score_a": 9,
+      "position_a": "7",
       "team_b": "TIKS Breakside",
       "score_b": 6,
+      "position_b": "10",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Pre Quarters",
@@ -644,10 +791,13 @@
       "time": ""
     },
     {
+      "id": "8-v-9",
       "team_a": "Girgitle",
       "score_a": 9,
+      "position_a": "8",
       "team_b": "Air Traffic Control",
       "score_b": 12,
+      "position_b": "9",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Pre Quarters",
@@ -655,10 +805,13 @@
       "time": ""
     },
     {
+      "id": "13-v-20",
       "team_a": "SlipDiisc",
       "score_a": 10,
+      "position_a": "13",
       "team_b": "Airbenders Neo",
       "score_b": 4,
+      "position_b": "20",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Pre Quarters",
@@ -666,10 +819,13 @@
       "time": ""
     },
     {
+      "id": "14-v-19",
       "team_a": "Chakraa",
       "score_a": 14,
+      "position_a": "14",
       "team_b": "Phoenix",
       "score_b": 2,
+      "position_b": "19",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Pre Quarters",
@@ -677,10 +833,13 @@
       "time": ""
     },
     {
+      "id": "15-v-18",
       "team_a": "Cleared for TakeOff",
       "score_a": 9,
+      "position_a": "15",
       "team_b": "Falaknuma Fekus",
       "score_b": 10,
+      "position_b": "18",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Pre Quarters",
@@ -688,10 +847,13 @@
       "time": ""
     },
     {
+      "id": "16-v-17",
       "team_a": "TIKS Openside",
       "score_a": 3,
+      "position_a": "16",
       "team_b": "Alma Mater",
       "score_b": 12,
+      "position_b": "17",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Pre Quarters",
@@ -699,10 +861,13 @@
       "time": ""
     },
     {
+      "id": "21-v-22",
       "team_a": "Doesn't Matter",
       "score_a": 9,
+      "position_a": "21",
       "team_b": "Sapthavyuha",
       "score_b": 4,
+      "position_b": "22",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Pre Quarters",
@@ -710,10 +875,13 @@
       "time": ""
     },
     {
+      "id": "1-v-8",
       "team_a": "Airborne",
       "score_a": 15,
+      "position_a": "1",
       "team_b": "Air Traffic Control",
       "score_b": 9,
+      "position_b": "8",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Quarters",
@@ -721,10 +889,13 @@
       "time": ""
     },
     {
+      "id": "4-v-5",
       "team_a": "Learning to Fly",
       "score_a": 7,
+      "position_a": "4",
       "team_b": "Spinergy",
       "score_b": 11,
+      "position_b": "5",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Quarters",
@@ -732,10 +903,13 @@
       "time": ""
     },
     {
+      "id": "2-v-7",
       "team_a": "FlyWild",
       "score_a": 14,
+      "position_a": "2",
       "team_b": "Blitzkrieg",
       "score_b": 9,
+      "position_b": "7",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Quarters",
@@ -743,10 +917,13 @@
       "time": ""
     },
     {
+      "id": "3-v-6",
       "team_a": "Stall 7",
       "score_a": 11,
+      "position_a": "3",
       "team_b": "Airbenders One",
       "score_b": 14,
+      "position_b": "6",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Quarters",
@@ -754,10 +931,13 @@
       "time": ""
     },
     {
+      "id": "9-v-16",
       "team_a": "Girgitle",
       "score_a": 11,
+      "position_a": "9",
       "team_b": "Alma Mater",
       "score_b": 7,
+      "position_b": "16",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Quarters",
@@ -765,10 +945,13 @@
       "time": ""
     },
     {
+      "id": "12-v-13",
       "team_a": "Stray Dogs",
       "score_a": 9,
+      "position_a": "12",
       "team_b": "SlipDiisc",
       "score_b": 6,
+      "position_b": "13",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Quarters",
@@ -776,10 +959,13 @@
       "time": ""
     },
     {
+      "id": "10-v-15",
       "team_a": "TIKS Breakside",
       "score_a": 11,
+      "position_a": "10",
       "team_b": "Falaknuma Fekus",
       "score_b": 7,
+      "position_b": "15",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Quarters",
@@ -787,10 +973,13 @@
       "time": ""
     },
     {
+      "id": "11-v-14",
       "team_a": "Callahans",
       "score_a": 10,
+      "position_a": "11",
       "team_b": "Chakraa",
       "score_b": 14,
+      "position_b": "14",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Quarters",
@@ -798,10 +987,13 @@
       "time": ""
     },
     {
+      "id": "17-v-21",
       "team_a": "TIKS Openside",
       "score_a": 7,
+      "position_a": "17",
       "team_b": "Doesn't Matter",
       "score_b": 6,
+      "position_b": "21",
       "stage": "brackets",
       "pool_name": "Pool J",
       "bracket_name": "Quarters",
@@ -809,10 +1001,13 @@
       "time": ""
     },
     {
+      "id": "20-v-21",
       "team_a": "Airbenders Neo",
       "score_a": 12,
+      "position_a": "20",
       "team_b": "Doesn't Matter",
       "score_b": 7,
+      "position_b": "21",
       "stage": "brackets",
       "pool_name": "Pool J",
       "bracket_name": "Quarters",
@@ -820,10 +1015,13 @@
       "time": ""
     },
     {
+      "id": "17-v-20",
       "team_a": "TIKS Openside",
       "score_a": 5,
+      "position_a": "17",
       "team_b": "Airbenders Neo",
       "score_b": 8,
+      "position_b": "20",
       "stage": "brackets",
       "pool_name": "Pool J",
       "bracket_name": "Quarters",
@@ -831,10 +1029,13 @@
       "time": ""
     },
     {
+      "id": "18-v-22",
       "team_a": "Cleared for TakeOff",
       "score_a": 12,
+      "position_a": "18",
       "team_b": "Sapthavyuha",
       "score_b": 3,
+      "position_b": "22",
       "stage": "brackets",
       "pool_name": "Pool K",
       "bracket_name": "Quarters",
@@ -842,10 +1043,13 @@
       "time": ""
     },
     {
+      "id": "19-v-22",
       "team_a": "Phoenix",
       "score_a": 15,
+      "position_a": "19",
       "team_b": "Sapthavyuha",
       "score_b": 3,
+      "position_b": "22",
       "stage": "brackets",
       "pool_name": "Pool K",
       "bracket_name": "Quarters",
@@ -853,10 +1057,13 @@
       "time": ""
     },
     {
+      "id": "18-v-19",
       "team_a": "Cleared for TakeOff",
       "score_a": 10,
+      "position_a": "18",
       "team_b": "Phoenix",
       "score_b": 5,
+      "position_b": "19",
       "stage": "brackets",
       "pool_name": "Pool K",
       "bracket_name": "Quarters",
@@ -864,10 +1071,13 @@
       "time": ""
     },
     {
+      "id": "1-v-4",
       "team_a": "Airborne",
       "score_a": 14,
+      "position_a": "1",
       "team_b": "Spinergy",
       "score_b": 10,
+      "position_b": "4",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Semis",
@@ -875,10 +1085,13 @@
       "time": ""
     },
     {
+      "id": "2-v-3",
       "team_a": "FlyWild",
       "score_a": 10,
+      "position_a": "2",
       "team_b": "Airbenders One",
       "score_b": 11,
+      "position_b": "3",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Semis",
@@ -886,10 +1099,13 @@
       "time": ""
     },
     {
+      "id": "5-v-8",
       "team_a": "Learning to Fly",
       "score_a": 11,
+      "position_a": "5",
       "team_b": "Air Traffic Control",
       "score_b": 10,
+      "position_b": "8",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Semis",
@@ -897,10 +1113,13 @@
       "time": ""
     },
     {
+      "id": "6-v-7",
       "team_a": "Stall 7",
       "score_a": 10,
+      "position_a": "6",
       "team_b": "Blitzkrieg",
       "score_b": 9,
+      "position_b": "7",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Semis",
@@ -908,10 +1127,13 @@
       "time": ""
     },
     {
+      "id": "9-v-12",
       "team_a": "Girgitle",
       "score_a": 12,
+      "position_a": "9",
       "team_b": "Stray Dogs",
       "score_b": 15,
+      "position_b": "12",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Semis",
@@ -919,10 +1141,13 @@
       "time": ""
     },
     {
+      "id": "10-v-11",
       "team_a": "TIKS Breakside",
       "score_a": 7,
+      "position_a": "10",
       "team_b": "Chakraa",
       "score_b": 12,
+      "position_b": "11",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Semis",
@@ -930,10 +1155,13 @@
       "time": ""
     },
     {
+      "id": "13-v-16",
       "team_a": "SlipDiisc",
       "score_a": 8,
+      "position_a": "13",
       "team_b": "Alma Mater",
       "score_b": 5,
+      "position_b": "16",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Semis",
@@ -941,10 +1169,13 @@
       "time": ""
     },
     {
+      "id": "14-v-15",
       "team_a": "Callahans",
       "score_a": 12,
+      "position_a": "14",
       "team_b": "Falaknuma Fekus",
       "score_b": 5,
+      "position_b": "15",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Semis",
@@ -952,10 +1183,13 @@
       "time": ""
     },
     {
+      "id": "1-v-2",
       "team_a": "Airborne",
       "score_a": 15,
+      "position_a": "1",
       "team_b": "Airbenders One",
       "score_b": 7,
+      "position_b": "2",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -963,10 +1197,13 @@
       "time": ""
     },
     {
+      "id": "3-v-4",
       "team_a": "FlyWild",
       "score_a": 13,
+      "position_a": "3",
       "team_b": "Spinergy",
       "score_b": 11,
+      "position_b": "4",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -974,10 +1211,13 @@
       "time": ""
     },
     {
+      "id": "5-v-6",
       "team_a": "Learning to Fly",
       "score_a": 8,
+      "position_a": "5",
       "team_b": "Stall 7",
       "score_b": 11,
+      "position_b": "6",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -985,10 +1225,13 @@
       "time": ""
     },
     {
+      "id": "7-v-8",
       "team_a": "Blitzkrieg",
       "score_a": 3,
+      "position_a": "7",
       "team_b": "Air Traffic Control",
       "score_b": 15,
+      "position_b": "8",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -996,10 +1239,13 @@
       "time": ""
     },
     {
+      "id": "9-v-10",
       "team_a": "Stray Dogs",
       "score_a": 9,
+      "position_a": "9",
       "team_b": "Chakraa",
       "score_b": 6,
+      "position_b": "10",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -1007,10 +1253,13 @@
       "time": ""
     },
     {
+      "id": "11-v-12",
       "team_a": "TIKS Breakside",
       "score_a": 8,
+      "position_a": "11",
       "team_b": "Girgitle",
       "score_b": 11,
+      "position_b": "12",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -1018,10 +1267,13 @@
       "time": ""
     },
     {
+      "id": "13-v-14",
       "team_a": "SlipDiisc",
       "score_a": 10,
+      "position_a": "13",
       "team_b": "Callahans",
       "score_b": 13,
+      "position_b": "14",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -1029,10 +1281,13 @@
       "time": ""
     },
     {
+      "id": "15-v-16",
       "team_a": "Falaknuma Fekus",
       "score_a": 6,
+      "position_a": "15",
       "team_b": "Alma Mater",
       "score_b": 8,
+      "position_b": "16",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -1040,10 +1295,13 @@
       "time": ""
     },
     {
+      "id": "17-v-18",
       "team_a": "Airbenders Neo",
       "score_a": 7,
+      "position_a": "17",
       "team_b": "Cleared for TakeOff",
       "score_b": 11,
+      "position_b": "18",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -1051,10 +1309,13 @@
       "time": ""
     },
     {
+      "id": "19-v-20",
       "team_a": "Phoenix",
       "score_a": 4,
+      "position_a": "19",
       "team_b": "TIKS Openside",
       "score_b": 7,
+      "position_b": "20",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
@@ -1062,10 +1323,13 @@
       "time": ""
     },
     {
+      "id": "21-v-22",
       "team_a": "Doesn't Matter",
       "score_a": 11,
+      "position_a": "21",
       "team_b": "Sapthavyuha",
       "score_b": 3,
+      "position_b": "22",
       "stage": "brackets",
       "pool_name": "",
       "bracket_name": "Finals",
