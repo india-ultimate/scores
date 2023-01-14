@@ -37,6 +37,17 @@
       "time": "10:45 am - 12:00 pm"
     },
     {
+      "team_a": "Disc Positive",
+      "score_a": 10,
+      "team_b": "Lucknow Scorpions",
+      "score_b": 11,
+      "stage": "pool",
+      "pool_name": "Pool A",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "1:00 pm - 2:15 pm"
+    },
+    {
       "team_a": "GK Mad",
       "score_a": 15,
       "team_b": "Udta Kebabs",
@@ -59,6 +70,17 @@
       "time": "10:45 am - 12:00 pm"
     },
     {
+      "team_a": "FS Sacred Discs",
+      "score_a": 10,
+      "team_b": "Udta Kebabs",
+      "score_b": 12,
+      "stage": "pool",
+      "pool_name": "Pool B",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "1:00 pm - 2:15 pm"
+    },
+    {
       "team_a": "Storm Chasers",
       "score_a": 15,
       "team_b": "Stray Dogs In Sweaters B",
@@ -76,6 +98,39 @@
       "score_b": 13,
       "stage": "pool",
       "pool_name": "Pool C",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "10:45 am - 12:00 pm"
+    },
+    {
+      "team_a": "Jumbish Fire",
+      "score_a": 15,
+      "team_b": "Stray Dogs In Sweaters B",
+      "score_b": 1,
+      "stage": "pool",
+      "pool_name": "Pool C",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "1:00 pm - 2:15 pm"
+    },
+    {
+      "team_a": "Flying Spirits",
+      "score_a": 15,
+      "team_b": "RTFC, kshamtalaya",
+      "score_b": 3,
+      "stage": "pool",
+      "pool_name": "Pool D",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "8:30 am - 9:45 am"
+    },
+    {
+      "team_a": "Flying Spirits",
+      "score_a": 11,
+      "team_b": "Jumbish Catchers",
+      "score_b": 10,
+      "stage": "pool",
+      "pool_name": "Pool D",
       "bracket_name": "",
       "bracket_round": -1,
       "time": "10:45 am - 12:00 pm"

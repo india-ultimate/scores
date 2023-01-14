@@ -2,29 +2,37 @@ ALL POOL GAMES,,,,,,,,,,,
 ,,,,,,,,,,,
 A,Team,Score,,Score,Team,Field,Time,,,Seed,Final positions after re-seed
 A1 v A3,Awadh KHELadis,14, v ,10,Lucknow Scorpions,4,8:30 am - 9:45 am,,1A,1,Awadh KHELadis
-A1 v A2,Awadh KHELadis,15, v ,9,Disc Positive,4,10:45 am - 12:00 pm,,2A,7,
-A2 v A3,Disc Positive,, v ,,Lucknow Scorpions,4,1:00 pm - 2:15 pm,,3A,9,
+A1 v A2,Awadh KHELadis,15, v ,9,Disc Positive,4,10:45 am - 12:00 pm,,2A,7,Lucknow Scorpions
+A2 v A3,Disc Positive,10, v ,11,Lucknow Scorpions,4,1:00 pm - 2:15 pm,,3A,9,Disc Positive
 ,,,,,,,,,,,
 B,Team,Score,,Score,Team,Field,Time,,,Seed,Final positions after re-seed
 B1 v B3,GK Mad,15, v ,7,Udta Kebabs,3,8:30 am - 9:45 am,,1B,2,GK Mad
-B1 v B2,GK Mad,15, v ,2,FS Sacred Discs,3,10:45 am - 12:00 pm,,2B,5,
-B2 v B3,FS Sacred Discs,, v ,,Udta Kebabs,3,1:00 pm - 2:15 pm,,3B,11,
+B1 v B2,GK Mad,15, v ,2,FS Sacred Discs,3,10:45 am - 12:00 pm,,2B,8,Udta Kebabs
+B2 v B3,FS Sacred Discs,10, v ,12,Udta Kebabs,3,1:00 pm - 2:15 pm,,3B,10,FS Sacred Discs
 ,,,,,,,,,,,
 C,Team,Score,,Score,Team,Field,Time,,,Seed,Final positions after re-seed
-C1 v C3,Storm Chasers,15, v ,3,Stray Dogs In Sweaters B,1,8:30 am - 9:45 am,,1C,3,
-C1 v C2,Storm Chasers,9, v ,13,Jumbish Fire,1,10:45 am - 12:00 pm,,2C,8,
-C2 v C3,Jumbish Fire,, v ,,Stray Dogs In Sweaters B,1,1:00 pm - 2:15 pm,,3C,10,
+C1 v C3,Storm Chasers,15, v ,3,Stray Dogs In Sweaters B,1,8:30 am - 9:45 am,,1C,3,Jumbish Fire
+C1 v C2,Storm Chasers,9, v ,13,Jumbish Fire,1,10:45 am - 12:00 pm,,2C,5,Storm Chasers
+C2 v C3,Jumbish Fire,15, v ,1,Stray Dogs In Sweaters B,1,1:00 pm - 2:15 pm,,3C,11,Stray Dogs In Sweaters B
 ,,,,,,,,,,,
 D,Team,Score,,Score,Team,Field,Time,,,Seed,Final positions after re-seed
-D1 v D3,Flying Spirits,, v ,,"RTFC, kshamtalaya",2,8:30 am - 9:45 am,,1D,4,
-D1 v D2,Flying Spirits,, v ,,Jumbish Catchers,2,10:45 am - 12:00 pm,,2D,7,
-D2 v D3,Jumbish Catchers,, v ,,"RTFC, kshamtalaya",2,1:00 pm - 2:15 pm,,3D,9,
+D1 v D3,Flying Spirits,15, v ,3,"RTFC, kshamtalaya",2,8:30 am - 9:45 am,,1D,4,Flying Spirits
+D1 v D2,Flying Spirits,11, v ,10,Jumbish Catchers,2,10:45 am - 12:00 pm,,2D,6,
+D2 v D3,Jumbish Catchers,, v ,,"RTFC, kshamtalaya",2,1:00 pm - 2:15 pm,,3D,12,
 ,,,,,,,,,,,
-Round Robin - After Reseeding - Sunday 15th January,,,,,,,,,,Rank, Team Name
-E,Team,Score,,Score,Team,Field,Time,,1E,9,
-E1 v E2,,, v ,,,3,12:00 pm-1:15 pm,,2E,10,
-E1 v E3,,, v ,,,3,8:30 am - 9:45 am,,3E,11,
-E1 v E4,,, v ,,,3,3:30 pm - 4:45 pm,,4E,12,
-E2 v E3,,, v ,,,4,3:30 pm - 4:45 pm,,,,
+ALL CROSS POOL + SEEDING ,,,,,,,,,,Rank, Team Name
+,Team,Score,,Score,Team,,,,1E,9,
+1v3,Awadh KHELadis,, v ,,Jumbish Fire,,,,2E,10,
+2v4,GK Mad,, v ,,Flying Spirits,,,,3E,11,
+5v12,Storm Chasers,, v ,,,,,,4E,12,
+6v11,,, v ,,Stray Dogs In Sweaters B,,,,,,
+7v10,Lucknow Scorpions,, v ,,FS Sacred Discs,,,,,,
+8v9,Udta Kebabs,, v ,,Disc Positive,,,,,,
+Round Robin - After Reseeding - Sunday 15th January,,,,,,,,,,,
+E,Team,Score,,Score,Team,Field,Time,,,,
 E2 v E4,,, v ,,,4,8:30 am - 9:45 am,,,,
+E1 v E3,,, v ,,,3,8:30 am - 9:45 am,,,,
+E1 v E2,,, v ,,,3,12:00 pm-1:15 pm,,,,
 E3 v E4,,, v ,,,4,12:00 pm-1:15 pm,,,,
+E1 v E4,,, v ,,,3,3:30 pm - 4:45 pm,,,,
+E2 v E3,,, v ,,,4,3:30 pm - 4:45 pm,,,,
