@@ -26,6 +26,17 @@
       "time": "8:30 am - 9:45 am"
     },
     {
+      "team_a": "Awadh KHELadis",
+      "score_a": 15,
+      "team_b": "Disc Positive",
+      "score_b": 9,
+      "stage": "pool",
+      "pool_name": "Pool A",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "10:45 am - 12:00 pm"
+    },
+    {
       "team_a": "GK Mad",
       "score_a": 15,
       "team_b": "Udta Kebabs",
@@ -37,6 +48,17 @@
       "time": "8:30 am - 9:45 am"
     },
     {
+      "team_a": "GK Mad",
+      "score_a": 15,
+      "team_b": "FS Sacred Discs",
+      "score_b": 2,
+      "stage": "pool",
+      "pool_name": "Pool B",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "10:45 am - 12:00 pm"
+    },
+    {
       "team_a": "Storm Chasers",
       "score_a": 15,
       "team_b": "Stray Dogs In Sweaters B",
@@ -46,6 +68,17 @@
       "bracket_name": "",
       "bracket_round": -1,
       "time": "8:30 am - 9:45 am"
+    },
+    {
+      "team_a": "Storm Chasers",
+      "score_a": 9,
+      "team_b": "Jumbish Fire",
+      "score_b": 13,
+      "stage": "pool",
+      "pool_name": "Pool C",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "10:45 am - 12:00 pm"
     }
   ],
   "rankings": [],
