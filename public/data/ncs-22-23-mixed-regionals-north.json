@@ -13,7 +13,41 @@
   "sheet_id": "1W4rTuuNvr9i-kRywRrF8ckuPQ8Tjn9CdzhgYOm33S1k",
   "expiry": "2023-01-17",
   "num_teams": 12,
-  "scores": [],
+  "scores": [
+    {
+      "team_a": "Awadh KHELadis",
+      "score_a": 14,
+      "team_b": "Lucknow Scorpions",
+      "score_b": 10,
+      "stage": "pool",
+      "pool_name": "Pool A",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "8:30 am - 9:45 am"
+    },
+    {
+      "team_a": "GK Mad",
+      "score_a": 15,
+      "team_b": "Udta Kebabs",
+      "score_b": 7,
+      "stage": "pool",
+      "pool_name": "Pool B",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "8:30 am - 9:45 am"
+    },
+    {
+      "team_a": "Storm Chasers",
+      "score_a": 15,
+      "team_b": "Stray Dogs In Sweaters B",
+      "score_b": 3,
+      "stage": "pool",
+      "pool_name": "Pool C",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "8:30 am - 9:45 am"
+    }
+  ],
   "rankings": [],
   "seedings": [
     {
