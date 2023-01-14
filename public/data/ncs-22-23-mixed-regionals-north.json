@@ -137,7 +137,7 @@
     },
     {
       "team_a": "Jumbish Catchers",
-      "score_a": 15,
+      "score_a": 12,
       "team_b": "RTFC, kshamtalaya",
       "score_b": 4,
       "stage": "pool",
@@ -173,6 +173,39 @@
       "score_a": 15,
       "team_b": "RTFC, kshamtalaya",
       "score_b": 0,
+      "stage": "pool",
+      "pool_name": "Pool [Extra]",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": ""
+    },
+    {
+      "team_a": "Jumbish Catchers",
+      "score_a": 15,
+      "team_b": "Stray Dogs In Sweaters B",
+      "score_b": 4,
+      "stage": "pool",
+      "pool_name": "Pool [Extra]",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": ""
+    },
+    {
+      "team_a": "Lucknow Scorpions",
+      "score_a": 9,
+      "team_b": "FS Sacred Discs",
+      "score_b": 8,
+      "stage": "pool",
+      "pool_name": "Pool [Extra]",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": ""
+    },
+    {
+      "team_a": "Udta Kebabs",
+      "score_a": 15,
+      "team_b": "Disc Positive",
+      "score_b": 10,
       "stage": "pool",
       "pool_name": "Pool [Extra]",
       "bracket_name": "",
