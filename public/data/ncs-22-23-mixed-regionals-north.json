@@ -211,6 +211,50 @@
       "bracket_name": "",
       "bracket_round": -1,
       "time": ""
+    },
+    {
+      "team_a": "Awadh KHELadis",
+      "score_a": 15,
+      "team_b": "Udta Kebabs",
+      "score_b": 7,
+      "stage": "brackets",
+      "pool_name": "",
+      "bracket_name": "Finals",
+      "bracket_round": 0,
+      "time": ""
+    },
+    {
+      "team_a": "Storm Chasers",
+      "score_a": 10,
+      "team_b": "Flying Spirits",
+      "score_b": 8,
+      "stage": "brackets",
+      "pool_name": "",
+      "bracket_name": "Finals",
+      "bracket_round": 0,
+      "time": ""
+    },
+    {
+      "team_a": "Jumbish Fire",
+      "score_a": 8,
+      "team_b": "Jumbish Catchers",
+      "score_b": 7,
+      "stage": "brackets",
+      "pool_name": "",
+      "bracket_name": "Finals",
+      "bracket_round": 0,
+      "time": ""
+    },
+    {
+      "team_a": "Lucknow Scorpions",
+      "score_a": 4,
+      "team_b": "GK Mad",
+      "score_b": 15,
+      "stage": "brackets",
+      "pool_name": "",
+      "bracket_name": "Finals",
+      "bracket_round": 0,
+      "time": ""
     }
   ],
   "rankings": [],
