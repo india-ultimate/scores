@@ -66,7 +66,13 @@ def parse_pools_data(path, stage="pool"):
                 if not team_l or team_l.isnumeric() or not team_r or team_r.isnumeric():
                     continue
                 positions = line[left - 2].strip()
-                position_a, _, position_b = positions.strip().split()
+                position_a, position_b = (
+                    positions.upper()
+                    .replace("VS", " ")
+                    .replace("V", " ")
+                    .strip()
+                    .split()
+                )
                 time = line[time_column[i]].strip() if i < len(time_column) else ""
                 pool = line[left - 2].strip()[0]
                 pool_name = f"Pool {pool}" if not pool.isnumeric() else "Pool [Extra]"
