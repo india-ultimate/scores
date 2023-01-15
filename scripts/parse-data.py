@@ -163,6 +163,8 @@ def parse_brackets_data(path):
 
 
 def get_bracket_name(columns, col):
+    # FIXME: The names are incorrect if data is collected while tournament is
+    # in progress.
     round_ = columns[::-1].index(col)
     if round_ == 0:
         return "Finals"
