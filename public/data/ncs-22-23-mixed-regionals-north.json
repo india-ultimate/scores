@@ -410,7 +410,7 @@
       "position_b": "8",
       "stage": "brackets",
       "pool_name": "",
-      "bracket_name": "Pre Quarters",
+      "bracket_name": "Quarters",
       "bracket_round": 0,
       "time": ""
     },
@@ -424,7 +424,7 @@
       "position_b": "4",
       "stage": "brackets",
       "pool_name": "",
-      "bracket_name": "Pre Quarters",
+      "bracket_name": "Quarters",
       "bracket_round": 0,
       "time": ""
     },
@@ -438,7 +438,7 @@
       "position_b": "6",
       "stage": "brackets",
       "pool_name": "",
-      "bracket_name": "Pre Quarters",
+      "bracket_name": "Quarters",
       "bracket_round": 0,
       "time": ""
     },
@@ -452,7 +452,7 @@
       "position_b": "2",
       "stage": "brackets",
       "pool_name": "",
-      "bracket_name": "Pre Quarters",
+      "bracket_name": "Quarters",
       "bracket_round": 0,
       "time": ""
     },
@@ -466,7 +466,7 @@
       "position_b": "4",
       "stage": "brackets",
       "pool_name": "",
-      "bracket_name": "Quarters",
+      "bracket_name": "Semis",
       "bracket_round": 1,
       "time": ""
     },
@@ -480,7 +480,7 @@
       "position_b": "2",
       "stage": "brackets",
       "pool_name": "",
-      "bracket_name": "Quarters",
+      "bracket_name": "Semis",
       "bracket_round": 1,
       "time": ""
     },
@@ -494,7 +494,7 @@
       "position_b": "5",
       "stage": "brackets",
       "pool_name": "",
-      "bracket_name": "Quarters",
+      "bracket_name": "Semis",
       "bracket_round": 1,
       "time": ""
     },
@@ -508,7 +508,7 @@
       "position_b": "7",
       "stage": "brackets",
       "pool_name": "",
-      "bracket_name": "Quarters",
+      "bracket_name": "Semis",
       "bracket_round": 1,
       "time": ""
     },
@@ -522,7 +522,7 @@
       "position_b": "2",
       "stage": "brackets",
       "pool_name": "",
-      "bracket_name": "Semis",
+      "bracket_name": "Finals",
       "bracket_round": 2,
       "time": ""
     },
@@ -536,7 +536,7 @@
       "position_b": "4",
       "stage": "brackets",
       "pool_name": "",
-      "bracket_name": "Semis",
+      "bracket_name": "Finals",
       "bracket_round": 2,
       "time": ""
     },
@@ -550,7 +550,7 @@
       "position_b": "6",
       "stage": "brackets",
       "pool_name": "",
-      "bracket_name": "Semis",
+      "bracket_name": "Finals",
       "bracket_round": 2,
       "time": ""
     },
@@ -564,22 +564,8 @@
       "position_b": "8",
       "stage": "brackets",
       "pool_name": "",
-      "bracket_name": "Semis",
-      "bracket_round": 2,
-      "time": ""
-    },
-    {
-      "id": "1-v-2",
-      "team_a": "GK Mad",
-      "score_a": 10,
-      "position_a": "1",
-      "team_b": "Awadh KHELadis",
-      "score_b": 12,
-      "position_b": "2",
-      "stage": "brackets",
-      "pool_name": "",
       "bracket_name": "Finals",
-      "bracket_round": 3,
+      "bracket_round": 2,
       "time": ""
     }
   ],
