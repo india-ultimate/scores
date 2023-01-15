@@ -21,10 +21,10 @@ D1 v D2,Flying Spirits,11, v ,10,Jumbish Catchers,2,10:45 am - 12:00 pm,,2D,6,Ju
 D2 v D3,Jumbish Catchers,12, v ,4,"RTFC, kshamtalaya",2,1:00 pm - 2:15 pm,,3D,12,"RTFC, kshamtalaya"
 ,,,,,,,,,,,
 ALL CROSS POOL + SEEDING ,,,,,,,,,,Rank, Team Name
-,Team,Score,,Score,Team,,,,1E,9,
-1v3,Awadh KHELadis,11, v ,10,Jumbish Fire,,,,2E,10,
-2v4,GK Mad,15, v ,11,Flying Spirits,,,,3E,11,
-5v12,Storm Chasers,15, v ,0,"RTFC, kshamtalaya",,,,4E,12,
+,Team,Score,,Score,Team,,,,1E,9,Disc Positive
+1v3,Awadh KHELadis,11, v ,10,Jumbish Fire,,,,2E,10,FS Sacred Discs
+2v4,GK Mad,15, v ,11,Flying Spirits,,,,3E,11,Stray Dogs In Sweaters B
+5v12,Storm Chasers,15, v ,0,"RTFC, kshamtalaya",,,,4E,12,"RTFC, kshamtalaya"
 6v11,Jumbish Catchers,15, v ,4,Stray Dogs In Sweaters B,,,,,,
 7v10,Lucknow Scorpions,9, v ,8,FS Sacred Discs,,,,,,
 8v9,Udta Kebabs,15, v ,10,Disc Positive,,,,,,
@@ -33,6 +33,6 @@ E,Team,Score,,Score,Team,Field,Time,,,,
 E2 v E4,FS Sacred Discs,15, v ,6,"RTFC, kshamtalaya",4,10:00 am - 11:15 am,,,,
 E1 v E3,Disc Positive,14, v ,5,Stray Dogs In Sweaters B,3,10:00 am - 11:15 am,,,,
 E1 v E2,Disc Positive,14, v ,10,FS Sacred Discs,3,1:00 pm-2:15 pm,,,,
-E3 v E4,Stray Dogs In Sweaters B,, v ,,"RTFC, kshamtalaya",4,1:00 pm-2:15 pm,,,,
-E1 v E4,Disc Positive,, v ,,"RTFC, kshamtalaya",3,4:00 pm - 5:15 pm,,,,
-E2 v E3,FS Sacred Discs,, v ,,Stray Dogs In Sweaters B,4,4:00 pm - 5:15 pm,,,,
+E3 v E4,Stray Dogs In Sweaters B,10, v ,8,"RTFC, kshamtalaya",4,1:00 pm-2:15 pm,,,,
+E1 v E4,Disc Positive,13, v ,3,"RTFC, kshamtalaya",3,4:00 pm - 5:15 pm,,,,
+E2 v E3,FS Sacred Discs,15, v ,2,Stray Dogs In Sweaters B,4,4:00 pm - 5:15 pm,,,,
