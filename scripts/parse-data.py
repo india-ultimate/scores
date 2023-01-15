@@ -197,12 +197,13 @@ def parse_rankings(path, num_teams):
         for i, line in enumerate(csv_data):
             n = len(line)
             for col, content in enumerate(line[last_column:], start=last_column):
-                if col + 1 >= n:
+                if col + 1 >= n or col - 1 < 0:
                     continue
                 if (
                     content.strip() == str(num_teams)
                     and line[col + 1].strip()
                     and not line[col + 1].strip().isnumeric()
+                    and not line[col - 1].encode("ascii", errors="ignore")
                 ):
                     ranking_columns.append(col)
 
