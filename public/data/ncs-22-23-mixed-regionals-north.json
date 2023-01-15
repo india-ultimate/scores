@@ -345,6 +345,20 @@
       "time": "10:00 am - 11:15 am"
     },
     {
+      "id": "E1-v-E2",
+      "team_a": "Disc Positive",
+      "score_a": 14,
+      "position_a": "E1",
+      "team_b": "FS Sacred Discs",
+      "score_b": 10,
+      "position_b": "E2",
+      "stage": "pool",
+      "pool_name": "Pool E",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "1:00 pm-2:15 pm"
+    },
+    {
       "id": "1-v-8",
       "team_a": "Awadh KHELadis",
       "score_a": 15,
@@ -354,7 +368,7 @@
       "position_b": "8",
       "stage": "brackets",
       "pool_name": "",
-      "bracket_name": "Finals",
+      "bracket_name": "Semis",
       "bracket_round": 0,
       "time": ""
     },
@@ -368,7 +382,7 @@
       "position_b": "4",
       "stage": "brackets",
       "pool_name": "",
-      "bracket_name": "Finals",
+      "bracket_name": "Semis",
       "bracket_round": 0,
       "time": ""
     },
@@ -382,7 +396,7 @@
       "position_b": "6",
       "stage": "brackets",
       "pool_name": "",
-      "bracket_name": "Finals",
+      "bracket_name": "Semis",
       "bracket_round": 0,
       "time": ""
     },
@@ -396,8 +410,64 @@
       "position_b": "2",
       "stage": "brackets",
       "pool_name": "",
-      "bracket_name": "Finals",
+      "bracket_name": "Semis",
       "bracket_round": 0,
+      "time": ""
+    },
+    {
+      "id": "1-v-4",
+      "team_a": "Awadh KHELadis",
+      "score_a": 12,
+      "position_a": "1",
+      "team_b": "Storm Chasers",
+      "score_b": 10,
+      "position_b": "4",
+      "stage": "brackets",
+      "pool_name": "",
+      "bracket_name": "Finals",
+      "bracket_round": 1,
+      "time": ""
+    },
+    {
+      "id": "3-v-2",
+      "team_a": "Jumbish Fire",
+      "score_a": 8,
+      "position_a": "3",
+      "team_b": "GK Mad",
+      "score_b": 14,
+      "position_b": "2",
+      "stage": "brackets",
+      "pool_name": "",
+      "bracket_name": "Finals",
+      "bracket_round": 1,
+      "time": ""
+    },
+    {
+      "id": "8-v-5",
+      "team_a": "Udta Kebabs",
+      "score_a": 9,
+      "position_a": "8",
+      "team_b": "Flying Spirits",
+      "score_b": 13,
+      "position_b": "5",
+      "stage": "brackets",
+      "pool_name": "",
+      "bracket_name": "Finals",
+      "bracket_round": 1,
+      "time": ""
+    },
+    {
+      "id": "6-v-7",
+      "team_a": "Jumbish Catchers",
+      "score_a": 9,
+      "position_a": "6",
+      "team_b": "Lucknow Scorpions",
+      "score_b": 7,
+      "position_b": "7",
+      "stage": "brackets",
+      "pool_name": "",
+      "bracket_name": "Finals",
+      "bracket_round": 1,
       "time": ""
     }
   ],
