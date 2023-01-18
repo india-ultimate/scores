@@ -569,5 +569,54 @@
       "time": ""
     }
   ],
-  "rankings": []
+  "rankings": [
+    {
+      "rank": 1,
+      "team": "GK Mad"
+    },
+    {
+      "rank": 2,
+      "team": "Awadh KHELadis"
+    },
+    {
+      "rank": 3,
+      "team": "Jumbish Fire"
+    },
+    {
+      "rank": 4,
+      "team": "Storm Chasers"
+    },
+    {
+      "rank": 5,
+      "team": "Flying Spirits"
+    },
+    {
+      "rank": 6,
+      "team": "Jumbish Catchers"
+    },
+    {
+      "rank": 7,
+      "team": "Udta Kebabs"
+    },
+    {
+      "rank": 8,
+      "team": "Lucknow Scorpions"
+    },
+    {
+      "rank": 9,
+      "team": "Disc Positive"
+    },
+    {
+      "rank": 10,
+      "team": "FS Sacred Discs"
+    },
+    {
+      "rank": 11,
+      "team": "Stray Dogs In Sweaters B"
+    },
+    {
+      "rank": 12,
+      "team": "RTFC, kshamtalaya"
+    }
+  ]
 }
