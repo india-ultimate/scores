@@ -190,81 +190,73 @@ def find_bracket_pool_name(pools_rows, col, row):
         return ""
 
 
+def all_ranks_found(data, row, col, n):
+    for m in range(n):
+        content = data[row - m][col].strip()
+        if not (content.isnumeric() and int(content) == n - m):
+            return False
+
+    content = data[row + 1][col].strip() if row + 1 < len(data) else ""
+    if content.isnumeric() and int(content) == n + 1 and data[row + 1][col + 1]:
+        return False
+
+    return True
+
+
+def find_rank_data_column(path, num_teams):
+    with open(path) as f:
+        csv_data = list(csv.reader(f))
+
+    ranking_position = []
+    for i, line in enumerate(csv_data):
+        n = len(line)
+        for col, content in enumerate(line):
+            if (
+                col + 1 < n
+                and content.strip() == str(num_teams)
+                and line[col + 1].strip()
+                and all_ranks_found(csv_data, i, col, num_teams)
+            ):
+                ranking_position.append((i - num_teams + 1, col))
+    return sorted(ranking_position)[0] if ranking_position else (None, None)
+
+
 def parse_rankings(path, num_teams):
     columns = find_bracket_data_columns(path)
     last_column = columns[-1] + 1 if columns else 0
-    with open(path) as f:
-        csv_data = csv.reader(f)
-        ranking_columns = []
-        for i, line in enumerate(csv_data):
-            n = len(line)
-            for col, content in enumerate(line[last_column:], start=last_column):
-                if col + 1 >= n or col - 1 < 0:
-                    continue
-                if (
-                    content.strip() == str(num_teams)
-                    and line[col + 1].strip()
-                    and not line[col + 1].strip().isnumeric()
-                    and not line[col - 1].encode("ascii", errors="ignore")
-                ):
-                    ranking_columns.append(col)
+    ranking_row, ranking_col = find_rank_data_column(path, num_teams)
 
     ranks = {}
-    if not ranking_columns:
+    if ranking_col is None:
         return ranks
 
-    ranking_column = sorted(ranking_columns)[0]
     with open(path) as f:
-        csv_data = csv.reader(f)
-        for i, line in enumerate(csv_data):
-            rank, team = line[ranking_column].strip(), line[ranking_column + 1].strip()
+        csv_data = list(csv.reader(f))
+        for line in csv_data[ranking_row : ranking_row + num_teams]:
+            rank, team = line[ranking_col].strip(), line[ranking_col + 1].strip()
             if rank.isnumeric() and team and not team.isnumeric():
                 rank = int(rank)
                 if rank not in ranks:
                     ranks[rank] = team
-                else:
-                    break
 
-    assert len(ranks) == num_teams
     return ranks
 
 
-def find_seed_data_columns(path):
-    with open(path) as f:
-        csv_data = csv.reader(f)
-        seed_columns = []
-        s = {"seed", "seeding"}
-        t = {"team", "team name"}
-        for i, line in enumerate(csv_data):
-            for col, header in enumerate(line):
-                if header.strip().lower() in s:
-                    if line[col + 1].strip().lower() in t:
-                        seed_columns.append(col)
-            if i > 2:
-                break
-        return seed_columns
-
-
 def parse_seeds(path, num_teams):
-    seed_columns = find_seed_data_columns(path)
+    seed_row, seed_col = find_rank_data_column(path, num_teams)
     seeds = {}
-    with open(path) as f:
-        csv_data = csv.reader(f)
-        for i, line in enumerate(csv_data):
-            for seed_column in seed_columns:
-                seeds_ = seeds.setdefault(seed_column, {})
-                seed, team = line[seed_column].strip(), line[seed_column + 1].strip()
-                if seed.isnumeric() and team and not team.isnumeric():
-                    seed = int(seed)
-                    if seed not in seeds_:
-                        seeds_[seed] = team
-                    else:
-                        break
-    for seedings in seeds.values():
-        if len(seedings) == num_teams:
-            return seedings
+    if seed_col is None:
+        return seeds
 
-    return {}
+    with open(path) as f:
+        csv_data = list(csv.reader(f))
+        for line in csv_data[seed_row : seed_row + num_teams]:
+            seed, team = line[seed_col].strip(), line[seed_col + 1].strip()
+            seed = int(seed)
+            if seed not in seeds:
+                seeds[seed] = team
+
+    return seeds
 
 
 def fix_team_name(name, names):
