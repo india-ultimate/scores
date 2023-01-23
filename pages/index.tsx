@@ -128,7 +128,6 @@ export default function Home() {
 								target="_blank"
 								rel="noopener noreferrer"
 							>
-								By{" "}
 								<Image
 									src="https://d36m266ykvepgv.cloudfront.net/uploads/media/o4G97mT9vR/s-448-250/upai-2.png"
 									alt="Vercel Logo"
