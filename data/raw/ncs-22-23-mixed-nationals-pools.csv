@@ -6,7 +6,7 @@ A2 v A3,Stall7,, v ,,Flying Spirits,1,10:00 to 11:15,,2A,6,
 A1 v A3,Airborne,, v ,,Flying Spirits,1,12:30 to 13:45,,3A,12,
 ,,,,,,,,,,,
 B,Team,Score,,Score,Team,Field,Time,,,Seed,Final positions after re-seed
-B1 v B2,Spinergy,, v ,,Air Traffic Control,3,10:00 to 11:15,,1B,2,
+B1 v B2,Spinergy,, v ,,Air Traffic Control,3,07:00 to 08:15,,1B,2,
 B1 v B3,Spinergy,, v ,,StormChasers,5,09:30 to 10:45,,2B,5,
 B2 v B3,Air Traffic Control,, v ,,StormChasers,5,12:30 to 13:45,,3B,11,
 ,,,,,,,,,,,
@@ -36,6 +36,6 @@ G1 v G3,Jumbish catchers,, v ,,Disc Positive,5,11:00 to 12:15,,2G,17,
 G2 v G3,Disc Positive,, v ,,Night Crawlers,4,14:00 to 15:15,,3G,22,
 ,,,,,,,,,,,
 H,Team,Score,,Score,Team,Field,Time,,,Seed,Final positions after re-seed
-H1 v H2,Puyal,, v ,,Itaunja Pilots,4,08:30 to 09:45,,1H,16,
+H1 v H2,Puyal,15, v ,5,Bye,4,08:30 to 09:45,,1H,16,
 H2 v H3,Bye,5, v ,15,Itaunja Pilots,3,11:30 to 12:45,,2H,18,
-H1 v H3,Puyal,15, v ,5,Bye,5,14:00 to 15:15,,3H,21,Bye
+H1 v H3,Puyal,, v ,,Itaunja Pilots,5,14:00 to 15:15,,3H,21,Bye

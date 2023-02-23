@@ -113,6 +113,20 @@
   ],
   "scores": [
     {
+      "id": "H1-v-H2",
+      "team_a": "Puyal",
+      "score_a": 15,
+      "position_a": "H1",
+      "team_b": "Bye",
+      "score_b": 5,
+      "position_b": "H2",
+      "stage": "pool",
+      "pool_name": "Pool H",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "08:30 to 09:45"
+    },
+    {
       "id": "H2-v-H3",
       "team_a": "Bye",
       "score_a": 5,
@@ -125,20 +139,6 @@
       "bracket_name": "",
       "bracket_round": -1,
       "time": "11:30 to 12:45"
-    },
-    {
-      "id": "H1-v-H3",
-      "team_a": "Puyal",
-      "score_a": 15,
-      "position_a": "H1",
-      "team_b": "Bye",
-      "score_b": 5,
-      "position_b": "H3",
-      "stage": "pool",
-      "pool_name": "Pool H",
-      "bracket_name": "",
-      "bracket_round": -1,
-      "time": "14:00 to 15:15"
     }
   ],
   "rankings": []
