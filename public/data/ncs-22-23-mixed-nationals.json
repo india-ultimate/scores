@@ -351,9 +351,23 @@
       "time": "10:00 to 11:15"
     },
     {
+      "id": "F1-v-F3",
+      "team_a": "No Fly Zone",
+      "score_a": 14,
+      "position_a": "F1",
+      "team_b": "Morning Star",
+      "score_b": 5,
+      "position_b": "F3",
+      "stage": "pool",
+      "pool_name": "Pool F",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "13:00 to 14:15"
+    },
+    {
       "id": "G1-v-G2",
       "team_a": "Jumbish catchers",
-      "score_a": 15,
+      "score_a": 13,
       "position_a": "G1",
       "team_b": "Night Crawlers",
       "score_b": 7,
@@ -377,6 +391,20 @@
       "bracket_name": "",
       "bracket_round": -1,
       "time": "11:00 to 12:15"
+    },
+    {
+      "id": "G2-v-G3",
+      "team_a": "Disc Positive",
+      "score_a": 11,
+      "position_a": "G2",
+      "team_b": "Night Crawlers",
+      "score_b": 7,
+      "position_b": "G3",
+      "stage": "pool",
+      "pool_name": "Pool G",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "14:00 to 15:15"
     },
     {
       "id": "H1-v-H2",

@@ -27,13 +27,13 @@ E1 v E3,Jumbish Fire,12, v ,13,Blades,4,12:30 to 13:45,,3E,24,Jumbish Fire
 ,,,,,,,,,,,
 F,Team,Score,,Score,Team,Field,Time,,,Seed,Final positions after re-seed
 F1 v F2,No Fly Zone,8, v ,14,Udta Kebabs,5,07:00 to 08:15,,1F,14,Udta Kebabs
-F2 v F3,Udta Kebabs,15, v ,4,Morning Star,4,10:00 to 11:15,,2F,20,
-F1 v F3,No Fly Zone,, v ,,Morning Star,3,13:00 to 14:15,,3F,23,
+F2 v F3,Udta Kebabs,15, v ,4,Morning Star,4,10:00 to 11:15,,2F,20,No Fly Zone
+F1 v F3,No Fly Zone,14, v ,5,Morning Star,3,13:00 to 14:15,,3F,23,Morning Star
 ,,,,,,,,,0,,
 G,Team,Score,,Score,Team,Field,Time,,,Seed,Final positions after re-seed
-G1 v G2,Jumbish catchers,15, v ,7,Night Crawlers,3,08:30 to 09:45,,1G,15,Jumbish catchers
-G1 v G3,Jumbish catchers,15, v ,7,Disc Positive,5,11:00 to 12:15,,2G,17,
-G2 v G3,Disc Positive,, v ,,Night Crawlers,4,14:00 to 15:15,,3G,22,
+G1 v G2,Jumbish catchers,13, v ,7,Night Crawlers,3,08:30 to 09:45,,1G,15,Jumbish catchers
+G1 v G3,Jumbish catchers,15, v ,7,Disc Positive,5,11:00 to 12:15,,2G,17,Disc Positive
+G2 v G3,Disc Positive,11, v ,7,Night Crawlers,4,14:00 to 15:15,,3G,22,Night Crawlers
 ,,,,,,,,,,,
 H,Team,Score,,Score,Team,Field,Time,,,Seed,Final positions after re-seed
 H1 v H2,Puyal,15, v ,5,Bye,4,08:30 to 09:45,,1H,16,Itaunja Pilots
