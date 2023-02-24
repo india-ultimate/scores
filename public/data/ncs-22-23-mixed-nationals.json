@@ -127,6 +127,34 @@
       "time": "07:00 to 08:15"
     },
     {
+      "id": "B1-v-B3",
+      "team_a": "Spinergy",
+      "score_a": 15,
+      "position_a": "B1",
+      "team_b": "StormChasers",
+      "score_b": 4,
+      "position_b": "B3",
+      "stage": "pool",
+      "pool_name": "Pool B",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "09:30 to 10:45"
+    },
+    {
+      "id": "C1-v-C2",
+      "team_a": "Airbenders One",
+      "score_a": 14,
+      "position_a": "C1",
+      "team_b": "GK Mad",
+      "score_b": 13,
+      "position_b": "C2",
+      "stage": "pool",
+      "pool_name": "Pool C",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "08:30 to 09:45"
+    },
+    {
       "id": "E1-v-E2",
       "team_a": "Jumbish Fire",
       "score_a": 10,
@@ -141,6 +169,20 @@
       "time": "07:00 to 08:15"
     },
     {
+      "id": "E2-v-E3",
+      "team_a": "Lucknow Scorpions",
+      "score_a": 10,
+      "position_a": "E2",
+      "team_b": "Blades",
+      "score_b": 15,
+      "position_b": "E3",
+      "stage": "pool",
+      "pool_name": "Pool E",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "10:00 to 11:15"
+    },
+    {
       "id": "F1-v-F2",
       "team_a": "No Fly Zone",
       "score_a": 8,
@@ -153,6 +195,34 @@
       "bracket_name": "",
       "bracket_round": -1,
       "time": "07:00 to 08:15"
+    },
+    {
+      "id": "F2-v-F3",
+      "team_a": "Udta Kebabs",
+      "score_a": 15,
+      "position_a": "F2",
+      "team_b": "Morning Star",
+      "score_b": 4,
+      "position_b": "F3",
+      "stage": "pool",
+      "pool_name": "Pool F",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "10:00 to 11:15"
+    },
+    {
+      "id": "G1-v-G3",
+      "team_a": "Jumbish catchers",
+      "score_a": 15,
+      "position_a": "G1",
+      "team_b": "Disc Positive",
+      "score_b": 7,
+      "position_b": "G3",
+      "stage": "pool",
+      "pool_name": "Pool G",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "11:00 to 12:15"
     },
     {
       "id": "H1-v-H2",
