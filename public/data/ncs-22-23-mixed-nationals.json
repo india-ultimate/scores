@@ -113,6 +113,48 @@
   ],
   "scores": [
     {
+      "id": "A1-v-A2",
+      "team_a": "Airborne",
+      "score_a": 13,
+      "position_a": "A1",
+      "team_b": "Stall7",
+      "score_b": 10,
+      "position_b": "A2",
+      "stage": "pool",
+      "pool_name": "Pool A",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "07:00 to 08:15"
+    },
+    {
+      "id": "A2-v-A3",
+      "team_a": "Stall7",
+      "score_a": 11,
+      "position_a": "A2",
+      "team_b": "Flying Spirits",
+      "score_b": 12,
+      "position_b": "A3",
+      "stage": "pool",
+      "pool_name": "Pool A",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "10:00 to 11:15"
+    },
+    {
+      "id": "A1-v-A3",
+      "team_a": "Airborne",
+      "score_a": 13,
+      "position_a": "A1",
+      "team_b": "Flying Spirits",
+      "score_b": 9,
+      "position_b": "A3",
+      "stage": "pool",
+      "pool_name": "Pool A",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "12:30 to 13:45"
+    },
+    {
       "id": "B1-v-B2",
       "team_a": "Spinergy",
       "score_a": 10,
@@ -141,6 +183,20 @@
       "time": "09:30 to 10:45"
     },
     {
+      "id": "B2-v-B3",
+      "team_a": "Air Traffic Control",
+      "score_a": 14,
+      "position_a": "B2",
+      "team_b": "StormChasers",
+      "score_b": 9,
+      "position_b": "B3",
+      "stage": "pool",
+      "pool_name": "Pool B",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "12:30 to 13:45"
+    },
+    {
       "id": "C1-v-C2",
       "team_a": "Airbenders One",
       "score_a": 14,
@@ -155,6 +211,20 @@
       "time": "08:30 to 09:45"
     },
     {
+      "id": "C1-v-C3",
+      "team_a": "Airbenders One",
+      "score_a": 14,
+      "position_a": "C1",
+      "team_b": "Stray Dogs In Sweaters",
+      "score_b": 7,
+      "position_b": "C3",
+      "stage": "pool",
+      "pool_name": "Pool C",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "11:00 to 12:15"
+    },
+    {
       "id": "C2-v-C3",
       "team_a": "GK Mad",
       "score_a": 13,
@@ -167,6 +237,48 @@
       "bracket_name": "",
       "bracket_round": -1,
       "time": "14:00 to 15:15"
+    },
+    {
+      "id": "D1-v-D2",
+      "team_a": "Flywild",
+      "score_a": 15,
+      "position_a": "D1",
+      "team_b": "Learning to Fly",
+      "score_b": 10,
+      "position_b": "D2",
+      "stage": "pool",
+      "pool_name": "Pool D",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "07:00 to 08:15"
+    },
+    {
+      "id": "D1-v-D3",
+      "team_a": "Flywild",
+      "score_a": 13,
+      "position_a": "D1",
+      "team_b": "Ambush UC",
+      "score_b": 12,
+      "position_b": "D3",
+      "stage": "pool",
+      "pool_name": "Pool D",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "09:30 to 10:45"
+    },
+    {
+      "id": "D2-v-D3",
+      "team_a": "Learning to Fly",
+      "score_a": 7,
+      "position_a": "D2",
+      "team_b": "Ambush UC",
+      "score_b": 15,
+      "position_b": "D3",
+      "stage": "pool",
+      "pool_name": "Pool D",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "12:30 to 13:45"
     },
     {
       "id": "E1-v-E2",
@@ -197,6 +309,20 @@
       "time": "10:00 to 11:15"
     },
     {
+      "id": "E1-v-E3",
+      "team_a": "Jumbish Fire",
+      "score_a": 12,
+      "position_a": "E1",
+      "team_b": "Blades",
+      "score_b": 13,
+      "position_b": "E3",
+      "stage": "pool",
+      "pool_name": "Pool E",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "12:30 to 13:45"
+    },
+    {
       "id": "F1-v-F2",
       "team_a": "No Fly Zone",
       "score_a": 8,
@@ -223,6 +349,20 @@
       "bracket_name": "",
       "bracket_round": -1,
       "time": "10:00 to 11:15"
+    },
+    {
+      "id": "G1-v-G2",
+      "team_a": "Jumbish catchers",
+      "score_a": 15,
+      "position_a": "G1",
+      "team_b": "Night Crawlers",
+      "score_b": 7,
+      "position_b": "G2",
+      "stage": "pool",
+      "pool_name": "Pool G",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "08:30 to 09:45"
     },
     {
       "id": "G1-v-G3",
@@ -265,6 +405,20 @@
       "bracket_name": "",
       "bracket_round": -1,
       "time": "11:30 to 12:45"
+    },
+    {
+      "id": "H1-v-H3",
+      "team_a": "Puyal",
+      "score_a": 3,
+      "position_a": "H1",
+      "team_b": "Itaunja Pilots",
+      "score_b": 15,
+      "position_b": "H3",
+      "stage": "pool",
+      "pool_name": "Pool H",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "14:00 to 15:15"
     }
   ],
   "rankings": []
