@@ -113,6 +113,48 @@
   ],
   "scores": [
     {
+      "id": "B1-v-B2",
+      "team_a": "Spinergy",
+      "score_a": 10,
+      "position_a": "B1",
+      "team_b": "Air Traffic Control",
+      "score_b": 11,
+      "position_b": "B2",
+      "stage": "pool",
+      "pool_name": "Pool B",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "07:00 to 08:15"
+    },
+    {
+      "id": "E1-v-E2",
+      "team_a": "Jumbish Fire",
+      "score_a": 10,
+      "position_a": "E1",
+      "team_b": "Lucknow Scorpions",
+      "score_b": 12,
+      "position_b": "E2",
+      "stage": "pool",
+      "pool_name": "Pool E",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "07:00 to 08:15"
+    },
+    {
+      "id": "F1-v-F2",
+      "team_a": "No Fly Zone",
+      "score_a": 8,
+      "position_a": "F1",
+      "team_b": "Udta Kebabs",
+      "score_b": 14,
+      "position_b": "F2",
+      "stage": "pool",
+      "pool_name": "Pool F",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "07:00 to 08:15"
+    },
+    {
       "id": "H1-v-H2",
       "team_a": "Puyal",
       "score_a": 15,
