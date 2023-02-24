@@ -13,7 +13,7 @@ B2 v B3,Air Traffic Control,, v ,,StormChasers,5,12:30 to 13:45,,3B,11,
 C,Team,Score,,Score,Team,Field,Time,,,Seed,Final positions after re-seed
 C1 v C2,Airbenders One,14, v ,13,GK Mad,1,08:30 to 09:45,,1C,3,
 C1 v C3,Airbenders One,, v ,,Stray Dogs In Sweaters,2,11:00 to 12:15,,2C,8,
-C2 v C3,GK Mad,, v ,,Stray Dogs In Sweaters,1,14:00 to 15:15,,3C,10,
+C2 v C3,GK Mad,13, v ,10,Stray Dogs In Sweaters,1,14:00 to 15:15,,3C,10,
 ,,,,,,,,,,,
 D,Team,Score,,Score,Team,Field,Time,,,Seed,Final positions after re-seed
 D1 v D2,Flywild,, v ,,Learning to Fly,2,07:00 to 08:15,,1D,4,
@@ -29,7 +29,7 @@ F,Team,Score,,Score,Team,Field,Time,,,Seed,Final positions after re-seed
 F1 v F2,No Fly Zone,8, v ,14,Udta Kebabs,5,07:00 to 08:15,,1F,14,
 F2 v F3,Udta Kebabs,15, v ,4,Morning Star,4,10:00 to 11:15,,2F,20,
 F1 v F3,No Fly Zone,, v ,,Morning Star,3,13:00 to 14:15,,3F,23,
-,,,,,,,,,,,
+,,,,,,,,,0,,
 G,Team,Score,,Score,Team,Field,Time,,,Seed,Final positions after re-seed
 G1 v G2,Jumbish catchers,, v ,,Night Crawlers,3,08:30 to 09:45,,1G,15,
 G1 v G3,Jumbish catchers,15, v ,7,Disc Positive,5,11:00 to 12:15,,2G,17,

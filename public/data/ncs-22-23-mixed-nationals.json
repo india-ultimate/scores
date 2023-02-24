@@ -155,6 +155,20 @@
       "time": "08:30 to 09:45"
     },
     {
+      "id": "C2-v-C3",
+      "team_a": "GK Mad",
+      "score_a": 13,
+      "position_a": "C2",
+      "team_b": "Stray Dogs In Sweaters",
+      "score_b": 10,
+      "position_b": "C3",
+      "stage": "pool",
+      "pool_name": "Pool C",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": "14:00 to 15:15"
+    },
+    {
       "id": "E1-v-E2",
       "team_a": "Jumbish Fire",
       "score_a": 10,
