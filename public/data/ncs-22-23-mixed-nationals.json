@@ -533,6 +533,20 @@
       "time": ""
     },
     {
+      "id": "18-v-24",
+      "team_a": "Puyal",
+      "score_a": 11,
+      "position_a": "18",
+      "team_b": "Jumbish Fire",
+      "score_b": 10,
+      "position_b": "24",
+      "stage": "brackets",
+      "pool_name": "",
+      "bracket_name": "Finals",
+      "bracket_round": 0,
+      "time": ""
+    },
+    {
       "id": "19-v-21",
       "team_a": "Lucknow Scorpions",
       "score_a": 15,
