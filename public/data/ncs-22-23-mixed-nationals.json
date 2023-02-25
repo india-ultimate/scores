@@ -869,6 +869,20 @@
       "time": ""
     },
     {
+      "id": "10-v-15",
+      "team_a": "Stray Dogs In Sweaters",
+      "score_a": 13,
+      "position_a": "10",
+      "team_b": "Jumbish catchers",
+      "score_b": 7,
+      "position_b": "15",
+      "stage": "brackets",
+      "pool_name": "",
+      "bracket_name": "Finals",
+      "bracket_round": 2,
+      "time": ""
+    },
+    {
       "id": "11-v-14",
       "team_a": "Blades",
       "score_a": 10,
