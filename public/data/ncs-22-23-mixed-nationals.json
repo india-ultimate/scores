@@ -757,6 +757,20 @@
       "time": ""
     },
     {
+      "id": "24-v-22",
+      "team_a": "Jumbish Fire",
+      "score_a": 15,
+      "position_a": "24",
+      "team_b": "Night Crawlers",
+      "score_b": 4,
+      "position_b": "22",
+      "stage": "brackets",
+      "pool_name": "",
+      "bracket_name": "Finals",
+      "bracket_round": 1,
+      "time": ""
+    },
+    {
       "id": "21-v-23",
       "team_a": "Bye",
       "score_a": 5,
