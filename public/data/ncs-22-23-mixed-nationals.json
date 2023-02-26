@@ -1149,6 +1149,20 @@
       "time": ""
     },
     {
+      "id": "7-v-8",
+      "team_a": "Flying Spirits",
+      "score_a": 10,
+      "position_a": "7",
+      "team_b": "Learning to Fly",
+      "score_b": 12,
+      "position_b": "8",
+      "stage": "brackets",
+      "pool_name": "",
+      "bracket_name": "Finals",
+      "bracket_round": 4,
+      "time": ""
+    },
+    {
       "id": "9-v-10",
       "team_a": "Air Traffic Control",
       "score_a": 8,
