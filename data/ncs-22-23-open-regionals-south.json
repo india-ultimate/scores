@@ -1,0 +1,527 @@
+{
+  "sheets": {
+    "pools": "1708819119",
+    "brackets": "1708819119",
+    "seeds": "0"
+  },
+  "name": "NCS 2022-23 Open Regionals South",
+  "slug": "ncs-22-23-open-regionals-south",
+  "date": "November 11th — November 13th, 2022",
+  "venue": "Coimbatore",
+  "division": "open",
+  "photos": "https://photos.app.goo.gl/fgsBAiHPqzxwS5Ws7",
+  "uc_url": "https://indiaultimate.org/en_in/e/ncs-2022-23-open-womens-regionals-south",
+  "sheet_id": "1984356btDOlhxwYoZs5c7t6LbE6Vwk-BNLwar8RNoJU",
+  "expiry": "2022-11-15",
+  "num_teams": 14,
+  "seedings": [
+    {
+      "rank": 1,
+      "team": "Spinergy"
+    },
+    {
+      "rank": 2,
+      "team": "Airborne"
+    },
+    {
+      "rank": 3,
+      "team": "Airbenders"
+    },
+    {
+      "rank": 4,
+      "team": "Stall7"
+    },
+    {
+      "rank": 5,
+      "team": "L2F"
+    },
+    {
+      "rank": 6,
+      "team": "ATC"
+    },
+    {
+      "rank": 7,
+      "team": "TIKS"
+    },
+    {
+      "rank": 8,
+      "team": "Callahans"
+    },
+    {
+      "rank": 9,
+      "team": "No Fly Zone"
+    },
+    {
+      "rank": 10,
+      "team": "CFT"
+    },
+    {
+      "rank": 11,
+      "team": "Alma Matter"
+    },
+    {
+      "rank": 12,
+      "team": "BPHC"
+    },
+    {
+      "rank": 13,
+      "team": "Puyal"
+    },
+    {
+      "rank": 14,
+      "team": "Sapthavyuha"
+    }
+  ],
+  "scores": [
+    {
+      "id": "A1-v-A6",
+      "team_a": "Spinergy",
+      "score_a": 15,
+      "position_a": "A1",
+      "team_b": "Alma Matter",
+      "score_b": 3,
+      "position_b": "A6",
+      "stage": "pool",
+      "pool_name": "Pool A",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": ""
+    },
+    {
+      "id": "A2-v-A5",
+      "team_a": "Airbenders",
+      "score_a": 15,
+      "position_a": "A2",
+      "team_b": "No Fly Zone",
+      "score_b": 3,
+      "position_b": "A5",
+      "stage": "pool",
+      "pool_name": "Pool A",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": ""
+    },
+    {
+      "id": "A3-v-A4",
+      "team_a": "ATC",
+      "score_a": 13,
+      "position_a": "A3",
+      "team_b": "Callahans",
+      "score_b": 9,
+      "position_b": "A4",
+      "stage": "pool",
+      "pool_name": "Pool A",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": ""
+    },
+    {
+      "id": "A2-v-A4",
+      "team_a": "Airbenders",
+      "score_a": 15,
+      "position_a": "A2",
+      "team_b": "Callahans",
+      "score_b": 5,
+      "position_b": "A4",
+      "stage": "pool",
+      "pool_name": "Pool A",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": ""
+    },
+    {
+      "id": "A1-v-A5",
+      "team_a": "Spinergy",
+      "score_a": 15,
+      "position_a": "A1",
+      "team_b": "No Fly Zone",
+      "score_b": 5,
+      "position_b": "A5",
+      "stage": "pool",
+      "pool_name": "Pool A",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": ""
+    },
+    {
+      "id": "A6-v-A7",
+      "team_a": "Alma Matter",
+      "score_a": 15,
+      "position_a": "A6",
+      "team_b": "Sapthavyuha",
+      "score_b": 3,
+      "position_b": "A7",
+      "stage": "pool",
+      "pool_name": "Pool A",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": ""
+    },
+    {
+      "id": "A3-v-A7",
+      "team_a": "ATC",
+      "score_a": 15,
+      "position_a": "A3",
+      "team_b": "Sapthavyuha",
+      "score_b": 0,
+      "position_b": "A7",
+      "stage": "pool",
+      "pool_name": "Pool A",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": ""
+    },
+    {
+      "id": "A4-v-A6",
+      "team_a": "Callahans",
+      "score_a": 7,
+      "position_a": "A4",
+      "team_b": "Alma Matter",
+      "score_b": 10,
+      "position_b": "A6",
+      "stage": "pool",
+      "pool_name": "Pool A",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": ""
+    },
+    {
+      "id": "A1-v-A2",
+      "team_a": "Spinergy",
+      "score_a": 11,
+      "position_a": "A1",
+      "team_b": "Airbenders",
+      "score_b": 10,
+      "position_b": "A2",
+      "stage": "pool",
+      "pool_name": "Pool A",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": ""
+    },
+    {
+      "id": "A2-v-A3",
+      "team_a": "Airbenders",
+      "score_a": 9,
+      "position_a": "A2",
+      "team_b": "ATC",
+      "score_b": 10,
+      "position_b": "A3",
+      "stage": "pool",
+      "pool_name": "Pool A",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": ""
+    },
+    {
+      "id": "A1-v-A3",
+      "team_a": "Spinergy",
+      "score_a": 13,
+      "position_a": "A1",
+      "team_b": "ATC",
+      "score_b": 9,
+      "position_b": "A3",
+      "stage": "pool",
+      "pool_name": "Pool A",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": ""
+    },
+    {
+      "id": "A5-v-A6",
+      "team_a": "No Fly Zone",
+      "score_a": 12,
+      "position_a": "A5",
+      "team_b": "Alma Matter",
+      "score_b": 9,
+      "position_b": "A6",
+      "stage": "pool",
+      "pool_name": "Pool A",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": ""
+    },
+    {
+      "id": "B1-v-B6",
+      "team_a": "Airborne",
+      "score_a": 15,
+      "position_a": "B1",
+      "team_b": "BPHC",
+      "score_b": 2,
+      "position_b": "B6",
+      "stage": "pool",
+      "pool_name": "Pool B",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": ""
+    },
+    {
+      "id": "B2-v-B5",
+      "team_a": "Stall7",
+      "score_a": 15,
+      "position_a": "B2",
+      "team_b": "CFT",
+      "score_b": 6,
+      "position_b": "B5",
+      "stage": "pool",
+      "pool_name": "Pool B",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": ""
+    },
+    {
+      "id": "B3-v-B4",
+      "team_a": "L2F",
+      "score_a": 9,
+      "position_a": "B3",
+      "team_b": "TIKS",
+      "score_b": 11,
+      "position_b": "B4",
+      "stage": "pool",
+      "pool_name": "Pool B",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": ""
+    },
+    {
+      "id": "B6-v-B7",
+      "team_a": "BPHC",
+      "score_a": 4,
+      "position_a": "B6",
+      "team_b": "Puyal",
+      "score_b": 12,
+      "position_b": "B7",
+      "stage": "pool",
+      "pool_name": "Pool B",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": ""
+    },
+    {
+      "id": "B2-v-B4",
+      "team_a": "Stall7",
+      "score_a": 13,
+      "position_a": "B2",
+      "team_b": "TIKS",
+      "score_b": 9,
+      "position_b": "B4",
+      "stage": "pool",
+      "pool_name": "Pool B",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": ""
+    },
+    {
+      "id": "B1-v-B5",
+      "team_a": "Airborne",
+      "score_a": 15,
+      "position_a": "B1",
+      "team_b": "CFT",
+      "score_b": 4,
+      "position_b": "B5",
+      "stage": "pool",
+      "pool_name": "Pool B",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": ""
+    },
+    {
+      "id": "B3-v-B7",
+      "team_a": "L2F",
+      "score_a": 15,
+      "position_a": "B3",
+      "team_b": "Puyal",
+      "score_b": 11,
+      "position_b": "B7",
+      "stage": "pool",
+      "pool_name": "Pool B",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": ""
+    },
+    {
+      "id": "B4-v-B6",
+      "team_a": "TIKS",
+      "score_a": 15,
+      "position_a": "B4",
+      "team_b": "BPHC",
+      "score_b": 2,
+      "position_b": "B6",
+      "stage": "pool",
+      "pool_name": "Pool B",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": ""
+    },
+    {
+      "id": "B1-v-B2",
+      "team_a": "Airborne",
+      "score_a": 15,
+      "position_a": "B1",
+      "team_b": "Stall7",
+      "score_b": 9,
+      "position_b": "B2",
+      "stage": "pool",
+      "pool_name": "Pool B",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": ""
+    },
+    {
+      "id": "B2-v-B3",
+      "team_a": "Stall7",
+      "score_a": 15,
+      "position_a": "B2",
+      "team_b": "L2F",
+      "score_b": 10,
+      "position_b": "B3",
+      "stage": "pool",
+      "pool_name": "Pool B",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": ""
+    },
+    {
+      "id": "B3-v-B5",
+      "team_a": "L2F",
+      "score_a": 10,
+      "position_a": "B3",
+      "team_b": "CFT",
+      "score_b": 9,
+      "position_b": "B5",
+      "stage": "pool",
+      "pool_name": "Pool B",
+      "bracket_name": "",
+      "bracket_round": -1,
+      "time": ""
+    },
+    {
+      "id": "1-v-2",
+      "team_a": "Spinergy",
+      "score_a": 11,
+      "position_a": "1",
+      "team_b": "Airborne",
+      "score_b": 14,
+      "position_b": "2",
+      "stage": "brackets",
+      "pool_name": "",
+      "bracket_name": "Finals",
+      "bracket_round": 0,
+      "time": ""
+    },
+    {
+      "id": "3-v-4",
+      "team_a": "ATC",
+      "score_a": 10,
+      "position_a": "3",
+      "team_b": "Stall7",
+      "score_b": 9,
+      "position_b": "4",
+      "stage": "brackets",
+      "pool_name": "",
+      "bracket_name": "Finals",
+      "bracket_round": 0,
+      "time": ""
+    },
+    {
+      "id": "7-v-8",
+      "team_a": "L2F",
+      "score_a": 12,
+      "position_a": "7",
+      "team_b": "No Fly Zone",
+      "score_b": 10,
+      "position_b": "8",
+      "stage": "brackets",
+      "pool_name": "",
+      "bracket_name": "Finals",
+      "bracket_round": 0,
+      "time": ""
+    },
+    {
+      "id": "11-v-12",
+      "team_a": "Callahans",
+      "score_a": 11,
+      "position_a": "11",
+      "team_b": "Puyal",
+      "score_b": 5,
+      "position_b": "12",
+      "stage": "brackets",
+      "pool_name": "",
+      "bracket_name": "Finals",
+      "bracket_round": 0,
+      "time": ""
+    },
+    {
+      "id": "13-v-14",
+      "team_a": "BPHC",
+      "score_a": 15,
+      "position_a": "13",
+      "team_b": "Sapthavyuha",
+      "score_b": 0,
+      "position_b": "14",
+      "stage": "brackets",
+      "pool_name": "",
+      "bracket_name": "Finals",
+      "bracket_round": 0,
+      "time": ""
+    }
+  ],
+  "rankings": [
+    {
+      "rank": 1,
+      "team": "Airborne"
+    },
+    {
+      "rank": 2,
+      "team": "Spinergy"
+    },
+    {
+      "rank": 3,
+      "team": "ATC"
+    },
+    {
+      "rank": 4,
+      "team": "Stall7"
+    },
+    {
+      "rank": 5,
+      "team": "Airbenders"
+    },
+    {
+      "rank": 6,
+      "team": "TIKS"
+    },
+    {
+      "rank": 7,
+      "team": "L2F"
+    },
+    {
+      "rank": 8,
+      "team": "No Fly Zone"
+    },
+    {
+      "rank": 9,
+      "team": "CFT"
+    },
+    {
+      "rank": 10,
+      "team": "Alma Matter"
+    },
+    {
+      "rank": 11,
+      "team": "Callahans"
+    },
+    {
+      "rank": 12,
+      "team": "Puyal"
+    },
+    {
+      "rank": 13,
+      "team": "BPHC"
+    },
+    {
+      "rank": 14,
+      "team": "Sapthavyuha"
+    }
+  ]
+}
